@@ -9,16 +9,6 @@
     "stage": "Bursátil / Consolidada",
     "last_round": "IPO histórico; fusión 2011"
   },
-  "Modelo": {
-    "tagline": "Cervecera creadora de Corona y líder histórica en México, hoy subsidiaria de AB InBev.",
-    "about": "Fundado en 1925, Grupo Modelo es la cervecera más icónica de México y la exportadora de Corona a más de 180 países. En 2013, tras años de negociaciones, AB InBev adquirió el 100% de la empresa en una transacción histórica de $20,000 millones de dólares. Mantiene un duopolio en el mercado cervecero nacional frente a Heineken-Cuauhtémoc Moctezuma, y opera la cadena de tiendas de conveniencia Modelorama. Su planta de Zacatecas es una de las cervecerías de mayor capacidad en el mundo.",
-    "hq": "Ciudad de México",
-    "team_size": "+40,000",
-    "founded": "1925",
-    "ownership": "Subsidiaria de AB InBev",
-    "stage": "Consolidada",
-    "last_round": "Adquisición AB InBev 2013"
-  },
   "Bimbo": {
     "tagline": "La panificadora más grande del mundo, con presencia en más de 34 países.",
     "about": "Fundado en 1945 en Ciudad de México por los hermanos Servitje, Grupo Bimbo es hoy la empresa panificadora más grande del planeta. Opera más de 200 marcas — Bimbo, Marinela, Wonder, Sara Lee, Entenmann's — y distribuye sus productos a través de una red de +1,000 centros de distribución y 67,000 rutas directas al consumidor. Su expansión global se aceleró con las adquisiciones de Sara Lee (2011) y Canada Bread (2014). Cotiza en la BMV bajo el ticker BIMBOA.",
@@ -728,5 +718,15 @@
     "ownership": "",
     "stage": "",
     "last_round": ""
+  },
+  "Grupo Modelo": {
+    "tagline": "Cervecera creadora de Corona y líder histórica en México, hoy subsidiaria de AB InBev.",
+    "about": "Fundado en 1925, Grupo Modelo es la cervecera más icónica de México y la exportadora de Corona a más de 180 países. En 2013, tras años de negociaciones, AB InBev adquirió el 100% de la empresa en una transacción histórica de $20,000 millones de dólares. Mantiene un duopolio en el mercado cervecero nacional frente a Heineken-Cuauhtémoc Moctezuma, y opera la cadena de tiendas de conveniencia Modelorama. Su planta de Zacatecas es una de las cervecerías de mayor capacidad en el mundo.",
+    "hq": "Ciudad de México",
+    "team_size": "+40,000",
+    "founded": "1925",
+    "ownership": "Subsidiaria de AB InBev",
+    "stage": "Consolidada",
+    "last_round": "Adquisición AB InBev 2013"
   }
 }

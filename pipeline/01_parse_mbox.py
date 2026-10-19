@@ -101,7 +101,8 @@ def run(force: bool = False) -> int:
             if not body.strip():
                 continue
 
-            entry = f"# {subject}\n\n{body.strip()}\n\n---\n\n"
+            date_fmt = dt.strftime("%d %b %Y")
+            entry = f"**Date:** {date_fmt}\n**From:** whitepaper.mx\n\n# {subject}\n\n{body.strip()}\n\n---\n\n"
             by_year.setdefault(year, []).append(entry)
             total += 1
         except Exception:

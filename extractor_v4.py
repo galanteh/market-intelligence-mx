@@ -79,6 +79,7 @@ ALIASES: dict[str, list[str]] = {
     "Arca Continental":["arca continental", "arca", "ac"],
     "Gruma":           ["gruma", "maseca", "mission foods"],
     "Bachoco":         ["bachoco", "industrias bachoco"],
+    "Grupo Modelo":    ["grupo modelo", "cervecería modelo", "cervezas modelo", "cerveceria modelo"],
     "Sigma Alimentos": ["sigma alimentos", "sigma"],
     "Kavak":           ["kavak", "kavak.com"],
     "Cornershop":      ["cornershop", "cornershop by uber"],
@@ -108,7 +109,7 @@ PRIORITY = [
     # Retail / Consumo
     "Walmart","Soriana","Coppel","Liverpool","Chedraui","La Comer","Casa Ley",
     "HEB","OXXO","Costco","Sam's","Alsea","FEMSA","Bimbo","Gruma","Lala",
-    "Bachoco","Modelo","Heineken México","ConMéxico",
+    "Bachoco","Grupo Modelo","Heineken México","ConMéxico",
     # KOF / Coca-Cola FEMSA
     "KOF","Coca-Cola FEMSA",
     # Finanzas
@@ -164,6 +165,10 @@ CANONICALS = {
     "meli":                     "Mercado Libre",
     "grupo bimbo":              "Bimbo",
     "bimbo sab":                "Bimbo",
+    "grupo modelo":             "Grupo Modelo",
+    "cervecería modelo":        "Grupo Modelo",
+    "cerveceria modelo":        "Grupo Modelo",
+    "cervezas modelo":          "Grupo Modelo",
     "grupo femsa":              "FEMSA",
     "coca-cola femsa":          "KOF",
     "femsa coca-cola":          "KOF",
@@ -220,7 +225,7 @@ SECTOR_MAP = {
     "FEMSA":"Consumo / Conglomerado","KOF":"Consumo / Bebidas",
     "Coca-Cola FEMSA":"Consumo / Bebidas",
     "Bimbo":"Consumo / Alimentos","Gruma":"Consumo / Alimentos","Lala":"Consumo / Lácteos",
-    "Bachoco":"Consumo / Alimentos","Modelo":"Consumo / Bebidas",
+    "Bachoco":"Consumo / Alimentos","Grupo Modelo":"Consumo / Bebidas",
     "Heineken México":"Consumo / Bebidas","ConMéxico":"Consumo / Asociación",
     "Banorte":"Servicios Financieros / Banca","BBVA México":"Servicios Financieros / Banca",
     "Citibanamex":"Servicios Financieros / Banca","Banamex":"Servicios Financieros / Banca",

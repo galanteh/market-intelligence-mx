@@ -54,13 +54,15 @@ def run(force: bool = False) -> int:
     t0 = time.time()
     print("[02_extract_entities] Running NLP extraction (may take ~4 min)…")
     spec.loader.exec_module(mod)
+    mod.main()
     elapsed = time.time() - t0
 
     import json
     if JSON_OUT.exists():
         with open(JSON_OUT, encoding="utf-8") as f:
             data = json.load(f)
-        n = sum(len(v) for v in data.values())
+        companies = data if isinstance(data, list) else data.get("companies", [])
+        n = sum(len(c.get("entries", [])) for c in companies)
         print(f"[02_extract_entities] ✓ {n} events extracted in {elapsed:.0f}s")
         return n
     return 0
