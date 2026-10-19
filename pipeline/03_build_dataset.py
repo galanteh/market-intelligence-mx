@@ -84,6 +84,10 @@ ALIAS_MAP: dict[str, str] = {
     "El New York Times":     "The New York Times",
     # VC
     "DILA":                  "DILA Capital",
+    # FEMSA variants
+    "Femsa":                 "FEMSA",
+    # Farmacias Guadalajara → parent entity
+    "Farmacias Guadalajara": "Fragua",
 }
 
 

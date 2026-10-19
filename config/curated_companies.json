@@ -1,23 +1,23 @@
 {
   "Arca Continental": {
-    "tagline": "La segunda embotelladora de Coca-Cola más grande del mundo, desde Monterrey.",
-    "about": "Arca Continental es la segunda embotelladora de Coca-Cola del planeta por volumen, resultado de la fusión en 2011 de Grupo Continental y Arca. Desde Monterrey opera territorios exclusivos en México, Ecuador, Perú, Argentina y el suroeste de Estados Unidos. Con más de 60,000 empleados y marcas como Topo Chico, Deep RiverRock y Peak, se ha consolidado como un actor global dentro del sistema Coca-Cola. Sus acciones cotizan en la Bolsa Mexicana de Valores bajo el ticker AC.",
+    "tagline": "Es la segunda embotelladora de Coca-Cola de LatAm y la líder en vending en México, con más de 72,000 máquinas y micromercados.",
+    "about": "Es la segunda embotelladora de productos Coca-Cola más grande de América Latina, con operaciones en México, EUA, Perú, Ecuador y Argentina. Nació en 2011 de la fusión de Embotelladoras Arca y Grupo Continental, empresas del norte de México creadas a principios del siglo XX. Maneja más de 140 marcas y ha diversificado su mix: mientras que en 2002 cerca del 98% de sus ingresos venían de refrescos, actualmente estas categorías representan el 70%. Es líder en el negocio de vending en México y en Perú, con más de 72,000 puntos de venta entre vending machines y micro-mercados.",
     "hq": "Monterrey, NL",
-    "team_size": "+60,000",
-    "founded": "1926",
+    "team_size": "+70,000",
+    "founded": "2011",
     "ownership": "Pública / BMV: AC",
     "stage": "Bursátil / Consolidada",
-    "last_round": "IPO histórico; fusión 2011"
+    "last_round": "2025: $247,926 mdp"
   },
   "Bimbo": {
-    "tagline": "La panificadora más grande del mundo, con presencia en más de 34 países.",
-    "about": "Fundado en 1945 en Ciudad de México por los hermanos Servitje, Grupo Bimbo es hoy la empresa panificadora más grande del planeta. Opera más de 200 marcas — Bimbo, Marinela, Wonder, Sara Lee, Entenmann's — y distribuye sus productos a través de una red de +1,000 centros de distribución y 67,000 rutas directas al consumidor. Su expansión global se aceleró con las adquisiciones de Sara Lee (2011) y Canada Bread (2014). Cotiza en la BMV bajo el ticker BIMBOA.",
+    "tagline": "Es la mayor empresa de panificación del mundo y una de las cinco mayores de botanas, con más de 100 marcas en 90 países.",
+    "about": "Fundada oficialmente en 1945 en la Ciudad de México por Lorenzo Servitje y sus socios, Bimbo presume ser la empresa más grande del mundo en la industria de la panificación y estar en el top cinco de botanas. Solo entre 2015 y 2025 completó al menos 40 adquisiciones, pasando de operar en poco más de 20 países a tener presencia en más de 90. EUA y Canadá son su principal mercado con alrededor de 42% del mix; México genera cerca de un tercio. Maneja más de 100 marcas; en 2021 ocho de ellas generaban más de $1,000 millones de dólares cada una, incluyendo Takis, Marinela y Sara Lee.",
     "hq": "Ciudad de México",
-    "team_size": "+140,000",
+    "team_size": "+153,000",
     "founded": "1945",
     "ownership": "Pública / BMV: BIMBOA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión Asia-Pacífico 2024"
+    "last_round": "2025: $426,952 mdp"
   },
   "Citibanamex": {
     "tagline": "La institución financiera más antigua de México, en proceso de independización de Citigroup.",
@@ -30,24 +30,24 @@
     "last_round": "Proceso de separación Citi 2024"
   },
   "Coppel": {
-    "tagline": "Gigante del retail y servicios financieros para el segmento popular, desde Culiacán.",
-    "about": "Coppel es una de las empresas de retail más grandes de México, enfocada en los segmentos C, D y E de la población. Fundada en 1941 en Culiacán por Enrique Coppel, opera más de 1,600 tiendas y una división financiera propia (BanCoppel) con millones de clientes sin acceso a banca tradicional. Su modelo de crédito directo al consumidor en tienda es una barrera de entrada difícil de replicar. Es la empresa privada con mayor presencia en municipios rurales y semiurbanos del país.",
+    "tagline": "Combina una red de casi 1,900 tiendas con uno de los mayores negocios de crédito al consumo del país y la segunda afore por número de cuentas.",
+    "about": "Coppel es posiblemente la empresa privada más grande de México. Fundada por la familia Coppel en 1941 en Culiacán, hoy va en la tercera generación y genera más ingresos que Elektra y Liverpool. Pasó de alrededor de 800 tiendas en 2010 a 1,865 en 2025. Es el principal zapatero del país y tiene presencia importante en electrónicos, celulares y ropa. BanCoppel es también una de las principales puertas de entrada al crédito: en 2025, permitió que 1.6 millones de personas sin historial crediticio accedieran por primera vez al sistema financiero.",
     "hq": "Culiacán, Sinaloa",
-    "team_size": "+70,000",
+    "team_size": "+120,000",
     "founded": "1941",
     "ownership": "Privada",
     "stage": "Autofinanciada",
-    "last_round": "Sin ronda pública"
+    "last_round": "2025: $296,773 mdp (est.)"
   },
   "Walmart": {
-    "tagline": "La cadena de supermercados más grande de México, cotizando en la BMV como Walmex.",
-    "about": "Walmart de México y Centroamérica (Walmex) es la subsidiaria latinoamericana del gigante minorista estadounidense. Cotiza en la BMV bajo el ticker WALMEX y opera más de 3,700 unidades en México y 800 en Centroamérica bajo formatos como Walmart, Bodega Aurrerá, Sam's Club y Superama. Es el empleador privado más grande de México con más de 200,000 colaboradores. Controla aproximadamente el 25% del mercado de autoservicio formal en el país.",
+    "tagline": "Superó el billón de pesos en ventas y opera más de 4,200 unidades, convirtiéndose en el negocio internacional más importante de Walmart.",
+    "about": "Walmex es el negocio que construyó la familia Arango y que terminó convirtiéndose en la operación internacional más importante de Walmart. Los hermanos Arango abrieron la primera Aurrera en Ciudad de México en 1958 y después desarrollaron Superama, Bodega Aurrera y Suburbia bajo Grupo Cifra. En 1991 se asociaron con Walmart para abrir el primer Sam's Club; seis años después Walmart adquirió el control de Cifra. Hoy opera Walmart, Bodega Aurrera, Sam's Club y Walmart Express, además de cadenas en cinco países de Centroamérica. En 2025 superó por primera vez el billón de pesos en ingresos, con 4,265 unidades y más de 240,000 empleados. Cotiza en BMV bajo el ticker WALMEX.",
     "hq": "Ciudad de México",
-    "team_size": "+200,000",
-    "founded": "1991",
+    "team_size": "+240,000",
+    "founded": "1958",
     "ownership": "Pública / BMV: WALMEX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Inversión digital $2,400 mdd 2024"
+    "last_round": "2025: $1,011,589 mdp"
   },
   "Grupo Salinas": {
     "tagline": "Conglomerado de medios, retail, telecomunicaciones y finanzas de Ricardo Salinas Pliego.",
@@ -60,14 +60,14 @@
     "last_round": "Sin ronda pública"
   },
   "Banorte": {
-    "tagline": "El único banco grande 100% mexicano, referente en banca corporativa y personal.",
-    "about": "Grupo Financiero Banorte es la única institución bancaria de capital 100% mexicano entre los cinco grandes del país. Fundado en 1899 en Monterrey, opera bajo las marcas Banorte e IXE. Es el segundo banco más rentable del sistema financiero mexicano por activos totales y el primero en banca de empresas e institucional. Su plataforma digital Banorte Móvil ha sido consistentemente calificada como una de las mejores del sector. Cotiza en la BMV bajo el ticker GFNORTEO.",
+    "tagline": "Es el banco más grande de origen mexicano, con una cartera de crédito de $1.28 billones de pesos.",
+    "about": "Aunque el líder de la banca en México es por mucho BBVA, el banco más grande de origen mexicano sigue siendo Banorte. La institución nació en 1992, cuando Roberto González Barrera y un grupo de empresarios adquirieron el banco durante la privatización bancaria; sus raíces, sin embargo, se remontan al Banco Mercantil de Monterrey, fundado en 1899. Sigue siendo uno de los bancos más enfocados en crédito empresarial —alrededor de 43% de su cartera está colocada en empresas—, aunque ha impulsado con fuerza productos de consumo como tarjetas, hipotecas y créditos automotrices. Cotiza en la BMV bajo el ticker GFNORTEO.",
     "hq": "Monterrey, NL",
     "team_size": "+30,000",
     "founded": "1899",
     "ownership": "Pública / BMV: GFNORTEO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Emisión bono sostenible $1,500 mdd 2024"
+    "last_round": "2025: $405,038 mdp"
   },
   "Clara": {
     "tagline": "La solución líder de gastos corporativos y tarjetas empresariales para startups y scaleups.",
@@ -110,14 +110,14 @@
     "last_round": "Expansión a Brasil 2023"
   },
   "FEMSA": {
-    "tagline": "Conglomerado líder en bebidas, retail y logística en América Latina.",
-    "about": "Fomento Económico Mexicano (FEMSA) es uno de los conglomerados más grandes e influyentes de América Latina. Su portafolio abarca Coca-Cola FEMSA (el mayor embotellador de Coca-Cola del mundo), la cadena OXXO (+21,000 tiendas), y operaciones en farmacia (farmacias Cruz Verde, Socofar) y logística (FEMSA Logística). Fundada en 1890 en Monterrey como cervecera, vendió su participación en Heineken en 2022 para enfocarse en retail y bebidas. Cotiza en BMV y NYSE.",
+    "tagline": "Opera más de 33,000 puntos de venta, la mayoría Oxxos, y a través de Coca-Cola Femsa es el mayor embotellador de Coca-Cola del mundo por volumen.",
+    "about": "Las raíces de FEMSA se remontan a 1890, con la fundación de la Cervecería Cuauhtémoc en Monterrey. Hoy es un conglomerado de retail y bebidas: incluyendo sus tiendas en Europa, las gasolineras, formatos como Bara y los Oxxos de Latinoamérica, opera más de 33,300 tiendas en el mundo, solo por detrás de cadenas como 7-Eleven o Starbucks. Con Coca-Cola FEMSA, presume ser el embotellador más grande del mundo del sistema Coca-Cola por volumen. Está solo por detrás de Walmex y América Móvil como la empresa no gubernamental con más ingresos del país. Cotiza en BMV y NYSE.",
     "hq": "Monterrey, NL",
-    "team_size": "+340,000",
+    "team_size": "+360,000",
     "founded": "1890",
     "ownership": "Pública / BMV + NYSE: FMX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Venta stake Heineken 2023"
+    "last_round": "2025: $840,954 mdp"
   },
   "BBVA": {
     "tagline": "El banco con mayor base de clientes y activos totales en México.",
@@ -130,14 +130,14 @@
     "last_round": "Recapitalización 2024"
   },
   "Alsea": {
-    "tagline": "El mayor operador de restaurantes de franquicia en América Latina.",
-    "about": "Alsea es la empresa operadora de franquicias de restaurantes más grande de Latinoamérica. Administra en México y España marcas como Domino's Pizza, Starbucks, Burger King, Chili's, P.F. Chang's, The Cheesecake Factory y Vips. Fundada en 1997 en Ciudad de México, opera más de 4,000 unidades en seis países. Su modelo de operador multi-marca le da resiliencia ante el ciclo de cada concepto. Cotiza en la BMV bajo el ticker ALSEA.",
+    "tagline": "Opera más de 4,800 restaurantes de marcas como Starbucks, Domino's y Chili's en 12 países; casi 30% de sus ventas viene de Europa.",
+    "about": "El éxito de marcas estadounidenses de cafeterías, comida rápida y casual dining en Latinoamérica y buena parte de España se debe a la capacidad operativa de Alsea. La fundaron los hermanos Torrado Martínez en 1990, cuando abrieron su primer Domino's en México. Alsea es pública desde 1999 y actualmente es la empresa restaurantera más grande de México. Opera 4,818 unidades de 13 marcas, como Starbucks, Domino's, Chili's, P.F. Chang's, Vips y The Cheesecake Factory, en 12 países de América Latina y Europa.",
     "hq": "Ciudad de México",
-    "team_size": "+55,000",
-    "founded": "1997",
+    "team_size": "+75,300",
+    "founded": "1990",
     "ownership": "Pública / BMV: ALSEA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión Europa 2024"
+    "last_round": "2025: $84,000 mdp (est.)"
   },
   "Aeroméxico": {
     "tagline": "La aerolínea de bandera de México, con rutas a América, Europa y Asia.",
@@ -150,24 +150,24 @@
     "last_round": "Salida Chapter 11 / IPO 2023"
   },
   "Chedraui": {
-    "tagline": "Grupo comercial con presencia en México y Estados Unidos, en expansión acelerada.",
-    "about": "Grupo Comercial Chedraui es una cadena de supermercados fundada en 1927 en Xalapa por la familia Chedraui. Opera hipermercados y supermercados en México y, desde 2020, tiene una robusta operación en Estados Unidos tras adquirir Smart & Final y El Super. El negocio estadounidense representa ya más del 50% de sus ingresos. Cotiza en la BMV bajo el ticker CHDRAUI A. Es la cadena de autoservicio de mayor crecimiento entre sus pares mexicanos en la última década.",
-    "hq": "Ciudad de México",
-    "team_size": "+40,000",
+    "tagline": "Es la segunda cadena de supermercados del país y, tras comprar Smart & Final, ya opera cerca de 400 tiendas en EUA, de donde viene más de la mitad de sus ventas.",
+    "about": "Es la segunda cadena de supermercados más grande de México en ventas. Sus orígenes están en Xalapa, Veracruz, donde en los años 60 Almacenes Chedraui era una tienda de mercería. En 2005 adquirió las 29 tiendas que Carrefour operaba en México por cerca de $550 millones. Entre 2018 y 2021 compró más de 300 unidades de Fiesta Mart y Smart & Final en EUA. Hoy tiene cerca de 400 tiendas en EUA, que generan más de la mitad de sus ventas. En 2025 rompió su récord de aperturas y cerró el año con 1,067 sucursales.",
+    "hq": "Xalapa, Veracruz",
+    "team_size": "+82,800",
     "founded": "1920",
     "ownership": "Pública / BMV: CHEDRAUI",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Adquisición Smart & Final 2022"
+    "last_round": "2025: $295,314 mdp"
   },
   "América Móvil": {
-    "tagline": "El operador de telecomunicaciones más grande de América Latina.",
-    "about": "América Móvil es el conglomerado de telecomunicaciones de Carlos Slim y el mayor operador móvil de América Latina. A través de marcas como Telcel (México), Claro (18 países) y A1 (Austria), presta servicios a más de 280 millones de suscriptores en 25 países. En México controla aproximadamente el 65% del mercado de telefonía móvil a través de Telcel. Cotiza en BMV y NYSE. Su subsidiaria de infraestructura de fibra óptica, AMX Fibra, es la red de mayor cobertura en el país.",
+    "tagline": "Tiene cerca de 400 millones de usuarios en más de 20 países de América y Europa; es la segunda empresa más valiosa de México.",
+    "about": "Entre su fundación en el año 2000 —como un spinoff de Telmex, controlado por Carlos Slim— y 2025, América Móvil pasó de ser poco más que Telcel a un jugador global con presencia en más de 20 países y alrededor de 400 millones de usuarios. Sus mercados más relevantes son México y Brasil, que concentran más de la mitad de sus unidades generadoras de ingreso. Actualmente es la segunda empresa privada con mayores ingresos en México, solo por detrás de Walmex.",
     "hq": "Ciudad de México",
-    "team_size": "+190,000",
+    "team_size": "+177,000",
     "founded": "2000",
     "ownership": "Pública / BMV + NYSE: AMX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Recompra acciones $2,000 mdd 2024"
+    "last_round": "2025: $943,640 mdp"
   },
   "Konfío": {
     "tagline": "Plataforma de crédito y software financiero para PyMEs mexicanas.",
@@ -188,16 +188,6 @@
     "ownership": "Pública / BMV + NYSE: TELEVISACPO",
     "stage": "Bursátil / Consolidada",
     "last_round": "Fusión TelevisaUnivision 2022"
-  },
-  "Cemex": {
-    "tagline": "Una de las cementeras más grandes del mundo, pionera en la globalización industrial mexicana.",
-    "about": "Cemex fue fundada en 1906 en Monterrey y se convirtió en la primera empresa industrial mexicana en globalizarse agresivamente. Opera en más de 50 países y es el tercer productor de cemento del mundo. Su gran apuesta fue la adquisición de Rinker en 2007 por $14,200 millones de dólares, que la dejó altamente apalancada al estallar la crisis financiera de 2008. Ha pasado la última década desapalancándose y transformando su modelo hacia soluciones de construcción sostenible. Cotiza en BMV y NYSE bajo el ticker CX.",
-    "hq": "San Pedro Garza García, NL",
-    "team_size": "+40,000",
-    "founded": "1906",
-    "ownership": "Pública / BMV + NYSE: CX",
-    "stage": "Bursátil / Consolidada",
-    "last_round": "Venta activos $3,700 mdd 2023"
   },
   "Costco": {
     "tagline": "Club de membresía con los precios más competitivos del retail mexicano.",
@@ -240,34 +230,34 @@
     "last_round": "Inversión EV $1,300 mdd 2024"
   },
   "Gruma": {
-    "tagline": "El mayor productor de tortilla y harina de maíz del mundo.",
-    "about": "Gruma es la empresa más relevante en la producción y distribución global de tortilla y harina de maíz nixtamalizado. Fundada en 1949 en Nuevo León, su marca MASECA es sinónimo de harina de maíz en México y buena parte de América Latina. Opera plantas en más de 20 países, con una fuerte presencia en Estados Unidos a través de Mission Foods. Controla aproximadamente el 75% del mercado de harina de maíz en México. Cotiza en la BMV bajo el ticker GRUMAB.",
+    "tagline": "Es el líder global en harina de maíz; a finales de 2025 operaba 77 plantas alrededor del mundo y genera 72% de sus ingresos fuera de México.",
+    "about": "Aunque para la mayoría de las personas Gruma es simplemente la empresa detrás de Maseca o Mission, la compañía se ha convertido en el líder global de la harina de maíz. La fundó Roberto González Barrera en 1949, y hoy opera 77 plantas alrededor del mundo. Su dominio es particularmente visible en México: a través de GIMSA controla alrededor de tres cuartas partes del mercado nacional de harina de maíz. EUA es su mercado más importante, con más de la mitad de las ventas totales; México, poco más de una cuarta parte. Cotiza en BMV y NYSE bajo el ticker GRUMAB.",
     "hq": "San Pedro Garza García, NL",
-    "team_size": "+20,000",
+    "team_size": "+25,000",
     "founded": "1949",
     "ownership": "Pública / BMV + NYSE: GRUMAB",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Deuda sostenible 2023"
+    "last_round": "2025: $114,757 mdp"
   },
   "Kavak": {
-    "tagline": "El primer unicornio 100% mexicano, pionero en la compraventa de autos usados certificados.",
-    "about": "Kavak fue fundada en 2016 por Carlos García Ottati y Alberto Padilla en Ciudad de México. Se convirtió en el primer unicornio mexicano (valuación +$1,000 mdd) al recaudar $485 millones en 2020. Su modelo inspecciona, certifica y recondicionan vehículos usados, ofreciendo financiamiento propio. Opera en México, Brasil, Argentina, Chile, Colombia, Turquía y otros mercados. Su valuación pico alcanzó $8,700 millones de dólares en 2021. Ha enfrentado retos operativos ligados al rápido crecimiento y ajustó su estrategia hacia la rentabilidad en 2023.",
+    "tagline": "Fue la primera startup mexicana en valer más de $1,000 mdd y hoy es el mayor marketplace de autos seminuevos de LatAm; en 2025 vendió más de 120,000 vehículos.",
+    "about": "Kavak fue la primera startup mexicana en superar los $1,000 millones de dólares de valuación, y en 2021 llegó a valer más de $8,000. La fundaron en 2016 los hermanos Carlos y Loreanne García, junto con Roger Laughlin, para comprar y vender autos seminuevos con un modelo digital. Cerca de 60% de sus transacciones llevan financiamiento, y es Kavak quien origina los créditos. En 2025 vendió más de 120,000 vehículos y alcanzó la rentabilidad. En febrero de 2026 adquirió $300 millones de dólares en una ronda liderada por Andreessen Horowitz.",
     "hq": "Ciudad de México",
-    "team_size": "+10,000",
+    "team_size": "+4,000",
     "founded": "2016",
     "ownership": "Privada",
-    "stage": "Unicornio",
-    "last_round": "Serie E $700 mdd (2021)"
+    "stage": "Serie C+",
+    "last_round": "2026: $300 mdd"
   },
   "Liverpool": {
-    "tagline": "La cadena de tiendas departamentales premium de México, con 177 años de historia.",
-    "about": "El Puerto de Liverpool fue fundado en 1847 por un inmigrante francés y es hoy la cadena de tiendas departamentales de lujo más antigua e importante de México. Opera tiendas Liverpool y Suburbia, y controla la plataforma de e-commerce Linio. También tiene una división financiera (Banca Liverpool) y una cartera inmobiliaria que incluye centros comerciales premium. Su presencia se concentra en las ciudades de mayor poder adquisitivo del país. Cotiza en la BMV bajo el ticker LIVEPOL C.",
+    "tagline": "Es el principal emisor no bancario de tarjetas de crédito del país, con más de 8 millones emitidas; su negocio financiero aporta cerca de la mitad de la utilidad de operación.",
+    "about": "Después de BBVA, Banamex y Nu, el principal emisor de tarjetas de crédito en el país es un retailer: Liverpool. La empresa nació en 1847, cuando el francés Jean-Baptiste Ebrard abrió un cajón de ropa en el centro de la Ciudad de México. Hoy opera 125 almacenes Liverpool, 194 tiendas Suburbia, 68 Liverpool Express, 148 boutiques y 30 centros comerciales, y es dueña de 49.9% de Nordstrom. Con 8.8 millones de tarjetas emitidas, es el principal emisor no bancario del país; más de la mitad de las compras en sus tiendas se hacen con sus propias tarjetas. Cotiza en BMV bajo el ticker LIVEPOLC-1.",
     "hq": "Ciudad de México",
-    "team_size": "+36,000",
+    "team_size": "+83,000",
     "founded": "1847",
     "ownership": "Pública / BMV: LIVEPOLC-1",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión e-commerce 2024"
+    "last_round": "2025: $229,136 mdp"
   },
   "Soriana": {
     "tagline": "Una de las principales cadenas de supermercados del país, nacida en Torreón.",
@@ -300,14 +290,14 @@
     "last_round": "Serie C $115 mdd (2021)"
   },
   "Clip": {
-    "tagline": "La plataforma de pagos más popular entre los pequeños y medianos comercios de México.",
-    "about": "Clip fue fundado en 2012 por Adolfo Babatz y se convirtió en el pionero de los terminales de punto de venta móviles en México. Su lector de tarjetas conectado al smartphone democratizó el cobro con tarjeta para comercios que antes solo aceptaban efectivo. Ha procesado miles de millones de dólares en transacciones y tiene más de 600,000 comercios activos. En 2021 levantó una ronda Serie D de $250 millones. Compite directamente con iZettle (PayPal) y Conekta en el mercado de pagos para PyMEs.",
+    "tagline": "Pionera de los pagos con tarjeta para pequeños comercios en México, Clip se convirtió en 2021 en el tercer unicornio del país.",
+    "about": "Clip es una fintech mexicana fundada en 2012 por Adolfo Babatz y Vilash Poovala, ambos ex-PayPal. Fue pionera en dispositivos de pago en México. Sus terminales permiten que todo tipo de negocios acepten pagos con tarjeta, y la empresa presume que 7 de cada 10 negocios que aceptan tarjeta lo hacen con Clip. En 2021 se convirtió en el tercer unicornio mexicano, con una valuación de $2,000 millones de dólares. En junio de 2026 anunció un wallet digital con Ant International, Mastercard y TelevisaUnivision con una valuación de más de $2,500 millones.",
     "hq": "Ciudad de México",
-    "team_size": "+1,200",
+    "team_size": "500-1,000",
     "founded": "2012",
     "ownership": "Privada",
-    "stage": "Serie D",
-    "last_round": "Serie D $250 mdd (2021)"
+    "stage": "Serie E",
+    "last_round": "2026: $500 mdd"
   },
   "Heineken": {
     "tagline": "Segunda cervecera en México a través de Cuauhtémoc Moctezuma, parte del grupo holandés.",
@@ -340,14 +330,14 @@
     "last_round": "Expansión regional 2024"
   },
   "Grupo México": {
-    "tagline": "El mayor productor de cobre en México y tercero del mundo, controlado por Germán Larrea.",
-    "about": "Grupo México es el conglomerado minero y de transporte de la familia Larrea. Es el tercer productor de cobre del mundo y opera las minas más grandes de México (Cananea, La Caridad). También controla Ferromex y Ferrosur, las principales concesiones ferroviarias del país. Germán Larrea es consistentemente el hombre más rico de México según Forbes. El grupo ha enfrentado críticas por el derrame minero del Río Sonora en 2014, el accidente más grave en la historia minera mexicana reciente. Cotiza en BMV bajo el ticker GMEXICOB.",
+    "tagline": "Es la única empresa mexicana con un valor de mercado superior a $100,000 mdd, impulsada por el precio del cobre.",
+    "about": "Grupo México nació en 1978, aunque sus antecedentes se remontan a los años 30. A finales de los 80s y principios de los 90s consolidó su poder en la industria minera con las adquisiciones de minas en Cananea y Nacozari. Impulsada por el incremento en los precios del cobre y la plata, se convirtió en la empresa más valiosa de México: su market cap hoy supera los $100,000 millones de dólares. En 2025 su utilidad neta superó $100,000 millones de pesos, más que las utilidades anuales de Danone, Target o General Motors. Además de minería, opera negocios ferroviarios e infraestructura. Cotiza en BMV bajo el ticker GMEXICOB.",
     "hq": "Ciudad de México",
-    "team_size": "+100,000",
-    "founded": "1942",
+    "team_size": "+31,000",
+    "founded": "1978",
     "ownership": "Pública / BMV: GMEXICOB",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión rail & puertos 2024"
+    "last_round": "2025: $327,189 mdp"
   },
   "American Express": {
     "tagline": "Red global de servicios financieros con el segmento premium del mercado mexicano.",
@@ -380,14 +370,14 @@
     "last_round": "Fondo VI $17,000 mdd (2023)"
   },
   "Elektra": {
-    "tagline": "Retail y servicios financieros populares, el brazo comercial del Grupo Salinas.",
-    "about": "Grupo Elektra es la empresa de retail y servicios financieros de Ricardo Salinas Pliego. Opera tiendas Elektra y Salinas y Rocha, y es dueña de Banco Azteca, la institución financiera con mayor red de sucursales en México (+1,800). Su modelo de crédito al consumo para sectores no bancarizados ha sido tanto su fortaleza como fuente de controversias regulatorias. Cotiza en la BMV bajo el ticker ELEKTRA. El holding también controla Italika, la mayor vendedora de motos en México.",
+    "tagline": "La organización más grande dentro de Grupo Salinas. Convirtió la venta de electrodomésticos a crédito en un ecosistema que combina más de 1,350 tiendas con Banco Azteca e Italika.",
+    "about": "Grupo Elektra convirtió la venta de electrodomésticos a crédito en la base de uno de los grupos comerciales y financieros más grandes de México. Fundada en 1950 por Hugo Salinas Rocha, abuelo de Ricardo Salinas Pliego. Ricardo tomó el control en 1987 y transformó el modelo: creó Banco Azteca en 2002 e Italika en 2004. Entre 2000 y 2023, multiplicó 10 veces sus ingresos. Hoy el grupo combina más de 1,350 tiendas Elektra con uno de los mayores negocios de crédito al consumo del país. Italika se convirtió en la principal marca de motocicletas en México.",
     "hq": "Ciudad de México",
-    "team_size": "+110,000",
+    "team_size": "+67,000",
     "founded": "1950",
     "ownership": "Pública / BMV: ELEKTRA*",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión Banco Azteca 2024"
+    "last_round": "2025: $215,356 mdp"
   },
   "Audi": {
     "tagline": "Marca premium alemana con su única planta en las Américas ubicada en San José Chiapa, Puebla.",
@@ -520,24 +510,24 @@
     "last_round": "Centro I+D CDMX 2024"
   },
   "Grupo Carso": {
-    "tagline": "El conglomerado industrial y comercial de Carlos Slim, con presencia en 10 sectores.",
-    "about": "Grupo Carso es el holding de inversiones industriales y comerciales de Carlos Slim. Su portafolio incluye Sanborns (restaurants y retail), Sears México, cigarros (Cigatam), construcción (IDEAL), energía (Carso Energy) y manufactura (Condumex). A diferencia de Telmex/AMX (telecomunicaciones) e Inbursa (finanzas), Carso agrupa los negocios industriales y de consumo del grupo Slim. Cotiza en BMV bajo el ticker GCARSOA1. Sus inversiones en infraestructura han crecido con el boom del nearshoring.",
+    "tagline": "Reúne 268 compañías en los negocios industriales, comerciales, de infraestructura y energía de la familia Slim.",
+    "about": "Grupo Carso es el conglomerado de la familia Slim que reúne 268 compañías en sectores que van desde tiendas departamentales hasta construcción y energía. Sus cuatro grandes divisiones son Grupo Sanborns (que incluye Sears); Grupo Condumex, fabricante de cables y componentes; Carso Infraestructura y Construcción; y Carso Energy. El grupo nació en 1980 como Grupo Galas y en 1990 participó en la compra de Telmex. Cotiza en BMV bajo el ticker GCARSO.",
     "hq": "Ciudad de México",
-    "team_size": "+135,000",
+    "team_size": "+84,600",
     "founded": "1980",
     "ownership": "Pública / BMV: GCARSO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Proyecto Tren Maya 2024"
+    "last_round": "2025: $191,626 mdp"
   },
   "Nemak": {
-    "tagline": "Proveedor global de componentes de aluminio para la industria automotriz.",
-    "about": "Nemak es una empresa mexicana fundada en 1979 en Monterrey, especializada en la fabricación de partes de aluminio de alto valor (cabezas de motor, bloques, componentes de carrocería) para fabricantes de automóviles como Ford, GM, BMW, Volkswagen y Audi. Es subsidiaria de Grupo Alfa. Con el cambio de paradigma hacia vehículos eléctricos, ha diversificado su portafolio hacia baterías estructurales y carcasas para EV. Opera en 16 países con 35 plantas. Cotiza en BMV bajo el ticker NEMAK A.",
-    "hq": "San Pedro Garza García, NL",
-    "team_size": "+23,000",
+    "tagline": "Sus componentes están presentes en uno de cada cuatro autos vendidos en el mundo; opera 53 plantas en 15 países.",
+    "about": "Fundada en Monterrey en 1979, Nemak se dedica a fabricar cabezas, monoblocks, componentes estructurales y carcasas para la industria automotriz. Es proveedor de la mayoría de las armadoras del mundo, con 53 plantas distribuidas en 15 países. Entre sus principales clientes están Ford y GM, que en conjunto representaron 45% de sus ingresos en 2025. Según una presentación oficial de 2023, uno de cada cuatro autos vendidos en el mundo incorpora algún componente de la empresa. Cotiza en BMV bajo el ticker NEMAKA.",
+    "hq": "García, NL",
+    "team_size": "+23,400",
     "founded": "1979",
     "ownership": "Pública / BMV: NEMAKA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Transición EV $1,000 mdd 2024"
+    "last_round": "2025: $88,763 mdp"
   },
   "Telmex": {
     "tagline": "La empresa de telecomunicaciones fija más grande de México, parte del grupo Carlos Slim.",
@@ -670,14 +660,14 @@
     "last_round": "Bursátil / BMV"
   },
   "Bachoco": {
-    "tagline": "La empresa líder en la industria avícola de México, con presencia en Estados Unidos.",
-    "about": "Industrias Bachoco es la empresa avícola más grande de México y una de las más importantes de América del Norte. Fundada en 1952 en Sonora por la familia Robinson Bours, produce y distribuye pollo, huevo, cerdo y alimentos balanceados. Cotiza en la BMV y NYSE bajo el ticker IBA. A partir de 2011 expandió operaciones a Estados Unidos con la adquisición de OK Foods, consolidando su presencia binacional. Controla cerca del 30% del mercado avícola mexicano.",
-    "hq": "Hermosillo, Sonora",
-    "team_size": "+35,000",
+    "tagline": "Controla más del 40% del mercado avícola del país y emplea a 38,000 personas, con operaciones que se extienden a EUA.",
+    "about": "Aunque hoy tiene sus headquarters en Guanajuato, la historia de Bachoco sigue profundamente ligada a Sonora y a la familia Robinson Bours. Todo empezó en 1952, cuando los hermanos Robinson Bours comenzaron a comercializar huevo con una granja de apenas 1,000 aves en Ciudad Obregón. La gran expansión llegó en la crisis de 1994, cuando aprovechó la presión financiera sobre muchos productores avícolas para adquirir instalaciones a precios atractivos; para 1996 ya era el productor avícola más grande de México. Hoy estima tener más del 40% del mercado avícola en México y opera más de 100 centros de distribución en México y EUA.",
+    "hq": "Celaya, Guanajuato",
+    "team_size": "+40,000",
     "founded": "1952",
-    "ownership": "Pública / BMV: BACHOCOB",
-    "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión avícola 2024"
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2024: $99,343 mdp"
   },
   "Banco Azteca": {
     "tagline": "El banco con mayor red de sucursales en México, enfocado en el segmento popular.",
@@ -690,14 +680,14 @@
     "last_round": "2022: $30 mdd"
   },
   "Grupo Axo": {
-    "tagline": "El mayor operador de marcas internacionales de moda y lifestyle en México.",
-    "about": "Grupo Axo es la empresa líder en la importación y operación de marcas de moda, deportes y lifestyle internacionales en México. Su portafolio incluye más de 30 marcas como Tommy Hilfiger, Calvin Klein, Under Armour, Brooks Brothers y Skechers. También opera marcas propias como AXOBAR y SANDRO México. Tiene presencia física en los principales centros comerciales del país y una creciente operación de e-commerce. Es el socio preferido de marcas globales que buscan establecerse en el mercado mexicano.",
+    "tagline": "Ha sido el socio detrás de la entrada y expansión de más de 60 marcas internacionales, desde Tommy Hilfiger y Nike hasta Ulta Beauty.",
+    "about": "Durante las últimas tres décadas, Grupo Axo ha sido uno de los principales responsables de traer marcas internacionales de moda y estilo de vida a México. Fundada en 1994 por Alberto Fasja Cohen y Andrés Gómez, inició con Tommy Hilfiger y desde entonces ha incorporado más de 60 marcas, entre ellas Coach, Victoria's Secret, Hollister, Abercrombie & Fitch y Nike. Recientemente impulsó la llegada de Ulta Beauty, la cadena de belleza más grande de EUA, que abrió su primera sucursal mexicana en Polanco. Tiene presencia en México, Chile, Perú y Uruguay.",
     "hq": "Ciudad de México",
-    "team_size": "1,000–5,000",
-    "founded": "1981",
+    "team_size": "+10,000",
+    "founded": "1994",
     "ownership": "Privada",
-    "stage": "Scaleup",
-    "last_round": "2022: $75 mdd"
+    "stage": "Consolidada",
+    "last_round": "2023: $24,708 mdp"
   },
   "Vitro": {
     "tagline": "Empresa líder en fabricación de vidrio en México, proveedora de la industria y el hogar.",
@@ -730,14 +720,14 @@
     "last_round": "Adquisición AB InBev 2013"
   },
   "Banamex": {
-    "tagline": "Uno de los bancos más antiguos y grandes de México, en transición de propiedad tras la desinversión de Citigroup.",
-    "about": "Banco Nacional de México fue fundado en 1884 y adquirido por Citigroup en 2001 por aproximadamente 12,500 millones de dólares, operando desde entonces bajo la marca Citibanamex. En enero de 2022, Citigroup anunció su intención de desinvertir del negocio de banca minorista en México como parte de una estrategia global de simplificación. Ofrece servicios de banca personal, empresarial, gestión de patrimonio y mercados de capitales a millones de clientes en el país.",
-    "hq": "Ciudad de México, México",
+    "tagline": "Es el cuarto banco más grande del país y, tras más de dos décadas bajo Citi, está regresando a control mexicano con Fernando Chico Pardo como principal accionista.",
+    "about": "Desde su fundación en 1884, Banamex ha pasado por más transformaciones que prácticamente cualquier otro banco mexicano. En 1991, Roberto Hernández encabezó al grupo que adquirió 70% del banco por más de $3,200 millones de dólares. Diez años después, Citi lo compró en $12,500 millones y llegó a aportarle alrededor del 10% de sus ingresos globales. Tras la decisión de Citi de salir, en 2025 Fernando Chico Pardo tomó el control con una participación de 25% valuada en aproximadamente $42,000 millones de pesos. Es el cuarto banco más grande de México y el segundo de origen mexicano.",
+    "hq": "Ciudad de México",
+    "team_size": "+38,000",
     "founded": "1884",
-    "ownership": "En transición (Citigroup desinvirtiendo)",
-    "stage": "Banca establecida / Proceso de venta",
-    "team_size": "~40,000",
-    "last_round": "N/A"
+    "ownership": "Privada",
+    "stage": "En transición",
+    "last_round": "2025: $235,369 mdp (est.)"
   },
   "Intel": {
     "tagline": "El mayor fabricante de semiconductores y microprocesadores de propósito general del mundo.",
@@ -1000,14 +990,14 @@
     "last_round": "N/A"
   },
   "CEMEX": {
-    "tagline": "Una de las productoras de cemento y materiales de construcción más grandes del mundo, con sede en México.",
-    "about": "CEMEX es una empresa global de materiales para la construcción que produce y distribuye cemento, concreto premezclado y agregados en más de 50 países. Fundada en 1906 en Monterrey, creció mediante adquisiciones estratégicas de gran escala, incluyendo la compra de RMC (2005) y Rinker Group (2007). Cotiza en la BMV y en el NYSE bajo el ticker CX, y ha desarrollado plataformas digitales como Construrama y CEMEX Go para digitalizar su cadena de suministro.",
-    "hq": "San Pedro Garza García, Nuevo León, México",
+    "tagline": "Una de las cementeras más grandes del mundo, pionera en la globalización industrial mexicana.",
+    "about": "Cemex es uno de los casos que abrió el camino para las multinacionales mexicanas. Sus orígenes se remontan a 1906, con la fundación de Cementos Hidalgo en Nuevo León. Durante buena parte del siglo XX fue esencialmente una cementera nacional. Eso cambió bajo Lorenzo Zambrano: en 1992 comenzó la expansión internacional con dos cementeras en España, luego operaciones en Latinoamérica, Asia y EUA. La adquisición de Rinker le costó más de $15,000 millones de dólares y dejó a Cemex fuertemente endeudada justo antes de la crisis de 2008. Hoy tiene presencia en 65 países y negocios de cemento, concreto y agregados. Cotiza en BMV y NYSE bajo el ticker CX.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+39,000",
     "founded": "1906",
-    "ownership": "Pública / BMV: CEMEX, NYSE: CX",
-    "stage": "Cotiza en Bolsa",
-    "team_size": "~40,000",
-    "last_round": "N/A"
+    "ownership": "Pública / BMV + NYSE: CX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $290,395 mdp"
   },
   "Flink": {
     "tagline": "Aplicación mexicana de inversión en acciones, ETFs y criptomonedas orientada al mercado masivo.",
@@ -1070,14 +1060,14 @@
     "last_round": "N/A"
   },
   "Kueski": {
-    "tagline": "Plataforma mexicana de crédito digital y compra ahora, paga después (BNPL).",
-    "about": "Kueski es una fintech fundada en 2012 en Guadalajara que otorga créditos personales y servicios de compra ahora paga después (BNPL) bajo la marca Kueski Pay. Utiliza modelos de scoring alternativo con inteligencia artificial para atender a segmentos de la población con acceso limitado a crédito bancario tradicional. Opera con autorización como Sociedad Financiera de Objeto Múltiple (SOFOM).",
-    "hq": "Guadalajara, Jalisco, México",
+    "tagline": "Pionera del Buy Now, Pay Later en México, ha otorgado más de 40 millones de créditos.",
+    "about": "Mucho antes del boom fintech en México, Kueski ya otorgaba créditos en línea. Fundada en 2012 por Adalberto Flores y Leonardo de la Cerda, es una de las startups respaldadas por venture capital más antiguas que siguen operando a gran escala en el país: pasó de otorgar un crédito cada nueve horas en 2013 a uno aproximadamente cada siete segundos. Su crecimiento más importante llegó en 2020 con Kueski Pay, su plataforma de Buy Now Pay Later, integrada en cerca del 40% de los principales comercios electrónicos del país, incluyendo Amazon. Ha otorgado más de 40 millones de créditos.",
+    "hq": "Guadalajara, Jalisco",
+    "team_size": "+500",
     "founded": "2012",
     "ownership": "Privada",
-    "stage": "N/A",
-    "team_size": "N/A",
-    "last_round": "N/A"
+    "stage": "Serie C+",
+    "last_round": "$202 mdd"
   },
   "Mercado Pago": {
     "tagline": "El ecosistema de pagos y servicios financieros digitales de MercadoLibre.",
@@ -1180,14 +1170,14 @@
     "last_round": "N/A"
   },
   "Cinépolis": {
-    "tagline": "La cadena de cines más grande de América Latina, con presencia en más de 15 países.",
-    "about": "Cinépolis fue fundada en 1971 por Enrique Ramírez Villalón en Morelia y es el operador de complejos cinematográficos más grande de América Latina y el cuarto más grande del mundo por número de pantallas. Opera en más de 15 países con formatos premium como Cinépolis VIP, 4DX, IMAX y Macro XE. Es una empresa 100% mexicana de capital familiar que ha logrado expansión internacional orgánica.",
-    "hq": "Morelia, Michoacán, México",
+    "tagline": "Con más de 6,800 salas en 18 países, es la tercera cadena de cines más grande del mundo en número de salas.",
+    "about": "La historia de Cinépolis comenzó en 1971, cuando Enrique Ramírez Miguel inauguró su primera sala de cine en la Ciudad de México. Abrió sus primeros cines fuera de México en Guatemala y Costa Rica en 2003, entró a India en 2009 y llegó a Estados Unidos en 2011 con formato de salas de lujo. Desde 2004 la encabeza Alejandro Ramírez Magaña, nieto del fundador. Opera más de 6,800 salas en unos 900 complejos en 18 países; en México concentra alrededor de 55% de las salas del país, 1.5 veces más que su competidor más cercano.",
+    "hq": "Morelia, Michoacán",
+    "team_size": "+36,000",
     "founded": "1971",
     "ownership": "Privada",
-    "stage": "N/A",
-    "team_size": "~40,000",
-    "last_round": "N/A"
+    "stage": "Consolidada",
+    "last_round": "2025: $115,000 mdp (est.)"
   },
   "Grupo Sanborns": {
     "tagline": "Operador de tiendas departamentales, restaurantes y retail especializado del Grupo Carso.",
@@ -1358,5 +1348,435 @@
     "stage": "Cotiza en Bolsa",
     "team_size": "~29,000",
     "last_round": "N/A"
+  },
+  "AAA": {
+    "tagline": "Una de las dos grandes promotoras de lucha libre del país, adquirida en 2025 por WWE y la firma mexicana Fillip.",
+    "about": "La lucha libre es una de esas marcas mexicanas con un peso cultural enorme: en 2018 fue decretada Patrimonio Cultural Intangible de la Ciudad de México. Lucha Libre AAA, fundada por Antonio Peña en 1992, es una de las dos grandes empresas del espectáculo en el país. Recientemente fue adquirida por la WWE y la empresa mexicana Fillip, con lo que busca crecer también en el mercado hispano de EUA.",
+    "hq": "Ciudad de México",
+    "team_size": "200-500",
+    "founded": "1992",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "Adquirida por WWE y Fillip 2025"
+  },
+  "ASUR": {
+    "tagline": "El grupo aeroportuario más grande de América Latina: tras comprar 20 aeropuertos en Brasil, Ecuador, Costa Rica y Curaçao, podría movilizar más de 115 millones de pasajeros al año.",
+    "about": "ASUR nació a finales de los 90s con la privatización aeroportuaria de México, operando algunos de los aeropuertos más importantes del sureste, como Cancún. Hoy controla alrededor de 36 aeropuertos en siete países. En diciembre de 2025 completó la compra de activos comerciales en aeropuertos como Chicago O'Hare, JFK y Los Ángeles. En septiembre de 2026 cerró la compra de 20 aeropuertos en Brasil, Ecuador, Costa Rica y Curaçao por $992 millones de dólares, sumando más de 45 millones de pasajeros anuales adicionales.",
+    "hq": "Ciudad de México",
+    "team_size": "+2,200",
+    "founded": "1998",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $37,237 mdp"
+  },
+  "Bafar": {
+    "tagline": "La empresa chihuahuense detrás de Parma, Sabori y CarneMart, que cotiza en la BMV desde 1996.",
+    "about": "Bafar se fundó en Chihuahua a principios de los 80s. Según la leyenda, Eugenio Baeza, que trabajaba en Ford, renunció a sus 23 años para conseguirle carne a sus clientes. En 1996 la empresa se listó en la BMV y en 2002 le compró a Nestlé una planta en Michoacán, quedándose con marcas como Parma, Sabori y Campestre. Además de alimentos, han ido incorporando otros negocios a su portafolio, como una FIBRA y empresas de food service.",
+    "hq": "Chihuahua",
+    "team_size": "+13,000",
+    "founded": "1983",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $32,699 mdp"
+  },
+  "Becle": {
+    "tagline": "Becle concentra 29% del volumen mundial de tequila y vende más del doble que su competidor más cercano.",
+    "about": "Con más de 260 años de existencia —la destilería original nació en 1758 en Tequila, Jalisco—, José Cuervo es una de las empresas más antiguas y con más tradición del país. Hoy vende en más de 85 países, siendo EUA su principal mercado, donde coloca más de la mitad de su volumen. El portafolio de tequila representó más de 70% de su valor de ventas en 2025. Si hablamos exclusivamente de tequila, Cuervo es la empresa que más volumen vende a nivel mundial, superando por más de dos veces a su competidor más cercano, Diageo.",
+    "hq": "Ciudad de México",
+    "team_size": "+6,700",
+    "founded": "1758",
+    "ownership": "Pública / BMV: CUERVO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $43,087 mdp"
+  },
+  "Bepensa": {
+    "tagline": "La tercera embotelladora de Coca-Cola del país y la quinta de LatAm, con operaciones en la Península de Yucatán y República Dominicana.",
+    "about": "Fundada en 1946 en Mérida por Fernando Ponce G. Cantón, Grupo Bepensa se ha convertido en uno de los jugadores más importantes del sistema Coca-Cola en la región: opera la franquicia en Yucatán, Campeche y Quintana Roo, y es el único embotellador de Coca-Cola en República Dominicana. El canal tradicional aportó 44% de sus ingresos; República Dominicana ya representa 20%. Hoy es el tercer embotellador con mayor volumen de ventas en México y el quinto en Latinoamérica, con unos 14,000 empleados y más de 58,000 puntos de venta atendidos.",
+    "hq": "Mérida, Yucatán",
+    "team_size": "+14,000",
+    "founded": "1946",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $22,410 mdp"
+  },
+  "Betterware": {
+    "tagline": "Fue la primera empresa mexicana en cotizar en Nasdaq y hoy, junto con Jafra, genera más de $14,000 mdp en ventas anuales.",
+    "about": "Betterware llegó a México en 1995 como una marca inglesa de productos para el hogar y en 2001 fue comprada por Luis Campos, quien había dirigido Tupperware en Latinoamérica. En 2020 se convirtió en la primera empresa mexicana en listar sus acciones en Nasdaq. En 2022 compró Jafra por $255 millones de dólares, combinando productos para el hogar y belleza. En 2026 concretó la compra de Tupperware Latinoamérica. En 2025, Betterware y Jafra generaron conjuntamente más de $14,200 millones de pesos en ventas.",
+    "hq": "Guadalajara, Jalisco",
+    "team_size": "+4,800",
+    "founded": "1995",
+    "ownership": "Pública / NYSE: BWMX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $14,265 mdp"
+  },
+  "Bitso": {
+    "tagline": "Además de su exchange de criptomonedas, construyó una plataforma de pagos con stablecoins que procesó más de $80,000 mdd en 2025.",
+    "about": "Bitso nació en México en 2014 como un exchange de criptomonedas y hoy cuenta con cerca de 10 millones de usuarios en México, Argentina, Brasil y Colombia. Ha desarrollado Bitso Business, una plataforma que utiliza stablecoins para facilitar pagos y movimientos de dinero entre países; esta división procesó más de $80,000 millones de dólares en 2025. Ha levantado aproximadamente $315 millones de dólares en capital. Su ronda más reciente, de $250 millones en 2021, la valuó en $2,200 millones.",
+    "hq": "Ciudad de México",
+    "team_size": "+500",
+    "founded": "2014",
+    "ownership": "Privada",
+    "stage": "Serie C+",
+    "last_round": "2021: $250 mdd"
+  },
+  "CIE": {
+    "tagline": "Construyó alrededor de OCESA el principal negocio de entretenimiento en vivo del país y vendió 75% a Live Nation por más de $1,000 mdd.",
+    "about": "Lo que comenzó en 1990 como Operadora de Centros de Espectáculos (OCESA), fundada por Alejandro Soberón Kuri, dio origen a la Corporación Interamericana de Entretenimiento (CIE), creada en 1995 como su matriz. En 1993 construyó en tiempo récord el Foro Sol para recibir a Paul McCartney. Entre 2021 y 2025, Live Nation destinó más de $1,000 millones de dólares para adquirir 75% de OCESA; CIE conserva el 25%. Ha traído al país a artistas como Madonna, Taylor Swift y Coldplay, y en 2015 logró el regreso de la Fórmula 1 tras más de dos décadas de ausencia.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,000",
+    "founded": "1990",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $5,448 mdp"
+  },
+  "Farmacias Similares": {
+    "tagline": "La cadena del Dr. Simi concentra 75% de las ventas de medicamentos genéricos del país y opera más de 9,500 sucursales en México, Chile y Colombia.",
+    "about": "En un país donde el 80% del consumo de medicinas es de genéricos, Farmacias Similares concentra el 75% de los que se venden a nivel nacional. Víctor González Torres fundó la empresa en 1997, apalancándose en el negocio familiar original —los laboratorios Best— para desarrollar medicinas basadas en patentes originales. Del corporativo principal dependen más de 9,500 sucursales, los 195 laboratorios de análisis clínicos, las unidades de Salud Integral, las tres plantas de Laboratorios Best y 12 centros de distribución de Transportes Farmacéuticos.",
+    "hq": "Ciudad de México",
+    "team_size": "+20,000",
+    "founded": "1997",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $65,000 mdp (est.)"
+  },
+  "Fragua": {
+    "tagline": "A través de Farmacias Guadalajara cuadruplicó su número de sucursales en poco más de una década y hoy supera las 3,000 tiendas.",
+    "about": "Farmacias Guadalajara fue fundada en 1942 en la ciudad que le da nombre. La cadena ha crecido de forma acelerada: pasó de 720 sucursales en 2014 a 3,000 en 2025, elevando al mismo tiempo la venta promedio por tienda. En 2025 abrió 142 nuevas sucursales. Cotiza en la BMV y es una de las cadenas farmacéuticas de mayor crecimiento en México.",
+    "hq": "Guadalajara, Jalisco",
+    "team_size": "+64,000",
+    "founded": "1942",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $132,119 mdp"
+  },
+  "Gentera": {
+    "tagline": "Convirtió una ONG de microcréditos en un grupo financiero que atiende a más de 6.5 millones de clientes en México y Perú.",
+    "about": "Pocas instituciones financieras mexicanas tienen una trayectoria como la de Gentera: comenzó en 1990 como la ONG Compartamos. En 2006 obtuvo licencia bancaria y en 2007 debutó en la BMV con una OPI que levantó más de $467 millones de dólares. En 2011 entró a Guatemala y Perú. Hoy atiende a más de 4 millones de clientes en México y Perú. En 2025 sus acciones subieron 89.1% —el segundo mayor avance de la BMV, solo detrás de Peñoles—, llevando su valor de mercado a cerca de $90,000 millones de pesos.",
+    "hq": "Ciudad de México",
+    "team_size": "+28,000",
+    "founded": "1990",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $48,393 mdp"
+  },
+  "Grisi": {
+    "tagline": "Dirigida por la quinta generación, construyó un portafolio de marcas de cuidado personal con adquisiciones a empresas como Henkel y Puig, y multiplicó entre cinco y seis veces sus ventas en una década.",
+    "about": "Grupo Grisi es de las muy pocas empresas familiares operadas por la quinta generación. Se creó en 1863, cuando José Grisi, un inmigrante italiano, abrió un laboratorio en San Ángel para preparar y vender medicamentos. Su principal crecimiento se ha dado en los últimos 12 años con adquisiciones de marcas —Maja, Hinds, Pert, C-Boost— en deals con Henkel, GlaxoSmithKline y la catalana Puig. Es líder en México en la categoría de bebés con Ricitos de Oro y también dueña del 51% de Midway Importing, distribuidora de productos hispanos en Texas.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,000",
+    "founded": "1863",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "N/A"
+  },
+  "Grupo Cementos de Chihuahua": {
+    "tagline": "Genera alrededor de 75% de sus ingresos en EUA, donde opera cinco plantas de cemento y tres más en México, además de 102 plantas de concreto entre los dos países.",
+    "about": "Grupo Cementos de Chihuahua se fundó en 1941 en Chihuahua y desde 1994 apostó por el mercado estadounidense, donde hoy tiene presencia en la región central: desde Chihuahua hasta Texas, Nuevo México, Colorado, Wyoming y Montana. En 2016 adquirió activos de Cemex en EUA y en 2025 compró tres operaciones de agregados en Texas. Opera cinco plantas de cemento en EUA y tres más en México, además de 102 plantas de concreto. Alrededor de 75% de sus ingresos vienen de EUA.",
+    "hq": "Chihuahua",
+    "team_size": "+2,000",
+    "founded": "1941",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $25,358 mdp"
+  },
+  "Grupo Herdez": {
+    "tagline": "Multiplicó por siete sus ventas en 20 años y construyó un portafolio que combina marcas propias con asociaciones con algunas de las mayores compañías globales de alimentos.",
+    "about": "Grupo Herdez nació en Monterrey en 1914. Hoy controla un enorme portafolio de marcas y productos, además de asociaciones con compañías como Barilla, KUO y Hormel. Sus ventas se multiplicaron por siete en 20 años. En 2025 comenzó una reconfiguración importante: separó su división de retail —más de 650 tiendas de Nutrisa, Moyo y otros formatos— y acordó vender a McCormick otro 25% de McCormick de México por $750 millones de dólares, quedándose con 25% del negocio.",
+    "hq": "Ciudad de México",
+    "team_size": "+10,000",
+    "founded": "1914",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $38,600 mdp"
+  },
+  "Grupo Lala": {
+    "tagline": "Nació en 1949 como una cooperativa regional de productores y hoy es uno de los mayores grupos de lácteos de México y Brasil.",
+    "about": "Grupo Lala nació en 1949, cuando un grupo de productores de leche de la Comarca Lagunera se unió para financiar la pasteurización y comercialización de su producción. Pasó de ser una empresa regional de leche a uno de los mayores grupos de lácteos de México, con un portafolio que incluye leche, yogurt, queso, crema y otros alimentos. En 2017 compró Vigor en Brasil. En 2013 salió a bolsa, pero en 2021 dejó de cotizar; hoy opera principalmente en México y Brasil.",
+    "hq": "Gómez Palacio, Durango",
+    "team_size": "+39,000",
+    "founded": "1949",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $106,938 mdp"
+  },
+  "INTERprotección": {
+    "tagline": "Construyó el mayor bróker de seguros de LatAm; en 2024 vendió 95 millones de pólizas.",
+    "about": "INTERprotección nació en 1978, cuando Carlos Casanueva Varas y cuatro socios juntaron sus carteras de clientes para crear una firma mexicana de corretaje de seguros. Hoy es el bróker de seguros, fianzas y reaseguro más grande de Latinoamérica, con presencia internacional y negocios que van desde grandes clientes corporativos hasta microseguros. En los últimos años apostó por llevar los seguros a un mercado más amplio: en 2024 vendió 95 millones de pólizas y su plataforma digital Inter.mx buscaba superar un millón de asegurados en 2025. Entre 2015 y 2025, la empresa multiplicó por más de cuatro sus ventas.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,000",
+    "founded": "1978",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $45,310 mdp"
+  },
+  "KidZania": {
+    "tagline": "Opera 26 parques en mercados que van de Tokio a Dubái y recibe alrededor de 9 millones de visitantes al año.",
+    "about": "KidZania nació en 1999 como La Ciudad de los Niños, en Santa Fe, Ciudad de México, fundada por Xavier López Ancona. Es un espacio donde niños de 1 a 14 años 'juegan' a ser adultos en un formato de role-play a escala. Además de percibir ingresos de los visitantes, el modelo de negocio se centra en branding corporativo con las empresas más representativas de cada mercado. Presume recibir 9 millones de visitantes al año en sus 26 parques alrededor del mundo.",
+    "hq": "Ciudad de México",
+    "team_size": "+11,000",
+    "founded": "1999",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $4,254 mdp"
+  },
+  "Kimberly-Clark México": {
+    "tagline": "Construyó uno de los mayores negocios de higiene y cuidado personal del país, con marcas líderes que van desde pañales hasta papel higiénico.",
+    "about": "Aunque sus orígenes se remontan a la estadounidense Kimberly-Clark, fundada en Wisconsin en 1872, la operación mexicana tiene sus antecedentes en La Aurora, constituida en México en 1925. Kimberly-Clark adquirió el negocio en 1955 y en 1973 se convirtió en una empresa de capital mayoritariamente mexicano. Fabrica en México el 98% de los productos que comercializa. Su portafolio incluye Huggies, Kleenex, Pétalo, Suavel, Cottonelle, Kotex y Depend, y ha diversificado hacia categorías como alimento para mascotas.",
+    "hq": "Ciudad de México",
+    "team_size": "+8,800",
+    "founded": "1925",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $55,371 mdp"
+  },
+  "Mabe": {
+    "tagline": "Es una de las pocas marcas nacionales de electrodomésticos con escala internacional; 52% de su capital está en manos de inversionistas mexicanos.",
+    "about": "Mabe fue fundada en Ciudad de México en 1946 por Egon Mabardi y Francisco Berrondo. En 1987 vendió el 48% de sus acciones a General Electric para crecer en EUA. Esa participación hoy es de Haier, la empresa china que en 2016 compró la división de electrodomésticos de GE. El otro 52% sigue en manos de inversionistas mexicanos. Tiene 18 plantas, presencia en más de 70 países y vende más de 13 millones de unidades al año: una tercera parte son refrigeradores y congeladores; 29%, equipo de lavandería; y 27%, de cocina.",
+    "hq": "Ciudad de México",
+    "team_size": "+10,000",
+    "founded": "1946",
+    "ownership": "Privada (52% MX / 48% Haier)",
+    "stage": "Consolidada",
+    "last_round": "2025: $73,200 mdp (est.)"
+  },
+  "Más Vuelos": {
+    "tagline": "Reúne a Volaris y Viva en un grupo con más de 250 aviones, cerca de 1,000 vuelos diarios y alrededor de 70% del mercado doméstico.",
+    "about": "Nacida de la fusión entre Volaris y Viva Aerobus a finales de 2025, la nueva holding agrupa a las dos principales aerolíneas de bajo costo del país bajo una misma estructura corporativa. La operación se realizó a través de Volaris, que ya cotizaba en la BMV y el NYSE: se emitieron nuevas acciones equivalentes al 50% del capital para los accionistas de Viva. El resultado es un grupo con más de 250 aviones, cerca de 1,000 vuelos diarios y 324 rutas. Enrique Beltranena (Volaris) y Juan Carlos Zuazua (Viva Aerobus) fungirán como co-CEOs.",
+    "hq": "Ciudad de México",
+    "team_size": "+12,000",
+    "founded": "2025",
+    "ownership": "Pública / BMV + NYSE: VLRS",
+    "stage": "Holding reciente",
+    "last_round": "Fusión Volaris + Viva 2025"
+  },
+  "Pinsa": {
+    "tagline": "Controla más de la mitad del mercado de atún del país y opera una flota de 24 barcos.",
+    "about": "Aunque el mercado del atún en México parece fragmentado desde el anaquel, en realidad está dominado por dos jugadores: Pinsa y Grupomar. Pinsa, fundada en 1984 por José E. Carranza, es la más grande del país y una de las empresas más importantes de Sinaloa. Opera marcas como Atún Dolores, El Dorado y Mazatún, y controla buena parte de su cadena de producción con una flota de 24 barcos. Controla más del 50% del mercado nacional de atún. Más allá del negocio pesquero, ha invertido en hoteles en Mazatlán y en una división de bienes raíces.",
+    "hq": "Mazatlán, Sinaloa",
+    "team_size": "+5,000",
+    "founded": "1984",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $20,641 mdp (est.)"
+  },
+  "Sigma": {
+    "tagline": "Construyó vía adquisiciones una operación de alimentos en 17 países, con más de 100 marcas y al menos 16 que superan individualmente los $100 mdd en ventas.",
+    "about": "Sigma es una de las empresas mexicanas de alimentos con mayor presencia internacional. Sus orígenes están en el negocio de carnes frías que la familia Brener estableció en 1939; Alfa adquirió sus empresas en 1980 y en 1992 adoptó el nombre Sigma Alimentos. Creció principalmente a través de adquisiciones: compró Bar-S en EUA en 2010 y Campofrío en Europa en 2013. Hoy tiene más de 100 marcas, 66 plantas, más de 48,000 empleados y operaciones en 17 países. Su portafolio incluye FUD, San Rafael, La Villita, Yoplait, Bar-S y Campofrío.",
+    "hq": "Monterrey, NL",
+    "team_size": "+48,000",
+    "founded": "1980",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $167,411 mdp"
+  },
+  "Softtek": {
+    "tagline": "Empresa de servicios tecnológicos pionera del modelo nearshore desde México, con operaciones en alrededor de 20 países.",
+    "about": "Softtek nació en Monterrey en 1982 como una empresa de desarrollo de sistemas y hoy es una de las compañías de servicios tecnológicos más grandes de Latinoamérica. Para 2021 tenía más de 15,000 empleados, operaciones en unos 20 países y clientes entre algunas de las mayores empresas del mundo. Fue además una de las pioneras del modelo nearshore, ofreciendo desde México desarrollo, integración y mantenimiento de sistemas para compañías de EUA. Ha crecido también vía adquisiciones, incluyendo la compra de Vector ITC en España.",
+    "hq": "Monterrey, NL",
+    "team_size": "+15,000",
+    "founded": "1982",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2024: $72,000 mdp (est.)"
+  },
+  "Tajín": {
+    "tagline": "Convirtió una mezcla de chile, limón y sal en una marca presente en más de 40 países, con alrededor de 60% de su negocio en EUA.",
+    "about": "Tajín convirtió una mezcla de chile, limón y sal en una marca mexicana con alcance global. Horacio Fernández la fundó en Jalisco en 1985, inspirado en una salsa que preparaba su abuela. Hoy sus productos se venden en más de 40 países, aunque EUA representa alrededor de 60% del negocio —venden cerca de 18 millones de kilos de Tajín en EUA al año. Ha licenciado su marca a empresas como Taco Bell y Hellmann's. La familia Fernández mantiene prácticamente toda la propiedad, y la empresa se estima que tiene un valor cercano a $1,500 millones de dólares.",
+    "hq": "Zapopan, Jalisco",
+    "team_size": "+1,000",
+    "founded": "1985",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $5,400 mdp (est.)"
+  },
+  "Tiendas 3B": {
+    "tagline": "Opera más de 3,600 tiendas, abrió 574 solo en 2025 y sigue creciendo a doble dígito con marcas propias que representan cerca del 60% de lo que vende.",
+    "about": "Cuando Tiendas 3B hizo su IPO en 2024, ya era evidente que había dejado de ser una simple cadena de discount. Fundada en 2005 por el empresario estadounidense de origen libanés Anthony Hatoum, solo en 2025 abrió 574 tiendas nuevas y para octubre de 2026 ya operaba 3,624 sucursales. Sus ventas mismas tiendas crecieron 18.3% en 2025, y su apuesta por marcas propias —que ya representan 58.2% de sus ingresos— la acerca a modelos europeos como Aldi y Lidl.",
+    "hq": "Ciudad de México",
+    "team_size": "+29,200",
+    "founded": "2005",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "2025: $78,153 mdp"
+  },
+  "Xignux": {
+    "tagline": "Combina negocios de cables eléctricos y alimentos en uno de los mayores grupos privados del país.",
+    "about": "Fundada en 1956 en Monterrey, Xignux es una de las empresas privadas más relevantes del país. Su negocio principal es Viakable, su empresa de conductores eléctricos, complementado con alimentos a través de marcas como Zwan, Peperami, Kir, Botanas Leo y Encanto. En 2025 vendió el 50% de Prolec GE a GE Vernova por $5,275 millones de dólares. En ingresos es más o menos del tamaño de Cemex México.",
+    "hq": "Monterrey, NL",
+    "team_size": "+23,000",
+    "founded": "1956",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "last_round": "2025: $77,405 mdp (est.)"
+  },
+  "Zebrands": {
+    "tagline": "Llevó a Luuna de vender solo por internet a una red de cerca de 200 tiendas; en 2024 consiguió un crédito de hasta $1,100 mdp para acercarse a un millón de colchones al año.",
+    "about": "Zebrands nació a partir de Luuna, la marca de colchones que Carlos Salinas, Will Kasstan y Memo Villegas lanzaron en México en 2015. La compañía comenzó vendiendo exclusivamente por internet, pero después abrió tiendas, entró a cadenas como Liverpool y desarrolló su propia fábrica. En 2020-2021 intentó convertirse en una 'casa de marcas' llegando a tener 34; después dio marcha atrás y hoy conserva tres. Luuna tiene cerca de 200 sucursales en México y comenzó su expansión a Brasil. En 2024 Zebrands obtuvo una línea de crédito de hasta $1,100 millones de pesos de HSBC y Sabadell.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,000",
+    "founded": "2015",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "Crédito $1,100 mdp 2024"
+  },
+  "inDrive": {
+    "tagline": "Plataforma de movilidad donde el pasajero propone el precio, con presencia en más de 40 países.",
+    "about": "inDrive nació en Rusia en 2012 como inDriver y se ha expandido agresivamente en mercados emergentes de Asia, África y América Latina. Su modelo diferenciador: el pasajero propone la tarifa y el conductor acepta, negocia o rechaza. En México compite directamente con Uber y DiDi en ciudades medianas y grandes. Opera en más de 700 ciudades en más de 40 países y cuenta con más de 175 millones de descargas globales.",
+    "hq": "Ciudad de México",
+    "team_size": "+5,000",
+    "founded": "2012",
+    "ownership": "Privada",
+    "stage": "Unicornio",
+    "last_round": "Serie B $150 mdd (2021)"
+  },
+  "Unilever": {
+    "tagline": "Gigante global de bienes de consumo con marcas icónicas en México, desde Dove hasta Hellmann's.",
+    "about": "Unilever opera en México desde la década de 1930 y cuenta con plantas de manufactura en el país. Su portafolio incluye marcas en alimentos (Knorr, Hellmann's, Lipton), cuidado del hogar (Axe, Dove, Rexona) y limpieza del hogar (OMO, Surf). México es uno de sus mercados más relevantes en Latinoamérica. La empresa global emplea a más de 127,000 personas en 190 países y cotiza en las bolsas de Londres, Ámsterdam y Nueva York.",
+    "hq": "Ciudad de México",
+    "team_size": "+3,500 (MX)",
+    "founded": "1930 (MX)",
+    "ownership": "Pública / NYSE: UL",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Tesla": {
+    "tagline": "El mayor fabricante de vehículos eléctricos del mundo, con distribuidores en México y planes de manufactura en el país.",
+    "about": "Tesla opera en México desde 2016 con showrooms y servicio en Ciudad de México, Monterrey y Guadalajara. La empresa anunció en 2023 una gigafactory en Nuevo León que generaría más de 40,000 empleos directos, aunque el proyecto fue puesto en pausa por Elon Musk en 2024 en medio de tensiones con el gobierno mexicano. La presencia de Tesla en Whitepaper refleja el debate sobre nearshoring, inversión automotriz y el futuro de la manufactura de vehículos eléctricos en México.",
+    "hq": "Austin, Texas, EUA",
+    "team_size": "+140,000 global",
+    "founded": "2003",
+    "ownership": "Pública / NASDAQ: TSLA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Shopify": {
+    "tagline": "La plataforma de e-commerce más adoptada por emprendedores y PyMEs en México.",
+    "about": "Shopify es la plataforma de comercio electrónico fundada en 2006 en Ottawa, Canadá. En México se ha convertido en el principal habilitador de e-commerce para emprendedores y marcas medianas que buscan vender en línea sin infraestructura tecnológica propia. A través de Shopify Payments, Shopify Capital y su ecosistema de apps, ofrece una solución integral. Su cobertura en Whitepaper refleja el auge del comercio digital en México y la digitalización de PyMEs. Cotiza en NYSE bajo el ticker SHOP.",
+    "hq": "Ottawa, Canadá",
+    "team_size": "+10,000 global",
+    "founded": "2006",
+    "ownership": "Pública / NYSE: SHOP",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "PepsiCo": {
+    "tagline": "La segunda empresa de alimentos y bebidas del mundo, con una presencia industrial y comercial de primer nivel en México.",
+    "about": "PepsiCo tiene una de sus operaciones más importantes a nivel global en México. A través de Sabritas y Gamesa controla el mercado de botanas y galletas, y a través de Pepsi y Gatorade compite en bebidas. La planta de botanas en Monterrey es una de las mayores de su tipo en el mundo. PepsiCo emplea directamente a más de 50,000 personas en México. Cotiza en NASDAQ bajo el ticker PEP.",
+    "hq": "Ciudad de México",
+    "team_size": "+50,000 (MX)",
+    "founded": "1943 (MX)",
+    "ownership": "Pública / NASDAQ: PEP",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Mercedes-Benz": {
+    "tagline": "Marca de automóviles de lujo alemana con planta de manufactura en Aguascalientes y fuerte presencia en el mercado premium mexicano.",
+    "about": "Mercedes-Benz tiene en México una planta de manufactura de motores en Aguascalientes. La marca opera en el segmento premium del mercado automotriz mexicano, compitiendo con BMW y Audi. Su presencia en Whitepaper refleja tanto las inversiones de manufactura en México como las dinámicas del mercado de autos de lujo y la transición hacia vehículos eléctricos. El grupo Daimler Truck también tiene operaciones de manufactura en el país.",
+    "hq": "Stuttgart, Alemania",
+    "team_size": "+1,500 (MX)",
+    "founded": "1946 (MX)",
+    "ownership": "Pública / NYSE: MBG",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Marriott": {
+    "tagline": "La cadena hotelera más grande del mundo, con hoteles en los destinos turísticos y de negocios más importantes de México.",
+    "about": "Marriott International opera en México bajo múltiples marcas: Marriott, Sheraton, Westin, W, Autograph Collection y más. Es la cadena con mayor número de cuartos en el país, presente en los destinos turísticos más importantes (Los Cabos, Cancún, Riviera Maya) y en los mercados corporativos (Ciudad de México, Monterrey, Guadalajara). México es uno de los mercados de mayor crecimiento de Marriott en el mundo. Cotiza en NASDAQ bajo el ticker MAR.",
+    "hq": "Bethesda, Maryland, EUA",
+    "team_size": "+370,000 global",
+    "founded": "1927",
+    "ownership": "Pública / NASDAQ: MAR",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "IKEA": {
+    "tagline": "La cadena de muebles y decoración más grande del mundo, que llegó a México en 2021.",
+    "about": "IKEA llegó a México en 2021 con su primera tienda en el Parque Delta de la Ciudad de México, operada por la franquicia Storejet bajo licencia de INGKA Group. En 2023 abrió una segunda tienda en Coyoacán y en 2024 inauguró la primera fuera de la Ciudad de México, en Monterrey. Su llegada transformó el mercado de muebles y decoración, compitiendo con cadenas locales como Viana, Zoffoli y tiendas departamentales como Liverpool.",
+    "hq": "Leiden, Países Bajos",
+    "team_size": "+2,500 (MX)",
+    "founded": "2021 (MX)",
+    "ownership": "Privada (INGKA Group)",
+    "stage": "Consolidada",
+    "last_round": "N/A"
+  },
+  "Iberdrola": {
+    "tagline": "La mayor empresa eléctrica privada en México, con inversiones superiores a $16,000 mdd en el país.",
+    "about": "Iberdrola es la empresa eléctrica privada más grande de México. La empresa española ha invertido más de $16,000 millones de dólares en el país desde los años 90, construyendo centrales de ciclo combinado, parques eólicos y líneas de transmisión. Suministra electricidad a las principales empresas industriales del norte de México y es uno de los mayores generadores privados del Sistema Interconectado Nacional. Ha enfrentado presiones regulatorias significativas desde la reforma energética de 2021.",
+    "hq": "Bilbao, España / Ciudad de México (MX)",
+    "team_size": "+3,500 (MX)",
+    "founded": "1992 (MX)",
+    "ownership": "Pública / NYSE: IBE",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "HubSpot": {
+    "tagline": "La plataforma de CRM y marketing digital más adoptada por startups y empresas de crecimiento en México.",
+    "about": "HubSpot es la plataforma de CRM, marketing y ventas fundada en 2006 en Cambridge, Massachusetts. En México se ha convertido en el software de preferencia para startups y empresas en crecimiento que buscan gestionar sus embudos de venta y automatizar su marketing digital. Su ecosistema de certificaciones y su modelo freemium han facilitado su penetración en el mercado. Cotiza en NYSE bajo el ticker HUBS.",
+    "hq": "Cambridge, Massachusetts, EUA",
+    "team_size": "+8,000 global",
+    "founded": "2006",
+    "ownership": "Pública / NYSE: HUBS",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Disney": {
+    "tagline": "El mayor conglomerado de entretenimiento del mundo, con parques, medios y streaming presentes en México.",
+    "about": "The Walt Disney Company opera en México a través de sus principales negocios: Disney+, su plataforma de streaming; sus canales de televisión de pago (Disney Channel, ESPN, National Geographic); y la distribución de películas de sus estudios (Pixar, Marvel, Star Wars). También tiene operaciones de parques temáticos regionales. México es su segundo mercado más grande en América Latina. La empresa ha sido relevante en el debate sobre la industria del entretenimiento, los derechos de transmisión deportivos y la economía del streaming.",
+    "hq": "Burbank, California, EUA",
+    "team_size": "+225,000 global",
+    "founded": "1923",
+    "ownership": "Pública / NYSE: DIS",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "DiDi": {
+    "tagline": "La segunda plataforma de movilidad en México, detrás de Uber, con presencia en más de 100 ciudades.",
+    "about": "DiDi llegó a México en 2018 como el primer desafío real a Uber en el país. Parte del gigante chino Didi Chuxing, opera en más de 100 ciudades mexicanas —muchas de ellas ciudades medianas donde Uber no tiene presencia significativa. También opera DiDi Food, compitiendo en el segmento de entregas a domicilio con Uber Eats y Rappi. Su estrategia de precios agresivos y cobertura en ciudades secundarias le ha permitido capturar una parte importante del mercado de movilidad.",
+    "hq": "Ciudad de México",
+    "team_size": "+3,000 (MX)",
+    "founded": "2018 (MX)",
+    "ownership": "Pública / NYSE: DIDI",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Decathlon": {
+    "tagline": "La mayor cadena de artículos deportivos del mundo, en rápida expansión en México desde 2016.",
+    "about": "Decathlon llegó a México en 2016 y ha crecido hasta superar las 35 tiendas en el país. La cadena francesa, fundada en 1976, opera bajo un modelo único: diseña, fabrica y vende sus propias marcas deportivas (Quechua, Domyos, B'Twin), lo que le permite ofrecer precios muy competitivos. Compite en México con tiendas departamentales y cadenas como Martí. Su expansión en el país ha sido una de las historias de retail internacional de mayor crecimiento en la última década.",
+    "hq": "Villeneuve-d'Ascq, Francia",
+    "team_size": "+2,500 (MX)",
+    "founded": "2016 (MX)",
+    "ownership": "Privada (Grupo Mulliez)",
+    "stage": "Consolidada",
+    "last_round": "N/A"
+  },
+  "Chipotle": {
+    "tagline": "La cadena de comida rápida casual estadounidense con el mayor margen de la industria, que llega a México en 2026.",
+    "about": "Chipotle Mexican Grill es la cadena de comida rápida casual (fast casual) más rentable de EUA, fundada en Denver en 1993. En 2026 llegó a México a través de un acuerdo con Alsea, que operará la expansión local. La apertura de Chipotle en México —un restaurante que vende 'comida mexicana' en el país donde nació— ha generado debate sobre autenticidad culinaria y oportunidades de mercado. Cotiza en NYSE bajo el ticker CMG.",
+    "hq": "Newport Beach, California, EUA",
+    "team_size": "+120,000 global",
+    "founded": "1993",
+    "ownership": "Pública / NYSE: CMG",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "Alphabet": {
+    "tagline": "La empresa matriz de Google, con inversiones en infraestructura de nube e IA con impacto directo en México.",
+    "about": "Alphabet Inc. es la empresa matriz de Google, fundada en 2015 como resultado de la reestructura corporativa de Google. En México, Google tiene operaciones de ventas, un centro de ingeniería y anunció una inversión de $1,200 millones de dólares en infraestructura de nube (Google Cloud) e inteligencia artificial. La presencia de Alphabet en Whitepaper refleja el debate sobre inteligencia artificial, publicidad digital, regulación tecnológica y el impacto de las big tech en el ecosistema empresarial mexicano. Cotiza en NASDAQ bajo el ticker GOOG.",
+    "hq": "Mountain View, California, EUA",
+    "team_size": "+181,000 global",
+    "founded": "2015",
+    "ownership": "Pública / NASDAQ: GOOG",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "N/A"
+  },
+  "L Catterton": {
+    "tagline": "El mayor fondo de private equity enfocado en consumo del mundo, con inversiones clave en el ecosistema de marcas de México.",
+    "about": "L Catterton es la firma de private equity especializada en el sector de consumo más grande del mundo, con más de $35,000 millones en activos bajo gestión. Fue fundada en 1989 y tiene una alianza estratégica con LVMH y la familia Arnault. En México ha invertido en empresas como Popeyes, Sundek y otras marcas del sector consumo. Su presencia en Whitepaper refleja el creciente interés del capital privado global en marcas y empresas de consumo latinoamericanas.",
+    "hq": "Greenwich, Connecticut, EUA",
+    "team_size": "+200 global",
+    "founded": "1989",
+    "ownership": "Privada (PE)",
+    "stage": "Consolidada",
+    "last_round": "Fondo X $12,000 mdd (2023)"
   }
 }
