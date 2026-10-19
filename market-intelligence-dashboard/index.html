@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Directorio de Empresas — Whitepaper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        heading: ['"Instrument Serif"', 'Georgia', 'serif'],
+        body:    ['"Inter"', 'sans-serif'],
+      },
+      colors: {
+        background:        '#F7F7F7',
+        foreground:        '#0A0A0A',
+        'muted-foreground':'#737373',
+        border:            '#E8E8E8',
+        accent:            '#FF3838',
+      },
+      borderRadius: {
+        '2xl': '16px',
+        '3xl': '24px',
+      },
+    }
+  }
+}
+</script>
+<style>
+body {
+  background-color: #F7F7F7;
+  color: #0A0A0A;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-weight: 400;
+}
+.glass {
+  background: rgba(247, 247, 247, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(232, 232, 232, 0.8);
+}
+.glass-dark {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 16px -4px rgba(0,0,0,.08), inset 0 1px #fff;
+}
+
+/* Chips (category badges) */
+.chip { display:inline-flex; align-items:center; gap:4px; font-size:10px; font-weight:600;
+  letter-spacing:.05em; text-transform:uppercase; padding:2px 8px; border-radius:3px; white-space:nowrap; }
+.chip-Anuncios     { background:#EFF6FF; color:#1D4ED8; }
+.chip-Resultados   { background:#F0FDF4; color:#15803D; }
+.chip-Chismes      { background:#FFFBEB; color:#B45309; }
+.chip-Directivos   { background:#FAF5FF; color:#7E22CE; }
+.chip-Alertas      { background:#FEF2F2; color:#B91C1C; }
+.chip-Análisis     { background:#F0F9FF; color:#0369A1; }
+
+/* Sentiment dot */
+.sdot { width:7px; height:7px; border-radius:50%; display:inline-block; flex-shrink:0; }
+.sdot-positive { background:#16a34a; }
+.sdot-neutral  { background:#9ca3af; }
+.sdot-negative { background:#dc2626; }
+
+/* Pills (filter buttons) */
+.pill { display:inline-flex; align-items:center; gap:5px; padding:6px 12px;
+  border-radius:9999px; font-size:12px; font-weight:500; cursor:pointer;
+  transition:all .15s; background:rgba(0,0,0,.05); color:#737373; white-space:nowrap;
+  border: none; }
+.pill:hover { background:rgba(0,0,0,.08); color:#0A0A0A; }
+.pill.active { background:#0A0A0A; color:#fff; }
+
+/* A-Z buttons */
+.az-btn { min-width:28px; height:28px; display:inline-flex; align-items:center; justify-content:center;
+  font-size:11px; font-weight:500; border-radius:6px; cursor:pointer;
+  transition:all .12s; color:#737373; background:rgba(0,0,0,.04); border:none; padding:0 8px; min-width:auto; }
+.az-btn:hover { background:rgba(0,0,0,.08); color:#0A0A0A; }
+.az-btn.active { background:#0A0A0A; color:#fff; }
+
+/* Tab buttons */
+.tab-btn { padding:5px 12px; font-size:12px; font-weight:500; border-radius:9999px;
+  cursor:pointer; transition:all .15s; color:#737373; background:transparent; border:none; }
+.tab-btn:hover { color:#0A0A0A; }
+.tab-btn.active { background:#0A0A0A; color:#fff; }
+
+/* Article accordion */
+.art-item { padding:16px; border-radius:12px; cursor:pointer; margin-bottom:8px;
+  background:rgba(255,255,255,.5); border:1px solid rgba(0,0,0,.05);
+  transition:border-color .15s, box-shadow .15s; }
+.art-item:hover { border-color:rgba(0,0,0,.1); box-shadow:0 2px 8px rgba(0,0,0,.04); }
+.art-item.open { background:rgba(255,255,255,.85); border-color:rgba(0,0,0,.08); }
+.art-item.open .art-body { display:block; }
+.art-item.open .art-chevron { transform:rotate(90deg); }
+.art-item.open .art-preview { display:none; }
+.art-chevron { transition:transform .15s; }
+.art-body { display:none; margin-top:8px; }
+
+/* W badge */
+.w-badge { width:24px; height:24px; border-radius:6px; background:#0A0A0A;
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  font-size:10px; font-weight:700; color:#fff; letter-spacing:-0.5px;
+  font-family:'Inter',sans-serif; }
+
+/* Gauge */
+.gauge-pos { background:#16a34a; }
+.gauge-neu { background:#e5e7eb; }
+.gauge-neg { background:#dc2626; }
+
+/* Investment table */
+.inv-row:hover { background:rgba(0,0,0,.02); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width:5px; height:5px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:#d1d5db; border-radius:3px; }
+.scrollbar-none::-webkit-scrollbar { display:none; }
+.scrollbar-none { -ms-overflow-style:none; scrollbar-width:none; }
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════
+     NAVBAR
+     ════════════════════════════════════════════ -->
+<nav class="bg-white border-b border-[#E8E8E8] fixed top-0 left-0 right-0 z-50 h-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between relative">
+    <!-- Left -->
+    <a href="https://whitepaper.mx" target="_blank" rel="noopener"
+       class="hidden sm:block text-xs font-medium text-[#737373] hover:text-[#0A0A0A] transition-colors flex-shrink-0">
+      whitepaper.mx →
+    </a>
+    <!-- Center logo (absolutely centered) -->
+    <a class="absolute left-1/2 -translate-x-1/2 flex items-center h-8 overflow-hidden cursor-pointer"
+       onclick="goHome();return false;">
+      <img src="images/8296335b3_Whitepaper-Logo-012.png"
+           alt="Whitepaper" class="h-20 max-w-none mix-blend-multiply">
+    </a>
+    <!-- Right -->
+    <button onclick="showLoginGate()"
+       class="hidden sm:block text-xs font-medium text-[#737373] hover:text-[#0A0A0A] transition-colors flex-shrink-0 bg-transparent border-none cursor-pointer">
+      Salir
+    </button>
+  </div>
+</nav>
+
+<!-- ════════════════════════════════════════════
+     MAIN
+     ════════════════════════════════════════════ -->
+<main>
+
+  <!-- ══ DIRECTORY VIEW ══ -->
+  <div id="view-directory">
+
+    <!-- HERO -->
+    <div class="pt-32 pb-12 px-4 max-w-3xl mx-auto text-center">
+      <div id="hero-counter"
+           class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/5 text-xs font-medium text-[#737373] mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#FF3838] animate-pulse"></span>
+        <span id="counter-text">Cargando directorio…</span>
+      </div>
+
+      <h1 class="font-heading text-5xl sm:text-6xl lg:text-7xl tracking-tight leading-[1.05] mb-4">
+        El directorio de empresas mexicanas<br>
+        <span class="text-[#737373]">que tienes que conocer</span>
+      </h1>
+
+      <p class="text-base sm:text-lg text-[#737373] max-w-xl mx-auto mb-10 leading-relaxed">
+        Inteligencia de mercado extraída de los newsletters de
+        <a href="https://whitepaper.mx" target="_blank" rel="noopener"
+           class="text-[#FF3838] hover:underline font-medium">whitepaper.mx</a>.
+        Actualizado semanalmente.
+      </p>
+
+      <div class="relative max-w-xl mx-auto">
+        <i data-lucide="search"
+           class="absolute left-5 top-1/2 -translate-y-1/2 w-5 h-5 text-[#737373] pointer-events-none"></i>
+        <input id="search" type="text" placeholder="Buscar empresa, sector…"
+          class="w-full h-16 pl-14 pr-4 rounded-2xl bg-black/[0.03] border border-[#E8E8E8] text-base
+                 text-[#0A0A0A] placeholder:text-[#737373]/60 focus:outline-none
+                 focus:ring-2 focus:ring-[#FF3838]/20 focus:border-[#FF3838]/30 transition-all">
+        <div id="autocomplete"
+             class="absolute top-[calc(100%+8px)] left-0 right-0 bg-white border border-[#E8E8E8]
+                    rounded-2xl shadow-xl z-50 max-h-72 overflow-y-auto hidden"></div>
+      </div>
+    </div>
+
+    <!-- FILTER BAR (sticky) -->
+    <div class="sticky top-16 z-40 bg-[#F7F7F7]/90 backdrop-blur-sm border-b border-[#E8E8E8]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 space-y-2.5">
+        <!-- Main tabs -->
+        <div class="flex gap-1 items-center" id="main-tabs">
+          <button id="tab-dir" class="tab-btn active" onclick="switchTab('directory')">Directorio</button>
+          <button id="tab-inv" class="tab-btn"        onclick="switchTab('investment')">Proyectos &amp; Inversión</button>
+          <span class="flex-1"></span>
+          <span class="text-xs text-[#737373] hidden sm:block" id="result-count"></span>
+        </div>
+        <!-- A-Z -->
+        <div id="az-nav"      class="flex flex-wrap gap-1"></div>
+        <!-- Quick pills -->
+        <div id="quick-pills" class="flex flex-wrap gap-1.5"></div>
+        <!-- Sector pills -->
+        <div id="sector-pills" class="flex flex-wrap gap-1"></div>
+      </div>
+    </div>
+
+    <!-- GRID CONTAINER (dir) -->
+    <div id="dir-content">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div id="company-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+        <div id="load-more-wrap" class="mt-10 text-center hidden">
+          <button onclick="loadMore()"
+            class="px-8 py-3 bg-[#0A0A0A] text-white text-sm font-medium rounded-full
+                   hover:bg-[#1a1a1a] transition-colors">
+            Cargar más
+          </button>
+          <p class="text-xs text-[#737373] mt-2" id="pager-label"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- INVESTMENT CONTENT (hidden by default, shown on tab switch) -->
+    <div id="inv-content" class="hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="mb-6">
+          <p class="text-xs font-medium tracking-widest uppercase text-[#737373] mb-1">Whitepaper Intelligence</p>
+          <h2 class="font-heading text-4xl tracking-tight mb-2">Índice de Inversión &amp; Capex</h2>
+          <p class="text-sm text-[#737373] max-w-xl">
+            Anuncios de inversión, aperturas, adquisiciones y proyectos de capital
+            identificados en los newsletters 2022–2026.
+          </p>
+          <div class="flex items-center gap-4 mt-3 flex-wrap">
+            <span class="text-xs text-[#737373]" id="inv-count-label"></span>
+            <div class="flex gap-1" id="inv-year-filter"></div>
+          </div>
+        </div>
+        <div id="investment-table"></div>
+      </div>
+    </div>
+
+  </div><!-- /view-directory -->
+
+
+  <!-- ══ DETAIL VIEW ══ -->
+  <div id="view-detail" class="hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-24 pb-16">
+
+      <button onclick="goHome()"
+        class="inline-flex items-center gap-1.5 text-sm text-[#737373] hover:text-[#0A0A0A] transition-colors mb-8">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        Directorio
+      </button>
+
+      <!-- Company header (title + sector tags) -->
+      <div id="co-header"></div>
+
+      <!-- Tagline + About (between header and KPIs) -->
+      <div id="tagline-about"></div>
+
+      <!-- KPI grid -->
+      <div id="kpi-row" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mb-10"></div>
+
+      <!-- About (legacy slot, kept empty) -->
+      <div id="about-section"></div>
+
+      <!-- Event filter (sticky in detail) -->
+      <div class="sticky top-16 z-40 bg-[#F7F7F7]/90 backdrop-blur-sm border-b border-[#E8E8E8]
+                  -mx-4 sm:-mx-6 px-4 sm:px-6 py-3 mb-6">
+        <div id="event-filter-bar" class="flex gap-1.5 overflow-x-auto scrollbar-none"></div>
+      </div>
+
+      <!-- Timeline -->
+      <div id="timeline"></div>
+
+    </div>
+  </div><!-- /view-detail -->
+
+</main>
+
+<!-- ════════════════════════════════════════════
+     CTA BANNER
+     ════════════════════════════════════════════ -->
+<div id="cta-section" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+  <div class="rounded-3xl bg-black/[0.03] border border-black/5 px-6 py-6 sm:px-10 sm:py-7 text-center">
+    <div class="w-8 h-8 rounded-full bg-foreground/5 flex items-center justify-center mb-2.5 mx-auto">
+      <i data-lucide="shield-alert" class="w-4 h-4 text-muted-foreground"></i>
+    </div>
+    <h3 class="font-heading text-lg sm:text-xl tracking-tight mb-3 text-foreground">Aviso de uso privado y demostración técnica</h3>
+    <div class="space-y-2 max-w-5xl mx-auto">
+      <p class="text-xs leading-relaxed text-muted-foreground">
+        Este panel es un proyecto técnico independiente de carácter exclusivamente personal y sin fines de lucro. Los textos y contenidos analizados son propiedad de Whitepaper y se procesan únicamente a partir de una suscripción legítima. No constituye redistribución, afiliación ni respaldo oficial por parte del emisor.
+      </p>
+      <p class="text-xs leading-relaxed text-muted-foreground">
+        Con el fin de respetar y valorar el trabajo de curaduría periodística de Whitepaper, la información visible en este panel está deliberadamente incompleta, resumida o desactualizada, y nos reservamos el acceso a la base de datos íntegra. Esta versión se comparte públicamente de forma exclusiva como un caso de estudio técnico. Su objetivo es ilustrar cómo la Inteligencia Artificial puede transformar datos en inteligencia de mercado —por ejemplo, identificando empresas en planes de expansión para ofrecerles soluciones B2B— mejorando la toma de decisiones estratégicas.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════════ -->
+<footer class="border-t border-black/5 py-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-xs text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+      Proyecto personal no oficial de uso privado. Las marcas comerciales y nombres corporativos pertenecen a sus respectivos dueños. La información, curaduría de datos, artículos, análisis y opiniones editoriales sobre las empresas pertenecen a <a href="https://whitepaper.mx" target="_blank" rel="noopener" class="hover:text-[#0A0A0A] transition-colors underline">Whitepaper.mx</a>.
+    </p>
+    <span class="text-xs text-muted-foreground block mt-2" id="footer-stats"></span>
+  </div>
+</footer>
+
+<!-- ════════════════════════════════════════════
+     JAVASCRIPT
+     ════════════════════════════════════════════ -->
+<script>
+let COMPANIES = [], INVESTMENT = [];
+
+/* ══ STATE ══════════════════════════════════════════════════ */
+const S = {
+  tab:         'directory',
+  letter:      'all',
+  quick:       'all',
+  sector:      'all',
+  query:       '',
+  activeCo:    null,
+  eventFilter: 'all',
+  page:        0,
+  invYear:     'all',
+};
+const PAGE = 24;
+
+/* ══ HELPERS ════════════════════════════════════════════════ */
+const $ = id => document.getElementById(id);
+function show(id){ const el=$(id); if(el) el.classList.remove('hidden'); }
+function hide(id){ const el=$(id); if(el) el.classList.add('hidden'); }
+
+function fmtDate(d){
+  const [y,m,day] = d.split('-');
+  const M = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  return `${+day} ${M[+m]} ${y}`;
+}
+function getYear(d){ return d.slice(0,4); }
+
+function peakYear(entries){
+  if(!entries||!entries.length) return '—';
+  const c = {};
+  entries.forEach(e=>{ const y=getYear(e.date); c[y]=(c[y]||0)+1; });
+  return Object.keys(c).reduce((a,b)=>c[a]>c[b]?a:b,'—');
+}
+function sentStats(entries){
+  let p=0,n=0,u=0;
+  (entries||[]).forEach(e=>{
+    if(e.sentiment==='positive')p++;
+    else if(e.sentiment==='negative')n++;
+    else u++;
+  });
+  const t = entries.length || 1;
+  return {p,n,u,pp:Math.round(p/t*100),pn:Math.round(n/t*100),pu:Math.round(u/t*100)};
+}
+function topCat(entries){
+  if(!entries||!entries.length) return '—';
+  const c = {};
+  entries.forEach(e=>{ c[e.cat]=(c[e.cat]||0)+1; });
+  return Object.keys(c).reduce((a,b)=>c[a]>c[b]?a:b,'—');
+}
+function chipCls(cat){
+  const m = {
+    'Anuncios':'chip-Anuncios','Resultados':'chip-Resultados',
+    'Chismes de Mercado':'chip-Chismes','Movimientos Directivos':'chip-Directivos',
+    'Alertas/Caídas':'chip-Alertas','Análisis':'chip-Análisis',
+  };
+  return m[cat]||'chip-Anuncios';
+}
+function toSlug(name){ return (name||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+
+/* ══ FILTER ═════════════════════════════════════════════════ */
+function getFiltered(){
+  let list = COMPANIES;
+  if(S.letter !== 'all'){
+    if(S.letter==='#') list = list.filter(c=>!/^[a-záéíóúüñ]/i.test(c.name||''));
+    else list = list.filter(c=>(c.name||'').toUpperCase().startsWith(S.letter));
+  }
+  switch(S.quick){
+    case 'top25':
+      const t25 = new Set([...COMPANIES].sort((a,b)=>(b.entries||[]).length-(a.entries||[]).length).slice(0,25).map(c=>c.id));
+      list = list.filter(c=>t25.has(c.id)); break;
+    case 'mexico':        list = list.filter(c=>c.origin==='mexico'); break;
+    case 'international': list = list.filter(c=>c.origin!=='mexico'); break;
+    case 'positive':      list = list.filter(c=>(c.sentiment_score||0)>0); break;
+    case 'alerts':        list = list.filter(c=>c.has_alerts===true); break;
+  }
+  if(S.sector !== 'all') list = list.filter(c=>(c.sector||'').split('/')[0].trim()===S.sector);
+  if(S.query){
+    const q = S.query.toLowerCase();
+    list = list.filter(c=>
+      (c.name||'').toLowerCase().includes(q)||
+      (c.sector||'').toLowerCase().includes(q)||
+      (c.city||'').toLowerCase().includes(q)
+    );
+  }
+  return list;
+}
+
+/* ══ INIT STATS ═════════════════════════════════════════════ */
+function initStats(){
+  const total = COMPANIES.length;
+  const evts  = COMPANIES.reduce((s,c)=>s+(c.entries||[]).length,0);
+  $('counter-text').textContent = `${total} empresas en el directorio`;
+  $('footer-stats').textContent = `${total} empresas · ${evts.toLocaleString()} eventos`;
+  // nav-right removed in navbar redesign
+}
+
+/* ══ A-Z NAV ════════════════════════════════════════════════ */
+function buildAZ(){
+  const letters = ['Todos',...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''),'#'];
+  $('az-nav').innerHTML = letters.map(l=>{
+    const key = l==='Todos'?'all':l;
+    return `<button class="az-btn ${S.letter===key?'active':''}"
+      onclick="setLetter('${key}')">${l}</button>`;
+  }).join('');
+}
+function setLetter(l){ S.letter=l; S.page=0; buildAZ(); renderGrid(); }
+
+/* ══ QUICK PILLS ════════════════════════════════════════════ */
+const PILLS = [
+  {key:'all',         label:'Todas'},
+  {key:'top25',       label:'🔥 Más mencionadas'},
+  {key:'mexico',      label:'🇲🇽 Solo México'},
+  {key:'international',label:'🌎 Internacionales'},
+  {key:'positive',    label:'📈 Positivas'},
+  {key:'alerts',      label:'⚠️ Alertas'},
+];
+function buildPills(){
+  $('quick-pills').innerHTML = PILLS.map(p=>`
+    <button class="pill ${S.quick===p.key?'active':''}" onclick="setQuick('${p.key}')">
+      ${p.label}
+    </button>`).join('');
+}
+function setQuick(q){ S.quick=q; S.page=0; buildPills(); renderGrid(); }
+
+/* ══ SECTOR PILLS ═══════════════════════════════════════════ */
+function buildSectorPills(){
+  const sectors = [...new Set(COMPANIES.map(c=>(c.sector||'').split('/')[0].trim()))].sort();
+  $('sector-pills').innerHTML =
+    `<button class="az-btn ${S.sector==='all'?'active':''}" onclick="setSector('all')">Todos los sectores</button>` +
+    sectors.map(s=>`
+      <button class="az-btn ${S.sector===s?'active':''}" onclick="setSector('${s.replace(/'/g,"\'")}')">
+        ${s}
+      </button>`).join('');
+}
+function setSector(s){ S.sector=s; S.page=0; buildSectorPills(); renderGrid(); }
+
+/* ══ COMPANY GRID ═══════════════════════════════════════════ */
+function renderGrid(){
+  const filtered = getFiltered();
+  const slice    = filtered.slice(0, (S.page+1)*PAGE);
+  const grid     = $('company-grid');
+
+  const rc = $('result-count');
+  if(rc) rc.textContent = filtered.length < COMPANIES.length
+    ? `${filtered.length} de ${COMPANIES.length} empresas`
+    : `${COMPANIES.length} empresas`;
+
+  if(!filtered.length){
+    grid.innerHTML = `<div class="col-span-3 text-center py-20 text-[#737373] text-sm">
+      Sin resultados para este filtro</div>`;
+    hide('load-more-wrap');
+    if(typeof lucide !== 'undefined') lucide.createIcons();
+    return;
+  }
+
+  grid.innerHTML = slice.map(c=>{
+    try {
+      const entries  = c.entries||[];
+      const initial  = (c.name||'?').charAt(0).toUpperCase();
+      const sec      = (c.sector||'').split('/')[0].trim();
+      const tagline  = c.tagline || c.about || c.summary || '';
+      const preview  = tagline.replace(/<[^>]+>/g,'').slice(0,110);
+      const team     = c.team_size || '';
+      const location = c.city || c.hq || 'México';
+      const s        = sentStats(entries);
+      const sentColor= s.pp>=55?'text-green-700':s.pn>=35?'text-red-600':'text-[#737373]';
+      const sentTxt  = s.pp>=55?'Positiva':s.pn>=35?'Alertas':'Neutral';
+      return `
+        <div class="relative glass-dark rounded-2xl p-6 h-full transition-all duration-300
+                    hover:-translate-y-1 hover:shadow-xl hover:shadow-black/10 cursor-pointer group"
+             onclick="showCo('${c.id}')">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="w-12 h-12 rounded-xl bg-white border border-black/5 flex items-center
+                        justify-center font-heading text-2xl text-[#0A0A0A] flex-shrink-0">
+              ${initial}
+            </div>
+            <div class="flex-1 min-w-0">
+              <h3 class="font-heading text-[1.65rem] leading-tight group-hover:text-[#FF3838]
+                         transition-colors truncate">${c.name}</h3>
+              <span class="inline-block mt-1 text-[11px] font-medium uppercase tracking-wider
+                           text-[#737373] bg-black/5 px-2 py-0.5 rounded-full">${sec}</span>
+            </div>
+          </div>
+          ${preview ? `<p class="text-sm text-[#737373] leading-relaxed line-clamp-2 mb-5">${preview}${tagline.length>110?'…':''}</p>` : `<div class="mb-5"></div>`}
+          <div class="flex items-center justify-between pt-4 border-t border-black/5 text-xs text-[#737373]">
+            <div class="flex items-center gap-3">
+              ${entries.length ? `<span class="flex items-center gap-1"><i data-lucide="newspaper" class="w-3.5 h-3.5"></i> ${entries.length} art.</span>` : ''}
+              <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i> ${location}</span>
+            </div>
+            <i data-lucide="arrow-up-right" class="w-4 h-4 text-[#737373] group-hover:text-[#FF3838]
+               group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+          </div>
+        </div>`;
+    } catch(err){
+      return `<div class="glass-dark rounded-2xl p-6 text-[#737373] text-xs">Error: ${c.name||'?'}</div>`;
+    }
+  }).join('');
+
+  const remaining = filtered.length - slice.length;
+  if(remaining>0){
+    show('load-more-wrap');
+    $('pager-label').textContent = `Mostrando ${slice.length} de ${filtered.length}`;
+  } else {
+    hide('load-more-wrap');
+  }
+
+  if(typeof lucide !== 'undefined') lucide.createIcons();
+}
+function loadMore(){ S.page++; renderGrid(); }
+
+/* ══ SEARCH / AUTOCOMPLETE ══════════════════════════════════ */
+const searchEl = $('search');
+const acEl     = $('autocomplete');
+
+searchEl.addEventListener('input',()=>{
+  S.query = searchEl.value.trim();
+  S.page  = 0;
+  renderGrid();
+  if(!S.query){ hide('autocomplete'); return; }
+  const q = S.query.toLowerCase();
+  const matches = COMPANIES.filter(c=>
+    (c.name||'').toLowerCase().includes(q)||(c.sector||'').toLowerCase().includes(q)
+  ).slice(0,8);
+  if(!matches.length){ hide('autocomplete'); return; }
+  acEl.innerHTML = matches.map(c=>`
+    <div class="px-4 py-3 hover:bg-black/[0.03] cursor-pointer flex items-center gap-3
+                border-b border-[#E8E8E8] last:border-0" onclick="showCo('${c.id}')">
+      <div class="w-8 h-8 rounded-lg bg-[#F7F7F7] border border-[#E8E8E8] flex items-center
+                  justify-center font-heading text-sm flex-shrink-0">
+        ${(c.name||'?').charAt(0).toUpperCase()}
+      </div>
+      <div class="flex-1 min-w-0">
+        <p class="text-sm font-medium text-[#0A0A0A] truncate">${c.name}</p>
+        <p class="text-xs text-[#737373]">${c.sector||''} · ${c.city||''}</p>
+      </div>
+      <span class="text-xs text-[#737373] flex-shrink-0">${(c.entries||[]).length} art.</span>
+    </div>`).join('');
+  show('autocomplete');
+  if(typeof lucide !== 'undefined') lucide.createIcons();
+});
+searchEl.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){ hide('autocomplete'); searchEl.blur(); }
+});
+document.addEventListener('click',e=>{
+  if(!e.target.closest('.relative')) hide('autocomplete');
+});
+
+/* ══ TAB SWITCHING ══════════════════════════════════════════ */
+function switchTab(tab){
+  S.tab = tab;
+  $('tab-dir').classList.toggle('active', tab==='directory');
+  $('tab-inv').classList.toggle('active', tab==='investment');
+
+  if(tab==='investment'){
+    hide('dir-content');
+    show('inv-content');
+    renderInvestment();
+  } else {
+    hide('inv-content');
+    show('dir-content');
+  }
+}
+
+/* ══ DETAIL VIEW ════════════════════════════════════════════ */
+function showCo(id){
+  const co = COMPANIES.find(c=>c.id===id);
+  if(!co) return;
+  S.activeCo    = co;
+  S.eventFilter = 'all';
+  S.tab         = 'detail';
+  hide('view-directory');
+  hide('cta-section');
+  show('view-detail');
+  hide('autocomplete');
+  searchEl.value = '';
+  S.query = '';
+  renderCoHeader(co);
+  renderTaglineAbout(co);
+  renderKPIs(co);
+  renderEventFilterBar(co);
+  renderTimeline(co);
+  window.scrollTo({top:0, behavior:'instant'});
+  if(typeof lucide !== 'undefined') lucide.createIcons();
+}
+
+function goHome(){
+  S.activeCo = null;
+  S.tab      = 'directory';
+  hide('view-detail');
+  show('view-directory');
+  show('cta-section');
+  $('tab-dir').classList.add('active');
+  $('tab-inv').classList.remove('active');
+  // Restore correct sub-tab content
+  show('dir-content');
+  hide('inv-content');
+}
+
+/* ── Company Header (title + sector tags only) ── */
+function renderCoHeader(c){
+  const sec      = (c.sector||'').split('/')[0].trim();
+  const web      = c.website || '';
+  const webLabel = web.replace(/^https?:\/\/(www\.)?/,'').replace(/\/.*/,'');
+
+  $('co-header').innerHTML = `
+    <div class="mb-4">
+      <div class="flex flex-wrap items-center gap-2 mb-3">
+        <span class="text-xs font-medium uppercase tracking-wider text-[#737373] bg-black/5
+                     px-2.5 py-1 rounded-full">${sec}</span>
+        <span class="text-xs font-medium text-[#737373] bg-black/5 px-2.5 py-1 rounded-full">
+          ${c.origin==='mexico'?'🇲🇽 México':'🌎 Internacional'}
+        </span>
+        ${web ? `<a href="${web}" target="_blank" rel="noopener"
+          class="inline-flex items-center gap-1 text-xs text-[#737373] hover:text-[#0A0A0A]
+                 transition-colors border border-[#E8E8E8] rounded-full px-3 py-1
+                 hover:border-[#0A0A0A]/20 bg-white">
+          ${webLabel}
+          <i data-lucide="external-link" class="w-3 h-3"></i></a>` : ''}
+      </div>
+      <h1 class="font-heading text-5xl tracking-tight leading-tight text-[#0A0A0A]">${c.name}</h1>
+    </div>`;
+}
+
+/* ── Tagline + About (between header and KPIs) ── */
+function renderTaglineAbout(c){
+  const tagline = c.tagline || 'Empresa destacada en el ecosistema de negocios de México.';
+  const about   = c.about   || '';
+  // Skip synthetic extractor summaries in about
+  const aboutClean = (about && !about.includes('acumuló') && !about.includes('registros entre'))
+    ? about : '';
+
+  $('tagline-about').innerHTML = `
+    <p class="text-lg text-[#737373] leading-relaxed mt-2 mb-8">${tagline}</p>
+    ${aboutClean ? `
+    <div class="mb-10">
+      <h2 class="font-body font-bold text-lg mb-3 text-[#0A0A0A]">Acerca de</h2>
+      <p class="text-sm text-[#737373] leading-relaxed whitespace-pre-line">${aboutClean}</p>
+    </div>` : ''}`;
+}
+
+/* ── KPIs ── */
+function renderKPIs(c){
+  function card(icon, label, value){
+    if(!value||value==='—'||value==='No disponible') return '';
+    return `<div class="glass-dark rounded-xl p-4">
+      <i data-lucide="${icon}" class="w-4 h-4 text-[#737373] mb-2"></i>
+      <p class="text-xs text-[#737373] mb-0.5">${label}</p>
+      <p class="font-medium text-sm text-[#0A0A0A]">${value}</p>
+    </div>`;
+  }
+
+  $('kpi-row').innerHTML = [
+    card('map-pin',    'Headquarters', c.hq || c.city || null),
+    card('users',      'Equipo',       c.team_size || null),
+    card('calendar',   'Fundada',      c.founded ? String(c.founded) : null),
+    card('building-2', 'Propiedad',    c.ownership || null),
+    card('trending-up','Serie',        c.stage || c.funding_stage || null),
+    card('coins',      'Última ronda', c.last_round || null),
+  ].filter(Boolean).join('');
+}
+
+/* ── About ── */
+function renderAbout(c){
+  const raw = (c.about||'').trim();
+  if(!raw||raw.includes('acumuló')||raw.includes('registros entre')){
+    $('about-section').innerHTML=''; return;
+  }
+  $('about-section').innerHTML = `
+    <div class="pt-8 border-t border-[#E8E8E8]">
+      <h2 class="font-body font-bold text-lg mb-3 text-[#0A0A0A]">Acerca de</h2>
+      <p class="text-sm text-[#737373] leading-relaxed whitespace-pre-line">${raw}</p>
+    </div>`;
+}
+
+/* ── Event Filter Bar ── */
+const ALL_CATS = ['Anuncios','Resultados','Chismes de Mercado','Movimientos Directivos','Alertas/Caídas','Análisis'];
+function renderEventFilterBar(c){
+  const entries = c.entries||[];
+  const counts  = {};
+  ALL_CATS.forEach(cat=>{ counts[cat]=entries.filter(e=>e.cat===cat).length; });
+
+  function pill(label, key, count){
+    const active = S.eventFilter===key;
+    const badge  = count!=null
+      ? ` <span class="${active?'opacity-60':'text-[#737373]'} text-[11px]">${count}</span>` : '';
+    return `<button
+      class="pill ${active?'active':''}"
+      onclick="setEvFilter('${key.replace(/'/g,"\'")}')">${label}${badge}</button>`;
+  }
+
+  $('event-filter-bar').innerHTML =
+    pill('Todos','all',entries.length) +
+    ALL_CATS.filter(cat=>counts[cat]>0).map(cat=>pill(cat,cat,counts[cat])).join('');
+}
+function setEvFilter(f){
+  S.eventFilter=f;
+  renderEventFilterBar(S.activeCo);
+  renderTimeline(S.activeCo);
+}
+
+/* ── Body formatter ── */
+function fmtBody(text){
+  if(!text) return '';
+  return text.split(/\n\n+/).map(p=>{
+    p = p.trim();
+    if(!p) return '';
+    return `<p class="mb-3 text-sm text-[#737373] leading-relaxed">${p}</p>`;
+  }).join('');
+}
+
+/* ── Timeline ── */
+function renderTimeline(c){
+  const entries = c.entries||[];
+  let list = S.eventFilter==='all' ? [...entries] :
+    entries.filter(e=>e.cat===S.eventFilter);
+  list.sort((a,b)=>b.date.localeCompare(a.date));
+
+  const total       = list.length;
+  const sectionHead = `<div class="flex items-center justify-between mb-6">
+    <div>
+      <h2 class="font-body font-bold text-lg text-[#0A0A0A]">Artículos Whitepaper</h2>
+      <p class="text-xs text-[#737373] mt-0.5">${total} registro${total!==1?'s':''} · René Lankenau</p>
+    </div>
+  </div>`;
+
+  if(!total){
+    $('timeline').innerHTML = sectionHead +
+      `<div class="text-center py-12 text-[#737373] text-sm">Sin artículos para este filtro</div>`;
+    return;
+  }
+
+  const byYear = {};
+  list.forEach(e=>{ const y=getYear(e.date); if(!byYear[y]) byYear[y]=[]; byYear[y].push(e); });
+  const years = Object.keys(byYear).sort((a,b)=>b-a);
+
+  $('timeline').innerHTML = sectionHead + years.map(yr=>`
+    <div class="mb-8">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="font-heading text-2xl text-[#0A0A0A]">${yr}</span>
+        <div class="flex-1 h-px bg-[#E8E8E8]"></div>
+        <span class="text-xs text-[#737373]">${byYear[yr].length} art.</span>
+      </div>
+      <div class="space-y-2">
+        ${byYear[yr].map((e,i)=>{
+          const aid  = `a-${yr}-${i}`;
+          const cc   = chipCls(e.cat);
+          const sc   = `sdot-${e.sentiment||'neutral'}`;
+          const preview    = (e.body||e.snippet||'').slice(0,150).trimEnd();
+          const previewTxt = preview
+            ? (preview.length < (e.body||'').length ? preview+'…' : preview)
+            : '';
+          const q    = e.quote
+            ? `<div class="mt-3 pl-3 border-l-2 border-[#E8E8E8]">
+                 <p class="text-xs text-[#737373] italic">${e.quote}</p></div>` : '';
+          const hasBody = !!(e.body && e.body.length > 150);
+          return `
+            <div class="art-item" id="${aid}" onclick="toggleArt('${aid}')">
+              <div class="flex items-start gap-3">
+                <div class="w-badge mt-0.5">W</div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+                    <span class="text-xs text-[#737373]">René Lankenau</span>
+                    <span class="text-[#E8E8E8] text-xs">·</span>
+                    <span class="text-xs text-[#737373] tabular-nums">${fmtDate(e.date)}</span>
+                    <span class="chip ${cc}">${e.cat}</span>
+                    <span class="sdot ${sc}"></span>
+                  </div>
+                  <div class="flex items-start gap-2">
+                    <p class="text-sm text-[#0A0A0A] leading-snug flex-1
+                               hover:text-[#FF3838] transition-colors cursor-pointer">
+                      ${e.headline||'Artículo Whitepaper'}
+                    </p>
+                    ${hasBody ? `
+                    <svg class="art-chevron w-3.5 h-3.5 text-[#737373] mt-0.5 flex-shrink-0"
+                         fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                      <path d="M9 18l6-6-6-6"/>
+                    </svg>` : ''}
+                  </div>
+                  ${previewTxt ? `<p class="text-xs text-[#737373] leading-relaxed mt-1.5 art-preview">${previewTxt}</p>` : ''}
+                  <div class="art-body">
+                    <div class="mt-3 pt-3 border-t border-[#E8E8E8]">
+                      ${fmtBody(e.body||e.snippet||'')}
+                    </div>
+                    ${q}
+                  </div>
+                </div>
+              </div>
+            </div>`;
+        }).join('')}
+      </div>
+    </div>`).join('');
+}
+function toggleArt(id){
+  document.getElementById(id).classList.toggle('open');
+}
+
+/* ══ INVESTMENT INDEX ═══════════════════════════════════════ */
+function renderInvestment(){
+  const years = ['all',...new Set(INVESTMENT.map(e=>getYear(e.date)))].sort();
+  $('inv-year-filter').innerHTML = years.map(y=>`
+    <button class="az-btn ${S.invYear===y?'active':''}" onclick="setInvYear('${y}')">
+      ${y==='all'?'Todos':y}
+    </button>`).join('');
+
+  const list = S.invYear==='all' ? INVESTMENT :
+    INVESTMENT.filter(e=>getYear(e.date)===S.invYear);
+
+  $('inv-count-label').textContent = `${list.length} proyectos identificados`;
+
+  if(!list.length){
+    $('investment-table').innerHTML = `<div class="text-center py-16 text-[#737373] text-sm">Sin resultados</div>`;
+    return;
+  }
+
+  $('investment-table').innerHTML = `
+    <div class="glass-dark rounded-2xl overflow-hidden">
+      <table class="w-full text-sm">
+        <thead class="border-b border-[#E8E8E8]">
+          <tr>
+            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider">Empresa</th>
+            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider hidden sm:table-cell">Sector</th>
+            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider">Monto</th>
+            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider">Fecha</th>
+            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider hidden lg:table-cell">Proyecto</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-[#E8E8E8]/60">
+          ${list.map(e=>`
+            <tr class="inv-row cursor-pointer transition-colors" onclick="showCo('${toSlug(e.company)}')">
+              <td class="px-5 py-3 font-medium text-sm text-[#0A0A0A]">${e.company}</td>
+              <td class="px-5 py-3 text-xs text-[#737373] hidden sm:table-cell">${(e.sector||'').split('/')[0].trim()}</td>
+              <td class="px-5 py-3 text-xs font-medium text-green-700">
+                ${e.amount||'<span class="text-[#737373]">—</span>'}
+              </td>
+              <td class="px-5 py-3 text-xs text-[#737373] tabular-nums">${fmtDate(e.date)}</td>
+              <td class="px-5 py-3 text-xs text-[#737373] hidden lg:table-cell max-w-xs">
+                <span class="line-clamp-2">${e.headline||''}</span>
+              </td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>`;
+}
+function setInvYear(y){ S.invYear=y; renderInvestment(); }
+
+/* ══ LOGIN GATE ══════════════════════════════════════════════ */
+function showLoginGate(){
+  hide('view-directory');
+  hide('view-detail');
+  hide('cta-section');
+  // Show a minimal login/access gate overlay
+  let gate = $('login-gate');
+  if(!gate){
+    gate = document.createElement('div');
+    gate.id = 'login-gate';
+    gate.className = 'fixed inset-0 z-[100] bg-[#F7F7F7] flex flex-col items-center justify-center px-4';
+    gate.innerHTML = `
+      <img src="images/8296335b3_Whitepaper-Logo-012.png" alt="Whitepaper" class="h-6 w-auto object-contain mb-12">
+      <div class="w-full max-w-sm">
+        <h2 class="font-heading text-3xl tracking-tight text-center mb-2">Accede al directorio</h2>
+        <p class="text-sm text-[#737373] text-center mb-8">Exclusivo para suscriptores de Whitepaper.</p>
+        <a href="https://whitepaper.mx" target="_blank" rel="noopener"
+           class="block w-full text-center py-3 bg-[#0A0A0A] text-white text-sm font-medium rounded-full
+                  hover:bg-[#1a1a1a] transition-colors">
+          Suscríbete en whitepaper.mx
+        </a>
+        <button onclick="hideLoginGate()"
+          class="block w-full text-center mt-3 py-3 text-sm text-[#737373] hover:text-[#0A0A0A] transition-colors cursor-pointer bg-transparent border-none">
+          Volver al directorio
+        </button>
+      </div>`;
+    document.body.appendChild(gate);
+  } else {
+    gate.classList.remove('hidden');
+  }
+}
+function hideLoginGate(){
+  const gate = $('login-gate');
+  if(gate) gate.classList.add('hidden');
+  show('view-directory');
+  show('cta-section');
+}
+
+/* ══ INIT ════════════════════════════════════════════════════ */
+async function initApp(){
+  try {
+    const res  = await fetch('./data.json?v=' + Date.now());
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    COMPANIES  = data.companies  || [];
+    INVESTMENT = data.investment || [];
+    console.log(`[WP] data.json loaded: ${COMPANIES.length} empresas`);
+    // Verify first company has enriched fields
+    if(COMPANIES[0]) {
+      const c = COMPANIES[0];
+      console.log('[WP] sample fields:', {hq:c.hq, stage:c.stage, last_round:c.last_round});
+    }
+  } catch(err){
+    console.error('[WP] Error cargando data.json:', err);
+    $('counter-text').textContent = 'Error al cargar los datos';
+    return;
+  }
+  initStats();
+  buildAZ();
+  buildPills();
+  buildSectorPills();
+  renderGrid();
+  if(typeof lucide !== 'undefined') lucide.createIcons();
+  console.log(`[WP Directorio] ${COMPANIES.length} empresas · ${INVESTMENT.length} eventos de inversión`);
+}
+initApp();
+</script>
+</body>
+</html>

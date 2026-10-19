@@ -1,0 +1,38 @@
+# Source data (too large and private)
+mbox/
+*.mbox
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment variables / secrets
+.env
+.env.*
+*.log
+temp/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Newsletter content — propiedad intelectual de Whitepaper.mx
+# Regenerable ejecutando: python3 run_pipeline.py
+brief_year_md/
+extracted_v4.json
+
+# Old intermediate artifacts
+extracted_all.json
+extracted_v2.json
+extracted_v3.json
+extracted_v3_enriched.json
+companies_data.json
+
+# Editor
+.idea/
+.vscode/
+*.swp

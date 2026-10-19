@@ -1,0 +1,732 @@
+{
+  "Arca Continental": {
+    "tagline": "La segunda embotelladora de Coca-Cola más grande del mundo, desde Monterrey.",
+    "about": "Arca Continental es la segunda embotelladora de Coca-Cola del planeta por volumen, resultado de la fusión en 2011 de Grupo Continental y Arca. Desde Monterrey opera territorios exclusivos en México, Ecuador, Perú, Argentina y el suroeste de Estados Unidos. Con más de 60,000 empleados y marcas como Topo Chico, Deep RiverRock y Peak, se ha consolidado como un actor global dentro del sistema Coca-Cola. Sus acciones cotizan en la Bolsa Mexicana de Valores bajo el ticker AC.",
+    "hq": "Monterrey, NL",
+    "team_size": "+60,000",
+    "founded": "1926",
+    "ownership": "Pública / BMV: AC",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "IPO histórico; fusión 2011"
+  },
+  "Modelo": {
+    "tagline": "Cervecera creadora de Corona y líder histórica en México, hoy subsidiaria de AB InBev.",
+    "about": "Fundado en 1925, Grupo Modelo es la cervecera más icónica de México y la exportadora de Corona a más de 180 países. En 2013, tras años de negociaciones, AB InBev adquirió el 100% de la empresa en una transacción histórica de $20,000 millones de dólares. Mantiene un duopolio en el mercado cervecero nacional frente a Heineken-Cuauhtémoc Moctezuma, y opera la cadena de tiendas de conveniencia Modelorama. Su planta de Zacatecas es una de las cervecerías de mayor capacidad en el mundo.",
+    "hq": "Ciudad de México",
+    "team_size": "+40,000",
+    "founded": "1925",
+    "ownership": "Subsidiaria de AB InBev",
+    "stage": "Consolidada",
+    "last_round": "Adquisición AB InBev 2013"
+  },
+  "Bimbo": {
+    "tagline": "La panificadora más grande del mundo, con presencia en más de 34 países.",
+    "about": "Fundado en 1945 en Ciudad de México por los hermanos Servitje, Grupo Bimbo es hoy la empresa panificadora más grande del planeta. Opera más de 200 marcas — Bimbo, Marinela, Wonder, Sara Lee, Entenmann's — y distribuye sus productos a través de una red de +1,000 centros de distribución y 67,000 rutas directas al consumidor. Su expansión global se aceleró con las adquisiciones de Sara Lee (2011) y Canada Bread (2014). Cotiza en la BMV bajo el ticker BIMBOA.",
+    "hq": "Ciudad de México",
+    "team_size": "+140,000",
+    "founded": "1945",
+    "ownership": "Pública / BMV: BIMBOA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión Asia-Pacífico 2024"
+  },
+  "Citibanamex": {
+    "tagline": "La institución financiera más antigua de México, en proceso de independización de Citigroup.",
+    "about": "Banamex fue fundado en 1884 y es la institución financiera de mayor historia en México. Citigroup la adquirió en 2001 por $12,500 millones de dólares en la mayor transacción financiera en la historia del país. En 2022, Citi anunció su decisión de vender o escindir la operación mexicana, dando lugar a un proceso de salida que incluye la separación del banco minorista bajo el nombre Banamex. La institución administra fondos de pensiones, banca de inversión y la mayor red de cajeros automáticos del país.",
+    "hq": "Ciudad de México",
+    "team_size": "+26,000",
+    "founded": "1884",
+    "ownership": "Subsidiaria (en desinversión)",
+    "stage": "En transición",
+    "last_round": "Proceso de separación Citi 2024"
+  },
+  "Coppel": {
+    "tagline": "Gigante del retail y servicios financieros para el segmento popular, desde Culiacán.",
+    "about": "Coppel es una de las empresas de retail más grandes de México, enfocada en los segmentos C, D y E de la población. Fundada en 1941 en Culiacán por Enrique Coppel, opera más de 1,600 tiendas y una división financiera propia (BanCoppel) con millones de clientes sin acceso a banca tradicional. Su modelo de crédito directo al consumidor en tienda es una barrera de entrada difícil de replicar. Es la empresa privada con mayor presencia en municipios rurales y semiurbanos del país.",
+    "hq": "Culiacán, Sinaloa",
+    "team_size": "+70,000",
+    "founded": "1941",
+    "ownership": "Privada",
+    "stage": "Autofinanciada",
+    "last_round": "Sin ronda pública"
+  },
+  "Walmart": {
+    "tagline": "La cadena de supermercados más grande de México, cotizando en la BMV como Walmex.",
+    "about": "Walmart de México y Centroamérica (Walmex) es la subsidiaria latinoamericana del gigante minorista estadounidense. Cotiza en la BMV bajo el ticker WALMEX y opera más de 3,700 unidades en México y 800 en Centroamérica bajo formatos como Walmart, Bodega Aurrerá, Sam's Club y Superama. Es el empleador privado más grande de México con más de 200,000 colaboradores. Controla aproximadamente el 25% del mercado de autoservicio formal en el país.",
+    "hq": "Ciudad de México",
+    "team_size": "+200,000",
+    "founded": "1991",
+    "ownership": "Pública / BMV: WALMEX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Inversión digital $2,400 mdd 2024"
+  },
+  "Grupo Salinas": {
+    "tagline": "Conglomerado de medios, retail, telecomunicaciones y finanzas de Ricardo Salinas Pliego.",
+    "about": "Grupo Salinas es el holding de empresas del empresario Ricardo Salinas Pliego, uno de los hombres más ricos de México. Su portafolio incluye TV Azteca (medios), Grupo Elektra (retail), Banco Azteca (finanzas), Italika (motos), Total Play (telecomunicaciones) y Totalplay Empresarial. Es conocido por su postura confrontacional frente a reguladores y periodistas, así como por las controversias corporativas en torno a sus obligaciones fiscales. Salinas ha sido un adoptante público de Bitcoin y criptomonedas.",
+    "hq": "Ciudad de México",
+    "team_size": "+130,000",
+    "founded": "1906",
+    "ownership": "Privada (Ricardo Salinas Pliego)",
+    "stage": "Consolidada",
+    "last_round": "Sin ronda pública"
+  },
+  "Banorte": {
+    "tagline": "El único banco grande 100% mexicano, referente en banca corporativa y personal.",
+    "about": "Grupo Financiero Banorte es la única institución bancaria de capital 100% mexicano entre los cinco grandes del país. Fundado en 1899 en Monterrey, opera bajo las marcas Banorte e IXE. Es el segundo banco más rentable del sistema financiero mexicano por activos totales y el primero en banca de empresas e institucional. Su plataforma digital Banorte Móvil ha sido consistentemente calificada como una de las mejores del sector. Cotiza en la BMV bajo el ticker GFNORTEO.",
+    "hq": "Monterrey, NL",
+    "team_size": "+30,000",
+    "founded": "1899",
+    "ownership": "Pública / BMV: GFNORTEO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Emisión bono sostenible $1,500 mdd 2024"
+  },
+  "Clara": {
+    "tagline": "La solución líder de gastos corporativos y tarjetas empresariales para startups y scaleups.",
+    "about": "Clara fue fundada en 2020 por Gerry Giacomán Colyer y Diego García en México. Ofrece tarjetas de crédito corporativas virtuales y físicas con controles de gasto granulares, integración contable y capital de trabajo para startups, scaleups y medianas empresas. Levantó $150 millones en 2022 en una ronda liderada por Coatue. Opera en México, Brasil, Colombia y otros mercados latinoamericanos. Compite directamente con Ramp, Brex y Jeeves en el segmento de gestión de gastos B2B.",
+    "hq": "Ciudad de México",
+    "team_size": "+500",
+    "founded": "2020",
+    "ownership": "Privada",
+    "stage": "Serie C",
+    "last_round": "Serie C $60 mdd (2024)"
+  },
+  "Uber": {
+    "tagline": "Plataforma global de movilidad y entregas con millones de usuarios activos en México.",
+    "about": "Uber opera en México desde 2013 y se convirtió en el servicio de transporte privado más utilizado del país. Ofrece servicios de movilidad (UberX, Comfort, Black), entregas de comida (Uber Eats) y envíos (Uber Flash). México es el tercer mercado más grande de Uber globalmente, después de Estados Unidos e India. La empresa ha enfrentado disputas regulatorias constantes con autoridades locales y el sector taxi. Su servicio de entregas Uber Eats disputa el liderazgo con DiDi Food y Rappi.",
+    "hq": "Ciudad de México",
+    "team_size": "+33,000 global",
+    "founded": "2009",
+    "ownership": "Pública / NYSE: UBER",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión MX & Eats 2024"
+  },
+  "Rappi": {
+    "tagline": "Superapp de entregas a domicilio presente en 9 países de América Latina.",
+    "about": "Rappi fue fundado en 2015 en Bogotá, Colombia, por Simón Borrero y equipo. Es la superapp de entregas más grande de América Latina, con servicios que van desde comida y supermercado hasta farmacia, efectivo y viajes. En México opera en las principales ciudades y compite con Uber Eats y DiDi Food. Alcanzó el estatus de decacornio (valuación superior a $10,000 mdd) en 2021, respaldado por SoftBank. Ha diversificado hacia servicios financieros con RappiPay y RappiCard, en alianza con Banorte en México.",
+    "hq": "Ciudad de México",
+    "team_size": "+10,000",
+    "founded": "2015",
+    "ownership": "Privada",
+    "stage": "Unicornio",
+    "last_round": "Serie I / deuda $500 mdd (2023)"
+  },
+  "OXXO": {
+    "tagline": "La cadena de tiendas de conveniencia más grande de América Latina, con más de 21,000 puntos.",
+    "about": "OXXO es la cadena de conveniencia insignia de FEMSA y el retailer con mayor número de tiendas en México. Presente en prácticamente cada municipio del país, ha trascendido el modelo de conveniencia para convertirse en un canal de servicios financieros: pago de servicios, recargas, cobros de e-commerce y transferencias. Su red supera ya los 21,000 puntos de venta en México, Colombia y Chile. Es el formato de retail de mayor crecimiento orgánico en la historia del comercio mexicano.",
+    "hq": "Monterrey, NL",
+    "team_size": "+200,000",
+    "founded": "1978",
+    "ownership": "Subsidiaria de FEMSA",
+    "stage": "Consolidada",
+    "last_round": "Expansión a Brasil 2023"
+  },
+  "FEMSA": {
+    "tagline": "Conglomerado líder en bebidas, retail y logística en América Latina.",
+    "about": "Fomento Económico Mexicano (FEMSA) es uno de los conglomerados más grandes e influyentes de América Latina. Su portafolio abarca Coca-Cola FEMSA (el mayor embotellador de Coca-Cola del mundo), la cadena OXXO (+21,000 tiendas), y operaciones en farmacia (farmacias Cruz Verde, Socofar) y logística (FEMSA Logística). Fundada en 1890 en Monterrey como cervecera, vendió su participación en Heineken en 2022 para enfocarse en retail y bebidas. Cotiza en BMV y NYSE.",
+    "hq": "Monterrey, NL",
+    "team_size": "+340,000",
+    "founded": "1890",
+    "ownership": "Pública / BMV + NYSE: FMX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Venta stake Heineken 2023"
+  },
+  "BBVA": {
+    "tagline": "El banco con mayor base de clientes y activos totales en México.",
+    "about": "BBVA México (antes Bancomer) es la filial más rentable del grupo español BBVA y el mayor banco del país por activos, créditos y número de clientes activos. Con más de 23 millones de clientes, opera a través de una red de más de 1,700 sucursales y la app BBVA, una de las más descargadas de México. En 2000, el grupo vasco adquirió el Grupo Financiero Bancomer en $1,800 millones de dólares. BBVA México representa cerca del 45% de los ingresos totales del grupo global.",
+    "hq": "Ciudad de México",
+    "team_size": "+30,000 (MX)",
+    "founded": "1932 (MX)",
+    "ownership": "Subsidiaria de BBVA España",
+    "stage": "Consolidada",
+    "last_round": "Recapitalización 2024"
+  },
+  "Alsea": {
+    "tagline": "El mayor operador de restaurantes de franquicia en América Latina.",
+    "about": "Alsea es la empresa operadora de franquicias de restaurantes más grande de Latinoamérica. Administra en México y España marcas como Domino's Pizza, Starbucks, Burger King, Chili's, P.F. Chang's, The Cheesecake Factory y Vips. Fundada en 1997 en Ciudad de México, opera más de 4,000 unidades en seis países. Su modelo de operador multi-marca le da resiliencia ante el ciclo de cada concepto. Cotiza en la BMV bajo el ticker ALSEA.",
+    "hq": "Ciudad de México",
+    "team_size": "+55,000",
+    "founded": "1997",
+    "ownership": "Pública / BMV: ALSEA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión Europa 2024"
+  },
+  "Aeroméxico": {
+    "tagline": "La aerolínea de bandera de México, con rutas a América, Europa y Asia.",
+    "about": "Aeroméxico es la aerolínea más grande de México y miembro de SkyTeam. Fundada en 1934, ha sido la aerolínea de bandera del país desde entonces. En 2020 se acogió al Capítulo 11 de quiebra en Estados Unidos debido al impacto del COVID-19, emergiendo en 2021 con nueva estructura accionaria, con Apollo Global Management como acreedor principal. Delta Air Lines es accionista estratégico y socio en el corredor México-EE.UU. Cotiza en BMV bajo el ticker AEROMEX.",
+    "hq": "Ciudad de México",
+    "team_size": "+15,000",
+    "founded": "1934",
+    "ownership": "Pública / BMV: AEROMEX",
+    "stage": "Post-reestructura",
+    "last_round": "Salida Chapter 11 / IPO 2023"
+  },
+  "Chedraui": {
+    "tagline": "Grupo comercial con presencia en México y Estados Unidos, en expansión acelerada.",
+    "about": "Grupo Comercial Chedraui es una cadena de supermercados fundada en 1927 en Xalapa por la familia Chedraui. Opera hipermercados y supermercados en México y, desde 2020, tiene una robusta operación en Estados Unidos tras adquirir Smart & Final y El Super. El negocio estadounidense representa ya más del 50% de sus ingresos. Cotiza en la BMV bajo el ticker CHDRAUI A. Es la cadena de autoservicio de mayor crecimiento entre sus pares mexicanos en la última década.",
+    "hq": "Ciudad de México",
+    "team_size": "+40,000",
+    "founded": "1920",
+    "ownership": "Pública / BMV: CHEDRAUI",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Adquisición Smart & Final 2022"
+  },
+  "América Móvil": {
+    "tagline": "El operador de telecomunicaciones más grande de América Latina.",
+    "about": "América Móvil es el conglomerado de telecomunicaciones de Carlos Slim y el mayor operador móvil de América Latina. A través de marcas como Telcel (México), Claro (18 países) y A1 (Austria), presta servicios a más de 280 millones de suscriptores en 25 países. En México controla aproximadamente el 65% del mercado de telefonía móvil a través de Telcel. Cotiza en BMV y NYSE. Su subsidiaria de infraestructura de fibra óptica, AMX Fibra, es la red de mayor cobertura en el país.",
+    "hq": "Ciudad de México",
+    "team_size": "+190,000",
+    "founded": "2000",
+    "ownership": "Pública / BMV + NYSE: AMX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Recompra acciones $2,000 mdd 2024"
+  },
+  "Konfío": {
+    "tagline": "Plataforma de crédito y software financiero para PyMEs mexicanas.",
+    "about": "Konfío fue fundado en 2013 y se convirtió en el principal proveedor de crédito digital para pequeñas y medianas empresas en México. Utiliza datos alternativos y machine learning para otorgar créditos en minutos, sin el papeleo tradicional de la banca. En 2021 adquirió Delt.ai (software de gastos corporativos) para ampliar su propuesta de valor más allá del crédito. Ha recibido inversión de SoftBank, Goldman Sachs y Kaszek Ventures, entre otros, acumulando más de $400 mdd en financiamiento.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,200",
+    "founded": "2013",
+    "ownership": "Privada",
+    "stage": "Serie E",
+    "last_round": "Serie E $110 mdd (2024)"
+  },
+  "Televisa": {
+    "tagline": "El consorcio mediático más influyente de habla hispana, hoy parte de TelevisaUnivision.",
+    "about": "Televisa fue fundada en 1973 y durante décadas monopolizó la televisión abierta en México. En 2021 fusionó sus activos de contenido con Univision para crear TelevisaUnivision, la empresa de medios en español más grande del mundo. Opera los canales 2, 4, 5 y 9 de televisión abierta, Sky (televisión satelital), Izzi (cable e internet) y la plataforma de streaming ViX. El negocio de cable (Izzi) es hoy su mayor generador de flujo de efectivo. Cotiza en BMV y NYSE.",
+    "hq": "Ciudad de México",
+    "team_size": "+13,000",
+    "founded": "1950",
+    "ownership": "Pública / BMV + NYSE: TELEVISACPO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Fusión TelevisaUnivision 2022"
+  },
+  "Cemex": {
+    "tagline": "Una de las cementeras más grandes del mundo, pionera en la globalización industrial mexicana.",
+    "about": "Cemex fue fundada en 1906 en Monterrey y se convirtió en la primera empresa industrial mexicana en globalizarse agresivamente. Opera en más de 50 países y es el tercer productor de cemento del mundo. Su gran apuesta fue la adquisición de Rinker en 2007 por $14,200 millones de dólares, que la dejó altamente apalancada al estallar la crisis financiera de 2008. Ha pasado la última década desapalancándose y transformando su modelo hacia soluciones de construcción sostenible. Cotiza en BMV y NYSE bajo el ticker CX.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+40,000",
+    "founded": "1906",
+    "ownership": "Pública / BMV + NYSE: CX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Venta activos $3,700 mdd 2023"
+  },
+  "Costco": {
+    "tagline": "Club de membresía con los precios más competitivos del retail mexicano.",
+    "about": "Costco de México opera bajo licencia de Costco Wholesale, la cadena de clubes de membresía fundada en Seattle. Con más de 40 bodegas en el país, representa uno de los formatos de mayor lealtad entre los segmentos A y B de la población mexicana. Su modelo de volumen y membresía anual genera márgenes bajos en mercancía pero ingresos predecibles. Su expansión en México ha sido más agresiva que la de sus principales competidores directos en el formato club.",
+    "hq": "Ciudad de México",
+    "team_size": "+300,000 global",
+    "founded": "1983",
+    "ownership": "Pública / NASDAQ: COST",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión 31 tiendas México 2025"
+  },
+  "Volaris": {
+    "tagline": "La aerolínea de ultra bajo costo más grande de México, con el mayor número de rutas domésticas.",
+    "about": "Volaris fue fundada en 2005 y se convirtió en la aerolínea de mayor crecimiento en México bajo el modelo ultra low cost (ULCC). Opera más de 180 rutas y es la línea aérea con mayor número de destinos domésticos en el país. Su modelo ancillar (cobros adicionales por maletas, asientos, alimentos) le permite mantener tarifas base competitivas. Desde 2013 cotiza en NYSE y BMV. A pesar de ser más pequeña que Aeroméxico en flota, la supera en número de pasajeros domésticos.",
+    "hq": "Ciudad de México",
+    "team_size": "+5,000",
+    "founded": "2005",
+    "ownership": "Pública / NYSE: VLRS",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Bonos sostenibles $150 mdd 2024"
+  },
+  "Mercado Libre": {
+    "tagline": "El ecosistema de e-commerce y pagos digitales más grande de América Latina.",
+    "about": "Mercado Libre fue fundado en 1999 en Buenos Aires por Marcos Galperin. Es la empresa tecnológica más valiosa de América Latina, con una capitalización bursátil superior a $80,000 millones de dólares. Opera el marketplace Mercado Libre (e-commerce), Mercado Pago (pagos y finanzas), Mercado Envíos (logística) y Mercado Crédito (financiamiento). En México es el e-commerce de mayor tráfico, compitiendo con Amazon. Cotiza en NASDAQ bajo el ticker MELI.",
+    "hq": "Buenos Aires, Argentina",
+    "team_size": "+50,000",
+    "founded": "1999",
+    "ownership": "Pública / NASDAQ: MELI",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Crédito $2,500 mdd (2024)"
+  },
+  "General Motors": {
+    "tagline": "Fabricante estadounidense de automóviles con plantas de exportación clave en México.",
+    "about": "General Motors tiene presencia en México desde 1935. Opera plantas de manufactura en Silao (Guanajuato) y San Luis Potosí, donde produce vehículos y motores para exportación principalmente a Estados Unidos. México es parte integral de la cadena de suministro de GM en América del Norte. Con el auge del nearshoring y la transición hacia vehículos eléctricos, GM ha anunciado inversiones adicionales en sus plantas mexicanas. Emplea a más de 15,000 personas directas en el país.",
+    "hq": "Ciudad de México",
+    "team_size": "+8,000 (MX)",
+    "founded": "1935 (MX)",
+    "ownership": "Pública / NYSE: GM",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Inversión EV $1,300 mdd 2024"
+  },
+  "Gruma": {
+    "tagline": "El mayor productor de tortilla y harina de maíz del mundo.",
+    "about": "Gruma es la empresa más relevante en la producción y distribución global de tortilla y harina de maíz nixtamalizado. Fundada en 1949 en Nuevo León, su marca MASECA es sinónimo de harina de maíz en México y buena parte de América Latina. Opera plantas en más de 20 países, con una fuerte presencia en Estados Unidos a través de Mission Foods. Controla aproximadamente el 75% del mercado de harina de maíz en México. Cotiza en la BMV bajo el ticker GRUMAB.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+20,000",
+    "founded": "1949",
+    "ownership": "Pública / BMV + NYSE: GRUMAB",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Deuda sostenible 2023"
+  },
+  "Kavak": {
+    "tagline": "El primer unicornio 100% mexicano, pionero en la compraventa de autos usados certificados.",
+    "about": "Kavak fue fundada en 2016 por Carlos García Ottati y Alberto Padilla en Ciudad de México. Se convirtió en el primer unicornio mexicano (valuación +$1,000 mdd) al recaudar $485 millones en 2020. Su modelo inspecciona, certifica y recondicionan vehículos usados, ofreciendo financiamiento propio. Opera en México, Brasil, Argentina, Chile, Colombia, Turquía y otros mercados. Su valuación pico alcanzó $8,700 millones de dólares en 2021. Ha enfrentado retos operativos ligados al rápido crecimiento y ajustó su estrategia hacia la rentabilidad en 2023.",
+    "hq": "Ciudad de México",
+    "team_size": "+10,000",
+    "founded": "2016",
+    "ownership": "Privada",
+    "stage": "Unicornio",
+    "last_round": "Serie E $700 mdd (2021)"
+  },
+  "Liverpool": {
+    "tagline": "La cadena de tiendas departamentales premium de México, con 177 años de historia.",
+    "about": "El Puerto de Liverpool fue fundado en 1847 por un inmigrante francés y es hoy la cadena de tiendas departamentales de lujo más antigua e importante de México. Opera tiendas Liverpool y Suburbia, y controla la plataforma de e-commerce Linio. También tiene una división financiera (Banca Liverpool) y una cartera inmobiliaria que incluye centros comerciales premium. Su presencia se concentra en las ciudades de mayor poder adquisitivo del país. Cotiza en la BMV bajo el ticker LIVEPOL C.",
+    "hq": "Ciudad de México",
+    "team_size": "+36,000",
+    "founded": "1847",
+    "ownership": "Pública / BMV: LIVEPOLC-1",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión e-commerce 2024"
+  },
+  "Soriana": {
+    "tagline": "Una de las principales cadenas de supermercados del país, nacida en Torreón.",
+    "about": "Organización Soriana es una de las cadenas de autoservicio más grandes de México, fundada en 1968 en Torreón por la familia Martín Borque. Opera formatos Soriana Híper, Soriana Súper, Soriana Mercado y City Club. En 2015 completó la adquisición de las tiendas Comercial Mexicana por $1,100 millones de dólares, duplicando su tamaño y convirtiéndola en la segunda cadena de autoservicio del país. Cotiza en la BMV bajo el ticker SORIANA B.",
+    "hq": "Monterrey, NL",
+    "team_size": "+100,000",
+    "founded": "1968",
+    "ownership": "Pública / BMV: SORIANAB",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Refinanciamiento 2023"
+  },
+  "Klar": {
+    "tagline": "Banco digital mexicano con cashback real y cero comisiones.",
+    "about": "Klar fue fundado en 2019 por Stefan Möller (ex-McKinsey) y se posicionó como la primera cuenta digital con cashback real en México. A diferencia de otros neobancos, Klar opera con licencia bancaria propia y ofrece tanto cuenta de débito como tarjeta de crédito. Su propuesta de valor se centra en transparencia: sin cobros ocultos y con hasta 2% de cashback. Ha recibido inversión de Prosus (Naspers), General Atlantic y otros fondos internacionales.",
+    "hq": "Ciudad de México",
+    "team_size": "+400",
+    "founded": "2019",
+    "ownership": "Privada",
+    "stage": "Serie C",
+    "last_round": "Serie C $90 mdd (2023)"
+  },
+  "GBM": {
+    "tagline": "La plataforma de inversión número uno en México por número de usuarios activos.",
+    "about": "GBM (Grupo Bursátil Mexicano) fue fundado en 1984 como casa de bolsa y se reinventó en 2018 con el lanzamiento de GBM+, la primera plataforma de inversión digital de bajo costo en México. Su estrategia de democratización del mercado de valores le permitió captar más de 800,000 cuentas en sus primeros años. Opera tanto la plataforma retail (GBM+) como una robusta mesa de dinero y banca de inversión institucional. Se ha posicionado como el principal rival de las fintechs de inversión para el segmento millennials mexicano.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,500",
+    "founded": "1981",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "Serie C $115 mdd (2021)"
+  },
+  "Clip": {
+    "tagline": "La plataforma de pagos más popular entre los pequeños y medianos comercios de México.",
+    "about": "Clip fue fundado en 2012 por Adolfo Babatz y se convirtió en el pionero de los terminales de punto de venta móviles en México. Su lector de tarjetas conectado al smartphone democratizó el cobro con tarjeta para comercios que antes solo aceptaban efectivo. Ha procesado miles de millones de dólares en transacciones y tiene más de 600,000 comercios activos. En 2021 levantó una ronda Serie D de $250 millones. Compite directamente con iZettle (PayPal) y Conekta en el mercado de pagos para PyMEs.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,200",
+    "founded": "2012",
+    "ownership": "Privada",
+    "stage": "Serie D",
+    "last_round": "Serie D $250 mdd (2021)"
+  },
+  "Heineken": {
+    "tagline": "Segunda cervecera en México a través de Cuauhtémoc Moctezuma, parte del grupo holandés.",
+    "about": "Heineken México opera a través de Cervecería Cuauhtémoc Moctezuma, empresa fundada en 1890 en Monterrey con marcas como Tecate, Dos Equis, Sol y Carta Blanca. En 2010, el grupo holandés Heineken adquirió el negocio cervecero de FEMSA en una transacción de $5,500 millones de dólares. Junto a Grupo Modelo (AB InBev), conforman el duopolio cervecero mexicano que controla más del 95% del mercado nacional. Sus marcas tienen fuerte presencia en el segmento premium y de exportación.",
+    "hq": "Monterrey, NL",
+    "team_size": "+85,000 global",
+    "founded": "1873",
+    "ownership": "Pública / Euronext: HEIA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión México 2023"
+  },
+  "Nubank": {
+    "tagline": "El banco digital más grande del mundo fuera de Asia, con millones de clientes en México.",
+    "about": "Nubank fue fundado en 2013 en Brasil por David Vélez. Se expandió a México en 2019 con su tarjeta de crédito Nu, operando con licencia SOFOM. Para 2024 superó los 8 millones de clientes en el país. Su propuesta de cero comisiones y atención 100% digital resonó especialmente entre millennials y Gen Z. Cotiza en NYSE bajo el ticker NU y tiene una valuación superior a $40,000 mdd. Es el mayor competidor para los bancos tradicionales mexicanos en el segmento de tarjetas de crédito.",
+    "hq": "Ciudad de México",
+    "team_size": "+8,000",
+    "founded": "2013",
+    "ownership": "Pública / NYSE: NU",
+    "stage": "Bursátil / Unicornio",
+    "last_round": "IPO NYSE $2,600 mdd (2021)"
+  },
+  "KOF": {
+    "tagline": "El mayor embotellador de Coca-Cola en el mundo por volumen de ventas.",
+    "about": "Coca-Cola FEMSA (KOF) es la filial de embotellado de FEMSA y el mayor embotellador del sistema Coca-Cola a nivel global. Opera territorios en México, Brasil, Colombia, Argentina, Costa Rica, Guatemala y otros mercados latinoamericanos, sirviendo a más de 500 millones de consumidores. Cotiza simultáneamente en la BMV y en la Bolsa de Nueva York (NYSE: KOF). La empresa representa más del 40% de los ingresos consolidados del Grupo FEMSA.",
+    "hq": "Ciudad de México",
+    "team_size": "+80,000",
+    "founded": "1979",
+    "ownership": "Pública / BMV + NYSE: KOF",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión regional 2024"
+  },
+  "Grupo México": {
+    "tagline": "El mayor productor de cobre en México y tercero del mundo, controlado por Germán Larrea.",
+    "about": "Grupo México es el conglomerado minero y de transporte de la familia Larrea. Es el tercer productor de cobre del mundo y opera las minas más grandes de México (Cananea, La Caridad). También controla Ferromex y Ferrosur, las principales concesiones ferroviarias del país. Germán Larrea es consistentemente el hombre más rico de México según Forbes. El grupo ha enfrentado críticas por el derrame minero del Río Sonora en 2014, el accidente más grave en la historia minera mexicana reciente. Cotiza en BMV bajo el ticker GMEXICOB.",
+    "hq": "Ciudad de México",
+    "team_size": "+100,000",
+    "founded": "1942",
+    "ownership": "Pública / BMV: GMEXICOB",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión rail & puertos 2024"
+  },
+  "American Express": {
+    "tagline": "Red global de servicios financieros con el segmento premium del mercado mexicano.",
+    "about": "American Express en México opera tanto el negocio de tarjetas de crédito y débito como el de servicios de viaje corporativo. Se posiciona exclusivamente en los segmentos A/B del mercado, compitiendo con las tarjetas premium de BBVA, Banorte y Citibanamex. Su red de aceptación —históricamente menor que Visa/Mastercard— ha crecido significativamente en años recientes. Los programas de lealtad y los beneficios de viaje son sus principales palancas de retención. También emite tarjetas corporativas para grandes empresas.",
+    "hq": "Ciudad de México",
+    "team_size": "+70,000 global",
+    "founded": "1850",
+    "ownership": "Pública / NYSE: AXP",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión PYME México 2024"
+  },
+  "Ualá": {
+    "tagline": "Fintech argentina con fuerte expansión en el mercado mexicano de pagos.",
+    "about": "Ualá fue fundada en 2017 en Argentina por Pierpaolo Barbieri. Se expandió a México en 2020 con una tarjeta prepagada Mastercard y servicios de pagos. En 2021 adquirió ABC Capital, un banco mexicano, para obtener licencia bancaria en el país. Ha recibido inversión de Softbank, Tencent y Goldman Sachs. En México compite directamente con Nubank, Klar y Stori en el segmento de servicios financieros digitales para consumidores no bancarizados o sub-bancarizados.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,500",
+    "founded": "2017",
+    "ownership": "Privada",
+    "stage": "Unicornio",
+    "last_round": "Serie D $350 mdd (2021)"
+  },
+  "General Atlantic": {
+    "tagline": "Firma global de crecimiento de capital con inversiones clave en el ecosistema tech de México.",
+    "about": "General Atlantic es una firma global de private equity con más de $80,000 millones en activos bajo gestión, enfocada en empresas de crecimiento. En el ecosistema mexicano ha invertido en Klar, Kavak, GBM y otras empresas tecnológicas de alto crecimiento. Su presencia en México refleja el atractivo que tiene el país para capital de crecimiento, dada la penetración digital acelerada y la clase media emergente. Es uno de los inversionistas institucionales más activos en startups latinoamericanas junto a Softbank y Tiger Global.",
+    "hq": "Nueva York, EE.UU.",
+    "team_size": "+500",
+    "founded": "1980",
+    "ownership": "Privada (PE)",
+    "stage": "Consolidada",
+    "last_round": "Fondo VI $17,000 mdd (2023)"
+  },
+  "Elektra": {
+    "tagline": "Retail y servicios financieros populares, el brazo comercial del Grupo Salinas.",
+    "about": "Grupo Elektra es la empresa de retail y servicios financieros de Ricardo Salinas Pliego. Opera tiendas Elektra y Salinas y Rocha, y es dueña de Banco Azteca, la institución financiera con mayor red de sucursales en México (+1,800). Su modelo de crédito al consumo para sectores no bancarizados ha sido tanto su fortaleza como fuente de controversias regulatorias. Cotiza en la BMV bajo el ticker ELEKTRA. El holding también controla Italika, la mayor vendedora de motos en México.",
+    "hq": "Ciudad de México",
+    "team_size": "+110,000",
+    "founded": "1950",
+    "ownership": "Pública / BMV: ELEKTRA*",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión Banco Azteca 2024"
+  },
+  "Audi": {
+    "tagline": "Marca premium alemana con su única planta en las Américas ubicada en San José Chiapa, Puebla.",
+    "about": "Audi inauguró en 2016 su planta de San José Chiapa, Puebla, la única instalación de producción de la marca en el continente americano. Allí se manufactura exclusivamente el Q5, el SUV más vendido de la marca a nivel mundial. La planta representa una inversión de más de $1,300 millones de dólares. Produce cerca de 150,000 unidades anuales, la mayoría destinadas a exportación. Ha sido un detonador de desarrollo industrial en la región Puebla-Tlaxcala y un emblema de la integración de México en la cadena global automotriz de lujo.",
+    "hq": "San José Chiapa, Puebla",
+    "team_size": "+5,000 (MX)",
+    "founded": "2013 (MX)",
+    "ownership": "Subsidiaria de Grupo Volkswagen",
+    "stage": "Consolidada",
+    "last_round": "Plan inversión $1,000 mdd 2025"
+  },
+  "Megacable": {
+    "tagline": "Proveedor líder de internet, TV y telefonía en el occidente y centro de México.",
+    "about": "Megacable es la mayor empresa de telecomunicaciones por cable en México, fundada en 1982 en Guadalajara. Opera en más de 40 ciudades con sus servicios de internet (Mega), televisión por cable y telefonía. Es la alternativa más sólida a Telmex en las ciudades donde tiene cobertura. Ha diversificado hacia servicios empresariales y data center. Su estructura accionaria concentrada en la familia González Sada le ha permitido mantener inversión constante en infraestructura. Cotiza en BMV bajo el ticker MEGACPO.",
+    "hq": "Guadalajara, Jalisco",
+    "team_size": "+14,000",
+    "founded": "1994",
+    "ownership": "Pública / BMV: MEGACPO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión fibra óptica 2024"
+  },
+  "Inbursa": {
+    "tagline": "El grupo financiero de Carlos Slim, con operaciones en banca, seguros e inversiones.",
+    "about": "Grupo Financiero Inbursa es el brazo financiero del conglomerado de Carlos Slim. Fundado en 1965 como Casa de Bolsa, evolucionó hacia un grupo que integra banca, seguros, pensiones y fondos de inversión. Su estrategia es distinta a la banca tradicional: opera con pocas sucursales, márgenes amplios y un portafolio crediticio concentrado en grandes empresas e infraestructura. Ha financiado proyectos de infraestructura como el Nuevo Aeropuerto de Santa Lucía. Cotiza en la BMV bajo el ticker GFINBURO.",
+    "hq": "Ciudad de México",
+    "team_size": "+12,000",
+    "founded": "1965",
+    "ownership": "Pública / BMV: GFINBURO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Subsidiaria Grupo Carso"
+  },
+  "Scotiabank": {
+    "tagline": "Banco canadiense con décadas de presencia en el mercado financiero mexicano.",
+    "about": "Scotiabank México es la subsidiaria del Bank of Nova Scotia (el tercer banco más grande de Canadá) en el país. Opera desde 1994 y se ha posicionado en los segmentos de banca personal, hipotecas, PyMEs y banca corporativa. Es el quinto banco más grande de México por activos. Su estrategia en el país forma parte de la apuesta del grupo por la 'Pacific Alliance', que incluye México, Colombia, Perú y Chile, mercados que Scotiabank considera su zona de crecimiento prioritario.",
+    "hq": "Ciudad de México",
+    "team_size": "+8,000 (MX)",
+    "founded": "1832 / 1997 (MX)",
+    "ownership": "Subsidiaria de Scotiabank Canadá",
+    "stage": "Consolidada",
+    "last_round": "Refinanciamiento 2024"
+  },
+  "Ternium": {
+    "tagline": "Siderúrgica líder en la producción de acero plano para el sector industrial de México.",
+    "about": "Ternium es la empresa productora de acero plano más grande de México y América Latina. Subsidiaria del grupo luxemburgués Ternium (controlado por la familia Rocca-Techint), opera las plantas de Monterrey y Pesquería en Nuevo León. Es el principal proveedor de acero para la industria automotriz y de electrodomésticos del país. Con el auge del nearshoring, sus plantas en el norte de México han aumentado significativamente su producción para atender a fabricantes de automóviles y manufactura de exportación. Cotiza en NYSE bajo el ticker TX.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+21,000",
+    "founded": "2005",
+    "ownership": "Pública / NYSE: TX",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Planta galvanizado $650 mdd 2024"
+  },
+  "Bolsa Mexicana de Valores": {
+    "tagline": "La bolsa de valores de México, eje del mercado de capitales nacional.",
+    "about": "La Bolsa Mexicana de Valores (BMV) es la segunda bolsa de valores más grande de América Latina. Fundada en 1894, hoy es parte del Grupo BMV que también opera MexDer (derivados), Indeval (depósito central) y Valmer (valuación). En 2018 compitió con el BIVA (Bolsa Institucional de Valores) por el monopolio que ostentó durante décadas. Cotiza en sí misma en el mercado de valores bajo el ticker BOLSA A. Su índice principal, el IPC, agrupa a las 35 empresas de mayor bursatilidad del país.",
+    "hq": "Ciudad de México",
+    "team_size": "+1,200",
+    "founded": "1907",
+    "ownership": "Pública / BMV: BOLSAA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión plataforma digital 2024"
+  },
+  "Hyundai": {
+    "tagline": "Marca coreana con crecimiento consistente en el mercado automotriz mexicano.",
+    "about": "Hyundai Motor Company opera en México a través de distribuidores autorizados desde los años 90. Ha ganado participación de mercado consistentemente gracias a una relación calidad-precio competitiva y una línea de SUVs y sedanes bien posicionada. La cobertura de Hyundai en Whitepaper refleja su papel en el debate sobre aranceles automotrices, nearshoring y la posible instalación de una planta de manufactura en México o el sur de Estados Unidos. Su socio Genesis también ha comenzado operaciones en el segmento premium mexicano.",
+    "hq": "Ciudad de México",
+    "team_size": "+6,000 (MX)",
+    "founded": "1998 (MX)",
+    "ownership": "Subsidiaria de Hyundai Motor",
+    "stage": "Consolidada",
+    "last_round": "Planta Nuevo León 2024"
+  },
+  "Stori": {
+    "tagline": "Tarjeta de crédito digital para el segmento no bancarizado de México.",
+    "about": "Stori fue fundada en 2018 por Marlene Garayzar y Bin Chen para atender a los ~50 millones de mexicanos sin historial crediticio formal. Su tarjeta de crédito sin anualidad y con aprobación rápida vía app se convirtió en la de mayor crecimiento entre los neobancos del país. En 2022 alcanzó el estatus de unicornio al recaudar $125 millones a una valuación superior a $1,000 mdd. Es respaldada por inversores como GIC (Singapur), GGV Capital y Tencent.",
+    "hq": "Ciudad de México",
+    "team_size": "+500",
+    "founded": "2018",
+    "ownership": "Privada",
+    "stage": "Serie C",
+    "last_round": "Serie C $50 mdd (2022)"
+  },
+  "Ford": {
+    "tagline": "Fabricante global de vehículos con una histórica planta de motores en Hermosillo, Sonora.",
+    "about": "Ford Motor Company tiene presencia industrial en México desde 1925. Su planta de Hermosillo, inaugurada en 1986, es una de las más modernas del grupo a nivel global y produce el Ford Bronco Sport y el Maverick para el mercado norteamericano. También opera una planta de motores en Chihuahua. México es el tercer destino de inversión automotriz de Ford en el mundo. La firma ha resistido presiones políticas binacionales para relocalizar producción, argumentando la competitividad de sus operaciones mexicanas.",
+    "hq": "Ciudad de México",
+    "team_size": "+5,000 (MX)",
+    "founded": "1925 (MX)",
+    "ownership": "Pública / NYSE: F",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Planta Hermosillo EV 2024"
+  },
+  "TUKÁN": {
+    "tagline": "Plataforma de gestión de beneficios y gastos para empresas mexicanas.",
+    "about": "TUKÁN es una startup mexicana que ofrece una plataforma integral de gestión de beneficios para empleados: vales de despensa digitales, fondo de ahorro, seguros y gastos corporativos en un solo lugar. Compite con Cobee, Pluxee y las soluciones tradicionales de vales en papel. Su propuesta de digitalización de beneficios laborales atiende a empresas medianas y grandes que buscan eficiencia en su administración de prestaciones. Ha ganado tracción en el contexto del nearshoring y la gestión de grandes plantillas laborales.",
+    "hq": "Ciudad de México",
+    "team_size": "+200",
+    "founded": "2020",
+    "ownership": "Privada",
+    "stage": "Serie A",
+    "last_round": "Serie A $5 mdd (2023)"
+  },
+  "La Comer": {
+    "tagline": "Supermercado premium con foco en experiencia y calidad, resultado del rescate de Comercial Mexicana.",
+    "about": "La Comer opera las tiendas premium heredadas de Grupo Comercial Mexicana tras la quiebra y desmembramiento de la cadena en 2015. Después de que Soriana adquiriera la mayor parte, la familia González Moreno retuvo los formatos La Comer, Fresko, Sumesa y City Market. Se ha consolidado como la opción de supermercado premium en Ciudad de México, compitiendo directamente con Superama (Walmart). Cotiza en la BMV bajo el ticker LACOMERUBC.",
+    "hq": "Ciudad de México",
+    "team_size": "+10,000",
+    "founded": "1993",
+    "ownership": "Subsidiaria de Grupo Sordo Madaleno",
+    "stage": "Consolidada",
+    "last_round": "Apertura 2 formatos 2024"
+  },
+  "TV Azteca": {
+    "tagline": "La segunda cadena de televisión abierta de México, parte del Grupo Salinas.",
+    "about": "TV Azteca fue creada en 1993 tras la privatización de los canales 7 y 13, adquiridos por Ricardo Salinas Pliego. Es la segunda cadena de televisión abierta del país, detrás de Televisa, con los canales Azteca Uno y Azteca 7. En los últimos años ha enfrentado problemas financieros graves, incluyendo disputas con acreedores internacionales por el pago de bonos. Su modelo de negocio publicitario ha sido impactado por la migración de audiencias a plataformas digitales. Parte del conglomerado Grupo Salinas.",
+    "hq": "Ciudad de México",
+    "team_size": "+8,000",
+    "founded": "1993",
+    "ownership": "Pública / BMV: AZTECACPO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Restructura deuda 2023"
+  },
+  "Samsung": {
+    "tagline": "Gigante tecnológico coreano con manufactura, ventas e I+D relevante en México.",
+    "about": "Samsung tiene en México una de sus operaciones más importantes fuera de Corea del Sur. Opera una planta de manufactura de equipos de telecomunicaciones en Querétaro y un Centro de Desarrollo de Software en Ciudad de México. Es el líder de smartphones en el país por participación de mercado, por encima de Apple. Su división de electrodomésticos (televisores, lavadoras, refrigeradores) también tiene posición de liderazgo. Mexico es el segundo mercado más grande de Samsung en América Latina, después de Brasil.",
+    "hq": "Ciudad de México",
+    "team_size": "+5,000 (MX)",
+    "founded": "1995 (MX)",
+    "ownership": "Subsidiaria de Samsung Electronics",
+    "stage": "Consolidada",
+    "last_round": "Centro I+D CDMX 2024"
+  },
+  "Grupo Carso": {
+    "tagline": "El conglomerado industrial y comercial de Carlos Slim, con presencia en 10 sectores.",
+    "about": "Grupo Carso es el holding de inversiones industriales y comerciales de Carlos Slim. Su portafolio incluye Sanborns (restaurants y retail), Sears México, cigarros (Cigatam), construcción (IDEAL), energía (Carso Energy) y manufactura (Condumex). A diferencia de Telmex/AMX (telecomunicaciones) e Inbursa (finanzas), Carso agrupa los negocios industriales y de consumo del grupo Slim. Cotiza en BMV bajo el ticker GCARSOA1. Sus inversiones en infraestructura han crecido con el boom del nearshoring.",
+    "hq": "Ciudad de México",
+    "team_size": "+135,000",
+    "founded": "1980",
+    "ownership": "Pública / BMV: GCARSO",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Proyecto Tren Maya 2024"
+  },
+  "Nemak": {
+    "tagline": "Proveedor global de componentes de aluminio para la industria automotriz.",
+    "about": "Nemak es una empresa mexicana fundada en 1979 en Monterrey, especializada en la fabricación de partes de aluminio de alto valor (cabezas de motor, bloques, componentes de carrocería) para fabricantes de automóviles como Ford, GM, BMW, Volkswagen y Audi. Es subsidiaria de Grupo Alfa. Con el cambio de paradigma hacia vehículos eléctricos, ha diversificado su portafolio hacia baterías estructurales y carcasas para EV. Opera en 16 países con 35 plantas. Cotiza en BMV bajo el ticker NEMAK A.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+23,000",
+    "founded": "1979",
+    "ownership": "Pública / BMV: NEMAKA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Transición EV $1,000 mdd 2024"
+  },
+  "Telmex": {
+    "tagline": "La empresa de telecomunicaciones fija más grande de México, parte del grupo Carlos Slim.",
+    "about": "Telmex (Teléfonos de México) fue la empresa telefónica estatal privatizada en 1990 y adquirida por Carlos Slim, convirtiéndolo en uno de los hombres más ricos del mundo. Opera la mayor red de fibra óptica e internet fijo del país, con más de 10 millones de accesos de banda ancha. A pesar de competencia de Megacable y MVS, mantiene el liderazgo en internet fijo. Ha sido objeto de regulaciones asimétricas por parte del IFT desde la reforma de telecomunicaciones de 2014. Cotiza en BMV bajo el ticker TELMEXL.",
+    "hq": "Ciudad de México",
+    "team_size": "+8,000",
+    "founded": "1982",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $150 mdd"
+  },
+  "Sigma Alimentos": {
+    "tagline": "Líder latinoamericano en alimentos procesados refrigerados, subsidiaria de Alfa.",
+    "about": "Sigma Alimentos es la mayor empresa de alimentos procesados refrigerados de México y una de las más grandes de América Latina. Subsidiaria del Grupo Alfa, produce y comercializa carnes frías, quesos, yogur y comida preparada bajo marcas como FUD, San Rafael, Yoplait y Barcel. Opera en más de 18 países con presencia en Europa y América. Con ventas anuales superiores a $4,000 millones de dólares, es el negocio más grande dentro del portafolio de Alfa.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+10,000",
+    "founded": "1952",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Bursátil / BMV"
+  },
+  "AT &T": {
+    "tagline": "",
+    "about": "Axtel dijo que su guía de flujo para 2022 se revisó a la baja 11% a $158 millones de dólares , “ debido principalmente a los resultados del segmento de gobierno, la falta de semiconductores que causó El aumento de precios en los smartphones — consecuencia de la inflación — está ya teniendo un impacto negativo en las ventas de dispositivos. En el tercer trimestre, AT &T disminuyó 13.4% la venta de Super.mx , una insurtech mexicana que en su momento llegó a obtener más de $7 millones de dólares…",
+    "hq": "",
+    "team_size": "",
+    "founded": "",
+    "ownership": "",
+    "stage": "",
+    "last_round": ""
+  },
+  "Axtel": {
+    "tagline": "Empresa de telecomunicaciones y TI corporativa, subsidiaria de Alfa.",
+    "about": "Axtel es una empresa de telecomunicaciones y servicios de TI para el segmento empresarial y gubernamental, subsidiaria de Grupo Alfa. Ofrece conectividad, cloud, centros de datos y soluciones de seguridad. En 2019 vendió su infraestructura de torres y fibra al fondo KKR para enfocarse en servicios de valor agregado. Su posicionamiento actual es como integrador tecnológico más que como proveedor de conectividad básica. Opera principalmente en el norte y centro de México.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+8,000",
+    "founded": "1950",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $100 mdd"
+  },
+  "Paramount": {
+    "tagline": "Estudio y plataforma de entretenimiento global con Paramount+ activa en México.",
+    "about": "Paramount Global (antes ViacomCBS) opera en México a través de canales de cable como MTV, Comedy Central, Nickelodeon y Paramount Channel, además de la plataforma de streaming Paramount+. Su cobertura en Whitepaper refleja su participación en el mercado de entretenimiento y su competencia con Netflix, Max y Disney+ por las audiencias mexicanas. En 2024, Skydance Media acordó una fusión con Paramount Global en una transacción valorada en más de $8,000 millones de dólares.",
+    "hq": "Nueva York, EE.UU.",
+    "team_size": "+2,000",
+    "founded": "1969",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $75 mdd"
+  },
+  "HSBC": {
+    "tagline": "Banco global británico con fuerte presencia en banca corporativa y de comercio exterior en México.",
+    "about": "HSBC México es la filial del banco más internacionalizado del mundo. Tras adquirir Bital en 2002, HSBC se convirtió en actor relevante del sistema financiero mexicano. Su posicionamiento se enfoca en banca corporativa, comercio internacional y clientes de alta renta. En años recientes ha desinvertido en redes de sucursales para concentrarse en banca digital y corporativa. Su portafolio de productos de comercio exterior es el más completo entre los bancos extranjeros operando en México.",
+    "hq": "Ciudad de México",
+    "team_size": "+2,000",
+    "founded": "1966",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $100 mdd"
+  },
+  "Pemex": {
+    "tagline": "La empresa petrolera estatal de México, una de las más endeudadas del mundo.",
+    "about": "Petróleos Mexicanos (Pemex) es la empresa productora de petróleo del Estado mexicano y una de las compañías más endeudadas del planeta, con pasivos superiores a $100,000 millones de dólares. Fundada en 1938 tras la expropiación petrolera decretada por el presidente Cárdenas, monopolizó la industria por décadas. Desde 2014, con la Reforma Energética, se abrió a la participación privada, aunque el gobierno de López Obrador revirtió parcialmente esa apertura. Su producción de crudo ha caído consistentemente desde 2004, desde 3.4 a menos de 1.9 millones de barriles diarios.",
+    "hq": "Ciudad de México",
+    "team_size": "+2,000",
+    "founded": "1966",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Bursátil / BMV"
+  },
+  "Lala": {
+    "tagline": "El grupo lácteo más grande de México y uno de los mayores de América Latina.",
+    "about": "Grupo Lala es la empresa líder en producción y distribución de productos lácteos en México. Fundada en 1950 en La Laguna, Durango, opera una cadena de frío que abarca desde la ganadería hasta el punto de venta. Sus marcas incluyen Lala, Nutrileche, Selecta, Promised Land y Fud (lácteos). Con expansión en Brasil y Centroamérica, controla cerca del 35% del mercado de leche líquida en México. Cotiza en la BMV bajo el ticker LALAB.",
+    "hq": "Gómez Palacio, Durango",
+    "team_size": "+17,000",
+    "founded": "1950",
+    "ownership": "Pública / BMV: LALAB",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Refinanciamiento 2024"
+  },
+  "OMA": {
+    "tagline": "Operador privado de 13 aeropuertos en la región centro-norte de México, incluyendo el hub de Monterrey.",
+    "about": "Grupo Aeroportuario del Centro Norte (OMA) es uno de los tres grupos aeroportuarios privados de México, resultado de la privatización de 1998. Administra 13 terminales clave, siendo el Aeropuerto Internacional de Monterrey (el hub industrial más importante del país) responsable de casi la mitad de su tráfico. En 2022, el grupo francés VINCI Airports adquirió casi el 30% de sus acciones a David Martínez, tomando el control operativo. VINCI ha comprometido $820 millones de dólares en la modernización de la Terminal A de Monterrey. Cotiza en BMV y NASDAQ.",
+    "hq": "Monterrey, NL",
+    "team_size": "+2,000",
+    "founded": "1982",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Bursátil / BMV"
+  },
+  "City Express": {
+    "tagline": "Cadena pionera de hoteles para viajeros de negocios en México, adquirida por Marriott.",
+    "about": "Fundada en 2002 por Luis Barrios aprovechando el auge del TLCAN, Hoteles City Express se convirtió en la cadena de más rápido crecimiento en México enfocada en viajeros de negocios. Desarrolló un modelo de hotel de servicio limitado, limpio, bien ubicado y a precio justo que llenó un vacío entre los hostales y los hoteles de lujo. En 2022, tras alcanzar más de 150 propiedades en 70 ciudades, vendió sus marcas a Marriott International por $100 millones de dólares, conservando la propiedad y operación de los inmuebles bajo el nombre Norte 19.",
+    "hq": "Ciudad de México",
+    "team_size": "+5,000",
+    "founded": "2001",
+    "ownership": "Subsidiaria de Marriott",
+    "stage": "Consolidada",
+    "last_round": "Adquisición Marriott $100 mdd (2022)"
+  },
+  "Bank of America": {
+    "tagline": "Uno de los mayores bancos del mundo, con operaciones de banca corporativa y de inversión en México.",
+    "about": "Bank of America opera en México a través de su brazo de banca corporativa y de inversión. Su presencia local se enfoca en atender a grandes corporativos mexicanos, gobiernos y transacciones de mercados de capital. Tiene una posición relevante en la sindicación de créditos y en la asesoría de fusiones y adquisiciones. Su participación en México se intensificó durante el auge del nearshoring y las grandes transacciones de deuda corporativa de empresas como Cemex, AMX y Pemex.",
+    "hq": "Ciudad de México",
+    "team_size": "+2,000",
+    "founded": "1994",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $100 mdd"
+  },
+  "Inditex": {
+    "tagline": "El mayor grupo de moda del mundo, creador de Zara, con México como mercado clave.",
+    "about": "Inditex es el conglomerado textil más grande del mundo, fundado en 1985 en La Coruña, España, por Amancio Ortega. Opera marcas como Zara, Pull&Bear, Massimo Dutti, Bershka y Stradivarius. En México tiene presencia en los principales centros comerciales del país y una creciente operación de e-commerce. El modelo de 'fast fashion' de Inditex ha definido la industria global durante dos décadas. Cotiza en la Bolsa de Madrid bajo el ticker ITX y es una de las empresas de mayor capitalización bursátil en Europa.",
+    "hq": "Arteixo, España",
+    "team_size": "+2,000",
+    "founded": "1965",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Bursátil / BMV"
+  },
+  "Nvidia": {
+    "tagline": "El fabricante de chips de IA más valioso del mundo, con inversiones en infraestructura en México.",
+    "about": "Nvidia es el diseñador de GPUs más importante del planeta y la empresa de mayor capitalización bursátil durante periodos de 2023-2024. Su relevancia en México aumentó con el boom de la inteligencia artificial: el gobierno anunció planes de importar chips Nvidia para centros de datos de IA, y varias empresas mexicanas de telecomunicaciones (como Telcel) anunciaron asociaciones para ofrecer servicios de cómputo en la nube basados en infraestructura Nvidia. La demanda de sus chips H100 y B200 supera ampliamente la oferta disponible globalmente.",
+    "hq": "Santa Clara, EE.UU.",
+    "team_size": "+2,000",
+    "founded": "1999",
+    "ownership": "Pública / BMV",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Bursátil / BMV"
+  },
+  "Bachoco": {
+    "tagline": "La empresa líder en la industria avícola de México, con presencia en Estados Unidos.",
+    "about": "Industrias Bachoco es la empresa avícola más grande de México y una de las más importantes de América del Norte. Fundada en 1952 en Sonora por la familia Robinson Bours, produce y distribuye pollo, huevo, cerdo y alimentos balanceados. Cotiza en la BMV y NYSE bajo el ticker IBA. A partir de 2011 expandió operaciones a Estados Unidos con la adquisición de OK Foods, consolidando su presencia binacional. Controla cerca del 30% del mercado avícola mexicano.",
+    "hq": "Hermosillo, Sonora",
+    "team_size": "+35,000",
+    "founded": "1952",
+    "ownership": "Pública / BMV: BACHOCOB",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Expansión avícola 2024"
+  },
+  "Banco Azteca": {
+    "tagline": "El banco con mayor red de sucursales en México, enfocado en el segmento popular.",
+    "about": "Banco Azteca, subsidiaria de Grupo Elektra, se fundó en 2002 aprovechando la red de tiendas Elektra para instalar sucursales bancarias en zonas no atendidas por la banca tradicional. Con más de 1,800 sucursales, es la institución con mayor cobertura geográfica del sistema financiero mexicano. Ofrece crédito personal, hipotecas, seguros y remesas. Ha sido objeto de disputas con el Banco de México por sus tasas de interés. Parte del Grupo Salinas de Ricardo Salinas Pliego.",
+    "hq": "Ciudad de México",
+    "team_size": "1,000–5,000",
+    "founded": "1998",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $30 mdd"
+  },
+  "Grupo Axo": {
+    "tagline": "El mayor operador de marcas internacionales de moda y lifestyle en México.",
+    "about": "Grupo Axo es la empresa líder en la importación y operación de marcas de moda, deportes y lifestyle internacionales en México. Su portafolio incluye más de 30 marcas como Tommy Hilfiger, Calvin Klein, Under Armour, Brooks Brothers y Skechers. También opera marcas propias como AXOBAR y SANDRO México. Tiene presencia física en los principales centros comerciales del país y una creciente operación de e-commerce. Es el socio preferido de marcas globales que buscan establecerse en el mercado mexicano.",
+    "hq": "Ciudad de México",
+    "team_size": "1,000–5,000",
+    "founded": "1981",
+    "ownership": "Privada",
+    "stage": "Scaleup",
+    "last_round": "2022: $75 mdd"
+  },
+  "Vitro": {
+    "tagline": "Empresa líder en fabricación de vidrio en México, proveedora de la industria y el hogar.",
+    "about": "Vitro es la empresa vidriera más grande de México y una de las más grandes de América. Fundada en 1909 en Monterrey, opera divisiones de vidrio plano (para construcción y automotriz) y envases de vidrio. Tras una reestructura de deuda en 2012, se enfocó en su negocio de vidrio plano y vendió los envases. En 2016 adquirió a PPG Industries sus operaciones de vidrio plano en América del Norte por $1,240 millones de dólares, convirtiéndose en proveedor de primer nivel para la industria automotriz norteamericana. Cotiza en BMV bajo el ticker VITROA.",
+    "hq": "San Pedro Garza García, NL",
+    "team_size": "+18,000",
+    "founded": "1909",
+    "ownership": "Pública / BMV: VITROA",
+    "stage": "Bursátil / Consolidada",
+    "last_round": "Capex planta Texas 2024"
+  },
+  "Grupo Alfa": {
+    "tagline": "",
+    "about": "En noviembre de 2020 Best Buy anunció que cerraría sus 46 tiendas en México. Después de seis meses de pandemia, la empresa con sede en Minneapolis tomó la decisión de dejar de operar en nuestro país. Los recortes de personal en Alphabet, Twitter, Meta y Microsoft — junto con muchas otras empresas de tecnología — han protagonizado las portadas de los diarios en los últimos meses. Sin embargo, fuera A finales de mayo del año pasado, la imagen de la slide circuló entre los grupos de WhatsApp rel…",
+    "hq": "",
+    "team_size": "",
+    "founded": "",
+    "ownership": "",
+    "stage": "",
+    "last_round": ""
+  }
+}
