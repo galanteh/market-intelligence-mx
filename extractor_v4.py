@@ -56,6 +56,21 @@ AD_PATTERNS = [
 ]
 AD_RE = re.compile('|'.join(AD_PATTERNS), re.IGNORECASE)
 
+# Matches inline sponsor/promo lines so they can be stripped from body text
+# before NLP runs. Anchored to line-start to avoid removing legitimate body text
+# that merely references a sponsor in passing (e.g. "el sponsor del evento fue…").
+_SPONSOR_LINE_RE = re.compile(
+    r'^[>\s*_#]*'                              # optional markdown decorators
+    r'(?:'
+    r'sponsored\s+by'
+    r'|patrocinado\s+por'
+    r'|presentado\s+por'
+    r'|powered\s+by'
+    r'|en\s+colaboraci[oó]n\s+con'
+    r')\s*:?\s*',
+    re.IGNORECASE | re.MULTILINE,
+)
+
 def is_ad_section(heading: str, body: str) -> bool:
     if AD_RE.search(heading): return True
     if AD_RE.search(body[:400]): return True
@@ -464,6 +479,10 @@ def clean_text(t):
     t = TRAIL_RE.sub(' ', t)
     t = re.sub(r'_([^_\n]+)_', r'\1', t)
     t = re.sub(r'`[^`]+`', '', t)
+    # Strip inline sponsor/promo lines so entities after "Sponsored by: X"
+    # are never passed to spaCy as editorial mentions.
+    lines = t.splitlines()
+    t = '\n'.join(l for l in lines if not _SPONSOR_LINE_RE.match(l))
     t = WSPACE_RE.sub(' ', t)
     t = re.sub(r'\n{3,}', '\n\n', t)
     return t.strip()
