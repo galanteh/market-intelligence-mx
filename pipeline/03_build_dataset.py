@@ -22,6 +22,43 @@ DATA_OUT   = BASE / "market-intelligence-dashboard" / "data.json"
 
 METRIC_FIELDS = ("hq", "team_size", "founded", "ownership", "stage", "last_round")
 
+# Aliases that should be merged into a single canonical entity.
+# Applied before blacklist filtering and curated data lookup.
+ALIAS_MAP: dict[str, str] = {
+    "Walmart México":        "Walmart",
+    "Walmart Mexico":        "Walmart",
+    "Walmart de México":     "Walmart",
+    "Walmart de Mexico":     "Walmart",
+    "Walmex":                "Walmart",
+    "BBVA México":           "BBVA",
+    "BBVA Mexico":           "BBVA",
+    "BBVA Bancomer":         "BBVA",
+    "Bancomer":              "BBVA",
+    "Citibanamex":           "Banamex",
+    "Banamex":               "Banamex",
+    "Santander México":      "Santander",
+    "Santander Mexico":      "Santander",
+    "Heineken México":       "Heineken",
+    "Heineken Mexico":       "Heineken",
+    "Amazon México":         "Amazon",
+    "Amazon Mexico":         "Amazon",
+    "Aeroméxico":            "Aeroméxico",
+    "Aeromexico":            "Aeroméxico",
+    "Grupo Aeroméxico":      "Aeroméxico",
+    "Grupo Aeromexico":      "Aeroméxico",
+    "América Móvil":         "América Móvil",
+    "America Movil":         "América Móvil",
+    "Viva Aerobus":          "Viva Aerobus",
+    "VivaAerobus":           "Viva Aerobus",
+    "Vivaaerobus":           "Viva Aerobus",
+    "Grupo México":          "Grupo México",
+    "Grupo Mexico":          "Grupo México",
+    "Mercado Libre":         "Mercado Libre",
+    "MercadoLibre":          "Mercado Libre",
+    "Grupo Salinas":         "Grupo Salinas",
+    "Salinas":               "Grupo Salinas",
+}
+
 
 # ─── Load config ──────────────────────────────────────────────────────────────
 
@@ -114,12 +151,31 @@ def run() -> int:
         raw_companies  = raw.get("companies", [])
         raw_investment = raw.get("investment", [])
 
+    # ── Entity resolution: merge aliases into canonical names ─────────────────
+    # Build a lookup by name so we can append entries to the canonical company.
+    by_name: dict[str, dict] = {}
+    for co in raw_companies:
+        original = co.get("name", "")
+        canonical = ALIAS_MAP.get(original, original)
+        co["name"] = canonical
+        if canonical in by_name:
+            # Merge entries into the existing record; keep first record's metadata
+            by_name[canonical]["entries"] = (
+                by_name[canonical].get("entries", []) + co.get("entries", [])
+            )
+        else:
+            by_name[canonical] = co
+    merged = list(by_name.values())
+    alias_merges = len(raw_companies) - len(merged)
+    if alias_merges:
+        print(f"[03_build_dataset] Aliases:   {alias_merges} duplicates merged via ALIAS_MAP")
+
     kept     = []
     removed  = 0
     enriched = 0
     nulled   = 0
 
-    for co in raw_companies:
+    for co in merged:
         name = co.get("name", "")
 
         # 1. Filter
