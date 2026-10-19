@@ -42,7 +42,7 @@
   "Walmart": {
     "tagline": "Superó el billón de pesos en ventas y opera más de 4,200 unidades, convirtiéndose en el negocio internacional más importante de Walmart.",
     "about": "Walmex es el negocio que construyó la familia Arango y que terminó convirtiéndose en la operación internacional más importante de Walmart. Los hermanos Arango abrieron la primera Aurrera en Ciudad de México en 1958 y después desarrollaron Superama, Bodega Aurrera y Suburbia bajo Grupo Cifra. En 1991 se asociaron con Walmart para abrir el primer Sam's Club; seis años después Walmart adquirió el control de Cifra. Hoy opera Walmart, Bodega Aurrera, Sam's Club y Walmart Express, además de cadenas en cinco países de Centroamérica. En 2025 superó por primera vez el billón de pesos en ingresos, con 4,265 unidades y más de 240,000 empleados. Cotiza en BMV bajo el ticker WALMEX.",
-    "hq": "Ciudad de México",
+    "hq": "Bentonville, Arkansas, EUA",
     "team_size": "+240,000",
     "founded": "1958",
     "ownership": "Pública / BMV: WALMEX",
@@ -82,7 +82,7 @@
   "Uber": {
     "tagline": "Plataforma global de movilidad y entregas con millones de usuarios activos en México.",
     "about": "Uber opera en México desde 2013 y se convirtió en el servicio de transporte privado más utilizado del país. Ofrece servicios de movilidad (UberX, Comfort, Black), entregas de comida (Uber Eats) y envíos (Uber Flash). México es el tercer mercado más grande de Uber globalmente, después de Estados Unidos e India. La empresa ha enfrentado disputas regulatorias constantes con autoridades locales y el sector taxi. Su servicio de entregas Uber Eats disputa el liderazgo con DiDi Food y Rappi.",
-    "hq": "Ciudad de México",
+    "hq": "San Francisco, California, EUA",
     "team_size": "+33,000 global",
     "founded": "2009",
     "ownership": "Pública / NYSE: UBER",
@@ -92,7 +92,7 @@
   "Rappi": {
     "tagline": "Superapp de entregas a domicilio presente en 9 países de América Latina.",
     "about": "Rappi fue fundado en 2015 en Bogotá, Colombia, por Simón Borrero y equipo. Es la superapp de entregas más grande de América Latina, con servicios que van desde comida y supermercado hasta farmacia, efectivo y viajes. En México opera en las principales ciudades y compite con Uber Eats y DiDi Food. Alcanzó el estatus de decacornio (valuación superior a $10,000 mdd) en 2021, respaldado por SoftBank. Ha diversificado hacia servicios financieros con RappiPay y RappiCard, en alianza con Banorte en México.",
-    "hq": "Ciudad de México",
+    "hq": "Bogotá, Colombia",
     "team_size": "+10,000",
     "founded": "2015",
     "ownership": "Privada",
@@ -122,7 +122,7 @@
   "BBVA": {
     "tagline": "El banco con mayor base de clientes y activos totales en México.",
     "about": "BBVA México (antes Bancomer) es la filial más rentable del grupo español BBVA y el mayor banco del país por activos, créditos y número de clientes activos. Con más de 23 millones de clientes, opera a través de una red de más de 1,700 sucursales y la app BBVA, una de las más descargadas de México. En 2000, el grupo vasco adquirió el Grupo Financiero Bancomer en $1,800 millones de dólares. BBVA México representa cerca del 45% de los ingresos totales del grupo global.",
-    "hq": "Ciudad de México",
+    "hq": "Bilbao, España",
     "team_size": "+30,000 (MX)",
     "founded": "1932 (MX)",
     "ownership": "Subsidiaria de BBVA España",
@@ -192,7 +192,7 @@
   "Costco": {
     "tagline": "Club de membresía con los precios más competitivos del retail mexicano.",
     "about": "Costco de México opera bajo licencia de Costco Wholesale, la cadena de clubes de membresía fundada en Seattle. Con más de 40 bodegas en el país, representa uno de los formatos de mayor lealtad entre los segmentos A y B de la población mexicana. Su modelo de volumen y membresía anual genera márgenes bajos en mercancía pero ingresos predecibles. Su expansión en México ha sido más agresiva que la de sus principales competidores directos en el formato club.",
-    "hq": "Ciudad de México",
+    "hq": "Issaquah, Washington, EUA",
     "team_size": "+300,000 global",
     "founded": "1983",
     "ownership": "Pública / NASDAQ: COST",
@@ -222,7 +222,7 @@
   "General Motors": {
     "tagline": "Fabricante estadounidense de automóviles con plantas de exportación clave en México.",
     "about": "General Motors tiene presencia en México desde 1935. Opera plantas de manufactura en Silao (Guanajuato) y San Luis Potosí, donde produce vehículos y motores para exportación principalmente a Estados Unidos. México es parte integral de la cadena de suministro de GM en América del Norte. Con el auge del nearshoring y la transición hacia vehículos eléctricos, GM ha anunciado inversiones adicionales en sus plantas mexicanas. Emplea a más de 15,000 personas directas en el país.",
-    "hq": "Ciudad de México",
+    "hq": "Detroit, Michigan, EUA",
     "team_size": "+8,000 (MX)",
     "founded": "1935 (MX)",
     "ownership": "Pública / NYSE: GM",
@@ -302,7 +302,7 @@
   "Heineken": {
     "tagline": "Segunda cervecera en México a través de Cuauhtémoc Moctezuma, parte del grupo holandés.",
     "about": "Heineken México opera a través de Cervecería Cuauhtémoc Moctezuma, empresa fundada en 1890 en Monterrey con marcas como Tecate, Dos Equis, Sol y Carta Blanca. En 2010, el grupo holandés Heineken adquirió el negocio cervecero de FEMSA en una transacción de $5,500 millones de dólares. Junto a Grupo Modelo (AB InBev), conforman el duopolio cervecero mexicano que controla más del 95% del mercado nacional. Sus marcas tienen fuerte presencia en el segmento premium y de exportación.",
-    "hq": "Monterrey, NL",
+    "hq": "Ámsterdam, Países Bajos",
     "team_size": "+85,000 global",
     "founded": "1873",
     "ownership": "Pública / Euronext: HEIA",
@@ -312,7 +312,7 @@
   "Nubank": {
     "tagline": "El banco digital más grande del mundo fuera de Asia, con millones de clientes en México.",
     "about": "Nubank fue fundado en 2013 en Brasil por David Vélez. Se expandió a México en 2019 con su tarjeta de crédito Nu, operando con licencia SOFOM. Para 2024 superó los 8 millones de clientes en el país. Su propuesta de cero comisiones y atención 100% digital resonó especialmente entre millennials y Gen Z. Cotiza en NYSE bajo el ticker NU y tiene una valuación superior a $40,000 mdd. Es el mayor competidor para los bancos tradicionales mexicanos en el segmento de tarjetas de crédito.",
-    "hq": "Ciudad de México",
+    "hq": "São Paulo, Brasil",
     "team_size": "+8,000",
     "founded": "2013",
     "ownership": "Pública / NYSE: NU",
@@ -342,7 +342,7 @@
   "American Express": {
     "tagline": "Red global de servicios financieros con el segmento premium del mercado mexicano.",
     "about": "American Express en México opera tanto el negocio de tarjetas de crédito y débito como el de servicios de viaje corporativo. Se posiciona exclusivamente en los segmentos A/B del mercado, compitiendo con las tarjetas premium de BBVA, Banorte y Citibanamex. Su red de aceptación —históricamente menor que Visa/Mastercard— ha crecido significativamente en años recientes. Los programas de lealtad y los beneficios de viaje son sus principales palancas de retención. También emite tarjetas corporativas para grandes empresas.",
-    "hq": "Ciudad de México",
+    "hq": "Nueva York, EUA",
     "team_size": "+70,000 global",
     "founded": "1850",
     "ownership": "Pública / NYSE: AXP",
@@ -352,7 +352,7 @@
   "Ualá": {
     "tagline": "Fintech argentina con fuerte expansión en el mercado mexicano de pagos.",
     "about": "Ualá fue fundada en 2017 en Argentina por Pierpaolo Barbieri. Se expandió a México en 2020 con una tarjeta prepagada Mastercard y servicios de pagos. En 2021 adquirió ABC Capital, un banco mexicano, para obtener licencia bancaria en el país. Ha recibido inversión de Softbank, Tencent y Goldman Sachs. En México compite directamente con Nubank, Klar y Stori en el segmento de servicios financieros digitales para consumidores no bancarizados o sub-bancarizados.",
-    "hq": "Ciudad de México",
+    "hq": "Buenos Aires, Argentina",
     "team_size": "+1,500",
     "founded": "2017",
     "ownership": "Privada",
@@ -412,7 +412,7 @@
   "Scotiabank": {
     "tagline": "Banco canadiense con décadas de presencia en el mercado financiero mexicano.",
     "about": "Scotiabank México es la subsidiaria del Bank of Nova Scotia (el tercer banco más grande de Canadá) en el país. Opera desde 1994 y se ha posicionado en los segmentos de banca personal, hipotecas, PyMEs y banca corporativa. Es el quinto banco más grande de México por activos. Su estrategia en el país forma parte de la apuesta del grupo por la 'Pacific Alliance', que incluye México, Colombia, Perú y Chile, mercados que Scotiabank considera su zona de crecimiento prioritario.",
-    "hq": "Ciudad de México",
+    "hq": "Toronto, Canadá",
     "team_size": "+8,000 (MX)",
     "founded": "1832 / 1997 (MX)",
     "ownership": "Subsidiaria de Scotiabank Canadá",
@@ -442,7 +442,7 @@
   "Hyundai": {
     "tagline": "Marca coreana con crecimiento consistente en el mercado automotriz mexicano.",
     "about": "Hyundai Motor Company opera en México a través de distribuidores autorizados desde los años 90. Ha ganado participación de mercado consistentemente gracias a una relación calidad-precio competitiva y una línea de SUVs y sedanes bien posicionada. La cobertura de Hyundai en Whitepaper refleja su papel en el debate sobre aranceles automotrices, nearshoring y la posible instalación de una planta de manufactura en México o el sur de Estados Unidos. Su socio Genesis también ha comenzado operaciones en el segmento premium mexicano.",
-    "hq": "Ciudad de México",
+    "hq": "Seúl, Corea del Sur",
     "team_size": "+6,000 (MX)",
     "founded": "1998 (MX)",
     "ownership": "Subsidiaria de Hyundai Motor",
@@ -462,7 +462,7 @@
   "Ford": {
     "tagline": "Fabricante global de vehículos con una histórica planta de motores en Hermosillo, Sonora.",
     "about": "Ford Motor Company tiene presencia industrial en México desde 1925. Su planta de Hermosillo, inaugurada en 1986, es una de las más modernas del grupo a nivel global y produce el Ford Bronco Sport y el Maverick para el mercado norteamericano. También opera una planta de motores en Chihuahua. México es el tercer destino de inversión automotriz de Ford en el mundo. La firma ha resistido presiones políticas binacionales para relocalizar producción, argumentando la competitividad de sus operaciones mexicanas.",
-    "hq": "Ciudad de México",
+    "hq": "Dearborn, Michigan, EUA",
     "team_size": "+5,000 (MX)",
     "founded": "1925 (MX)",
     "ownership": "Pública / NYSE: F",
@@ -502,7 +502,7 @@
   "Samsung": {
     "tagline": "Gigante tecnológico coreano con manufactura, ventas e I+D relevante en México.",
     "about": "Samsung tiene en México una de sus operaciones más importantes fuera de Corea del Sur. Opera una planta de manufactura de equipos de telecomunicaciones en Querétaro y un Centro de Desarrollo de Software en Ciudad de México. Es el líder de smartphones en el país por participación de mercado, por encima de Apple. Su división de electrodomésticos (televisores, lavadoras, refrigeradores) también tiene posición de liderazgo. Mexico es el segundo mercado más grande de Samsung en América Latina, después de Brasil.",
-    "hq": "Ciudad de México",
+    "hq": "Suwon, Corea del Sur",
     "team_size": "+5,000 (MX)",
     "founded": "1995 (MX)",
     "ownership": "Subsidiaria de Samsung Electronics",
@@ -632,7 +632,7 @@
   "Bank of America": {
     "tagline": "Uno de los mayores bancos del mundo, con operaciones de banca corporativa y de inversión en México.",
     "about": "Bank of America opera en México a través de su brazo de banca corporativa y de inversión. Su presencia local se enfoca en atender a grandes corporativos mexicanos, gobiernos y transacciones de mercados de capital. Tiene una posición relevante en la sindicación de créditos y en la asesoría de fusiones y adquisiciones. Su participación en México se intensificó durante el auge del nearshoring y las grandes transacciones de deuda corporativa de empresas como Cemex, AMX y Pemex.",
-    "hq": "Ciudad de México",
+    "hq": "Charlotte, Carolina del Norte, EUA",
     "team_size": "+2,000",
     "founded": "1994",
     "ownership": "Privada",

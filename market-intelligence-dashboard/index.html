@@ -714,8 +714,11 @@ function renderKPIs(c){
     </div>`;
   }
 
+  const isSubsidiary = (c.ownership||'').toLowerCase().includes('subsidiaria');
+  const hqLabel = isSubsidiary ? 'Sede Global (Filial MX)' : 'Headquarters';
+
   const cards = [
-    card('map-pin',    'Headquarters', c.hq || c.city || null),
+    card('map-pin',    hqLabel,        c.hq || c.city || null),
     card('users',      'Equipo',       c.team_size || null),
     card('calendar',   'Fundada',      c.founded ? String(c.founded) : null),
     card('building-2', 'Propiedad',    c.ownership || null),
