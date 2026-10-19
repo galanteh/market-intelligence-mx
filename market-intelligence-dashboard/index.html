@@ -205,6 +205,7 @@ h1, h2, h3, h4, h5, h6 {
         <div class="flex gap-1 items-center" id="main-tabs">
           <button id="tab-dir" class="tab-btn active" onclick="switchTab('directory')">Directorio</button>
           <button id="tab-inv" class="tab-btn"        onclick="switchTab('investment')">Proyectos &amp; Inversión</button>
+          <button id="tab-unv" class="tab-btn"        onclick="switchTab('unverified')">Por Verificar</button>
           <span class="flex-1"></span>
           <span class="text-xs text-[#737373] hidden sm:block" id="result-count"></span>
         </div>
@@ -338,8 +339,7 @@ const S = {
   activeCo:     null,
   eventFilter:  'all',
   page:         0,
-  invYear:      'all',
-  verifiedOnly: false,
+  invYear:     'all',
 };
 const PAGE = 24;
 
@@ -412,9 +412,8 @@ function getFiltered(){
       (c.city||'').toLowerCase().includes(q)
     );
   }
-  // DEV PALETTE FILTER — remove when palette is removed
-  if(S.verifiedOnly) list = list.filter(c=>(c.about||'').trim().length > 0);
-  // END DEV PALETTE FILTER
+  if(S.tab === 'unverified')
+    list = list.filter(c=>{ const a=(c.about||'').trim(); return !a || a==='N/A'; });
   return list;
 }
 
@@ -580,9 +579,11 @@ document.addEventListener('click',e=>{
 
 /* ══ TAB SWITCHING ══════════════════════════════════════════ */
 function switchTab(tab){
-  S.tab = tab;
+  S.tab  = tab;
+  S.page = 0;
   $('tab-dir').classList.toggle('active', tab==='directory');
   $('tab-inv').classList.toggle('active', tab==='investment');
+  $('tab-unv').classList.toggle('active', tab==='unverified');
 
   if(tab==='investment'){
     hide('dir-content');
@@ -591,6 +592,7 @@ function switchTab(tab){
   } else {
     hide('inv-content');
     show('dir-content');
+    renderGrid();
   }
 }
 
@@ -624,6 +626,7 @@ function goHome(){
   show('cta-section');
   $('tab-dir').classList.add('active');
   $('tab-inv').classList.remove('active');
+  $('tab-unv').classList.remove('active');
   // Restore correct sub-tab content
   show('dir-content');
   hide('inv-content');
@@ -942,27 +945,6 @@ async function initApp(){
 initApp();
 </script>
 
-<!-- DEV PALETTE START (EASY TO REMOVE LATER) -->
-<div id="dev-palette" class="fixed bottom-6 right-6 bg-background border border-border shadow-2xl rounded-full px-5 py-3 flex items-center gap-3 z-50">
-  <span class="text-xs font-medium text-muted-foreground uppercase tracking-wider">Modo Vista</span>
-  <label class="relative inline-flex items-center cursor-pointer">
-    <input type="checkbox" id="toggle-verified-only" class="sr-only peer">
-    <div class="w-9 h-5 bg-muted peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
-    <span class="ml-3 text-sm font-semibold text-foreground">Solo verificadas</span>
-  </label>
-</div>
-<script>
-(function(){
-  const toggle = document.getElementById('toggle-verified-only');
-  if(!toggle) return;
-  toggle.addEventListener('change', function(e){
-    S.verifiedOnly = e.target.checked;
-    S.page = 0;
-    renderGrid();
-  });
-})();
-</script>
-<!-- DEV PALETTE END -->
 
 </body>
 </html>
