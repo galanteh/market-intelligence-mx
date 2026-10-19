@@ -488,7 +488,7 @@ function renderGrid(){
       const tagline  = c.tagline || c.about || c.summary || '';
       const preview  = tagline.replace(/<[^>]+>/g,'').slice(0,110);
       const team     = c.team_size || '';
-      const location = c.city || c.hq || 'México';
+      const location = c.city || c.hq || '';
       const s        = sentStats(entries);
       const sentColor= s.pp>=55?'text-green-700':s.pn>=35?'text-red-600':'text-[#737373]';
       const sentTxt  = s.pp>=55?'Positiva':s.pn>=35?'Alertas':'Neutral';
@@ -512,7 +512,7 @@ function renderGrid(){
           <div class="flex items-center justify-between pt-4 border-t border-black/5 text-xs text-[#737373]">
             <div class="flex items-center gap-3">
               ${entries.length ? `<span class="flex items-center gap-1"><i data-lucide="newspaper" class="w-3.5 h-3.5"></i> ${entries.length} art.</span>` : ''}
-              <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i> ${location}</span>
+              ${location ? `<span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i> ${location}</span>` : ''}
             </div>
             <i data-lucide="arrow-up-right" class="w-4 h-4 text-[#737373] group-hover:text-[#FF3838]
                group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>

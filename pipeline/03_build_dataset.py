@@ -34,8 +34,7 @@ ALIAS_MAP: dict[str, str] = {
     "BBVA Mexico":           "BBVA",
     "BBVA Bancomer":         "BBVA",
     "Bancomer":              "BBVA",
-    "Citibanamex":           "Banamex",
-    "Banamex":               "Banamex",
+    "Citibanamex":           "Citibanamex",
     "Santander México":      "Santander",
     "Santander Mexico":      "Santander",
     "Heineken México":       "Heineken",
@@ -57,6 +56,21 @@ ALIAS_MAP: dict[str, str] = {
     "MercadoLibre":          "Mercado Libre",
     "Grupo Salinas":         "Grupo Salinas",
     "Salinas":               "Grupo Salinas",
+    # Warner aliases → canonical "Warner Bros"
+    "Warner":                "Warner Bros",
+    "Warner Bros Discovery": "Warner Bros",
+    "WarnerMedia":           "Warner Bros",
+    # CEMEX variants
+    "Cemex":                 "CEMEX",
+    "Cementos Mexicanos":    "CEMEX",
+    # Pemex variants
+    "Pemex":                 "PEMEX",
+    "Petróleos Mexicanos":   "PEMEX",
+    # DiDi / inDrive
+    "Didi":                  "DiDi",
+    "DIDI":                  "DiDi",
+    # Cornershop
+    "Cornershop by Uber":    "Cornershop",
 }
 
 
