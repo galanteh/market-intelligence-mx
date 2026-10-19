@@ -1838,5 +1838,65 @@
     "stage": "Consolidada",
     "team_size": "+600",
     "last_round": "Adquisición NYT $550 mdd"
+  },
+  "Panasonic": {
+    "tagline": "Conglomerado japonés líder en electrónica, componentes industriales y baterías automotrices.",
+    "about": "Fundada en Osaka en 1918 por Konosuke Matsushita, Panasonic Corporation es un referente mundial en electrónica de consumo y tecnología industrial. En años recientes se ha consolidado como un proveedor clave de celdas de batería para vehículos eléctricos y opera importantes instalaciones de componentes en México.",
+    "hq": "Osaka, Japón",
+    "founded": "1918",
+    "ownership": "Pública / TYO: 6752",
+    "stage": "Consolidada",
+    "team_size": "+230,000",
+    "last_round": "N/A"
+  },
+  "Mastercard": {
+    "tagline": "Red tecnológica global de procesamiento de pagos y servicios financieros.",
+    "about": "Mastercard conecta a consumidores, comercios, instituciones financieras y gobiernos en más de 210 países facilitando transferencias y pagos electrónicos. En México es una de las dos redes de procesamiento con mayor volumen y un socio clave en el crecimiento del ecosistema fintech y neobancos.",
+    "hq": "Purchase, Nueva York, EUA",
+    "founded": "1966",
+    "ownership": "Pública / NYSE: MA",
+    "stage": "Consolidada",
+    "team_size": "+33,000",
+    "last_round": "N/A"
+  },
+  "HEB": {
+    "tagline": "Cadena texana de supermercados con fuerte arraigo y liderazgo en el noreste de México.",
+    "about": "H-E-B fue fundada en Kerrville, Texas, en 1905. Ingresó a México en 1997 estableciendo su primera sucursal en San Pedro Garza García, Nuevo León. Opera formatos H-E-B y Mi Tiendita del Ahorro, destacándose por su catálogo de productos de marca propia y una alta fidelidad en el segmento de retail.",
+    "hq": "San Antonio, Texas, EUA",
+    "founded": "1905",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "team_size": "+145,000",
+    "last_round": "N/A"
+  },
+  "OPPO": {
+    "tagline": "Fabricante chino de smartphones con fuerte expansión en mercados emergentes de América Latina.",
+    "about": "OPPO Electronics es uno de los mayores fabricantes de teléfonos inteligentes del mundo, parte del holding BBK Electronics junto a OnePlus, Vivo y Realme. En México ha ganado participación de mercado en el segmento de dispositivos de gama media, compitiendo con Samsung y Motorola en el canal de retail y operadoras.",
+    "hq": "Dongguan, China",
+    "founded": "2004",
+    "ownership": "Privada (BBK Electronics)",
+    "stage": "Consolidada",
+    "team_size": "+40,000",
+    "last_round": "N/A"
+  },
+  "DirecTV": {
+    "tagline": "Plataforma de televisión satelital presente en México a través de Sky.",
+    "about": "DirecTV es una plataforma de televisión satelital de AT&T. En México opera bajo la marca Sky, en una empresa conjunta con DIRECTV Latin America. Sky es la mayor plataforma de televisión de paga por satélite del país, con millones de suscriptores en zonas donde el cable no llega. Su relevancia editorial está ligada al debate sobre derechos de transmisión deportiva y la competencia con plataformas de streaming.",
+    "hq": "El Segundo, California, EUA",
+    "founded": "1994",
+    "ownership": "Subsidiaria (AT&T)",
+    "stage": "Consolidada",
+    "team_size": "+16,000",
+    "last_round": "N/A"
+  },
+  "United Airlines": {
+    "tagline": "Una de las principales aerolíneas de EUA con operaciones en los destinos más relevantes de México.",
+    "about": "United Airlines opera rutas entre México y los principales hubs de Estados Unidos: Chicago O'Hare, Houston Intercontinental, Newark y Los Ángeles. México es uno de sus mercados internacionales de mayor crecimiento. La aerolínea tiene convenios de código compartido con Aeroméxico y es uno de los actores clave en la conectividad aérea binacional.",
+    "hq": "Chicago, Illinois, EUA",
+    "founded": "1926",
+    "ownership": "Pública / NASDAQ: UAL",
+    "stage": "Consolidada",
+    "team_size": "+100,000",
+    "last_round": "N/A"
   }
 }

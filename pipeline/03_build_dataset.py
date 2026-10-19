@@ -88,6 +88,12 @@ ALIAS_MAP: dict[str, str] = {
     "Femsa":                 "FEMSA",
     # Farmacias Guadalajara → parent entity
     "Farmacias Guadalajara": "Fragua",
+    # Case / typo normalization
+    "Ikea":                  "IKEA",
+    "Hubspot":               "HubSpot",
+    "Oppo":                  "OPPO",
+    "DirectTV":              "DirecTV",
+    "UNited Airlines":       "United Airlines",
 }
 
 
