@@ -1898,5 +1898,25 @@
     "stage": "Consolidada",
     "team_size": "+100,000",
     "last_round": "N/A"
+  },
+  "Chili’s": {
+    "tagline": "Cadena estadounidense de restaurantes de comida casual estilo tex-mex.",
+    "about": "Chili's Grill & Bar es una marca internacional de restaurantes de comida casual fundada en Texas. En México, la marca es operada y expandida principalmente por Alsea, siendo un pilar clave en su portafolio de casual dining.",
+    "hq": "Dallas, Texas, EUA",
+    "founded": "1975",
+    "ownership": "Pública (Brinker Intl) / Operada por Alsea en MX",
+    "stage": "Consolidada",
+    "team_size": "+100,000 global",
+    "last_round": "N/A"
+  },
+  "Charly": {
+    "tagline": "Marca mexicana de calzado e indumentaria deportiva líder en la Liga MX.",
+    "about": "Originaria de León, Guanajuato, Charly evolucionó de ser un fabricante tradicional de calzado a convertirse en una de las marcas deportivas de mayor crecimiento en México. Su posicionamiento masivo se impulsó al vestir y patrocinar a múltiples equipos de la Primera División mexicana (incluyendo al Santos Laguna) y, más recientemente, al expandir sus tiendas hacia Estados Unidos.",
+    "hq": "León, Guanajuato, México",
+    "founded": "1977",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "team_size": "+3,000",
+    "last_round": "N/A"
   }
 }

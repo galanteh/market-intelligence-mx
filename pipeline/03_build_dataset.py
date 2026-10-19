@@ -94,6 +94,12 @@ ALIAS_MAP: dict[str, str] = {
     "Oppo":                  "OPPO",
     "DirectTV":              "DirecTV",
     "UNited Airlines":       "United Airlines",
+    # Chili’s variants (canonical uses U+2019 right single quotation mark to match extractor)
+    "Chili’s":               "Chili’s",
+    "Chilis":                "Chili’s",
+    "Chili’s Grill & Bar": "Chili’s",
+    # Santos Laguna articles → Charly (the sportswear brand that sponsors the team)
+    "Santos":                "Charly",
 }
 
 
