@@ -1028,5 +1028,335 @@
     "stage": "Cotiza en Bolsa",
     "team_size": "~35,000",
     "last_round": "N/A"
+  },
+  "Ben & Frank": {
+    "tagline": "Marca D2C de lentes ópticos y de sol para el mercado latinoamericano.",
+    "about": "Ben & Frank es una empresa de lentes fundada en 2017 en la Ciudad de México que diseña, fabrica y vende armazones de prescripción y gafas de sol directamente al consumidor a través de su sitio web y tiendas físicas. Elimina intermediarios para ofrecer diseños de moda a precios accesibles. Tiene presencia en México, Colombia y Chile.",
+    "hq": "Ciudad de México, México",
+    "founded": "2017",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Nuvocargo": {
+    "tagline": "Plataforma digital de carga para el comercio transfronterizo entre México y Estados Unidos.",
+    "about": "Nuvocargo es una startup de logística fundada en 2018 que digitaliza el proceso de importación y exportación entre México y Estados Unidos, incluyendo transporte terrestre, coordinación aduanal y financiamiento de carga. Atiende a empresas medianas y grandes con visibilidad en tiempo real de sus embarques y documentación automatizada. Cuenta con oficinas en Ciudad de México y Nueva York.",
+    "hq": "Ciudad de México, México",
+    "founded": "2018",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Merama": {
+    "tagline": "Agregador de marcas de e-commerce en América Latina con capital de SoftBank y Advent.",
+    "about": "Merama es una empresa fundada en 2021 que adquiere y escala marcas nativas de comercio electrónico en México y América Latina. Utiliza tecnología y capital para optimizar operaciones, logística y marketing de marcas con alto potencial de crecimiento en plataformas como Amazon y MercadoLibre. Respaldada por SoftBank Latin America Fund y Advent International.",
+    "hq": "Ciudad de México, México",
+    "founded": "2021",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Hey Banco": {
+    "tagline": "Banco digital de Banregio para clientes individuales, sin sucursales físicas.",
+    "about": "Hey Banco es la plataforma de banca digital de Grupo Financiero BanRegio, regulada por la CNBV como institución bancaria. Ofrece cuenta de débito, inversiones, crédito personal y servicios financieros 100% desde la aplicación móvil sin requerir sucursales. Está orientada a consumidores jóvenes y digitales en México.",
+    "hq": "Monterrey, Nuevo León, México",
+    "founded": "N/A",
+    "ownership": "Subsidiaria (Grupo Financiero BanRegio)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Kueski": {
+    "tagline": "Plataforma mexicana de crédito digital y compra ahora, paga después (BNPL).",
+    "about": "Kueski es una fintech fundada en 2012 en Guadalajara que otorga créditos personales y servicios de compra ahora paga después (BNPL) bajo la marca Kueski Pay. Utiliza modelos de scoring alternativo con inteligencia artificial para atender a segmentos de la población con acceso limitado a crédito bancario tradicional. Opera con autorización como Sociedad Financiera de Objeto Múltiple (SOFOM).",
+    "hq": "Guadalajara, Jalisco, México",
+    "founded": "2012",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Mercado Pago": {
+    "tagline": "El ecosistema de pagos y servicios financieros digitales de MercadoLibre.",
+    "about": "Mercado Pago es la división fintech de MercadoLibre, fundada en 2003, que ofrece billetera digital, pagos en línea y en tienda física, crédito, inversiones y seguros en más de ocho países de América Latina. En México es una de las plataformas de pagos digitales con mayor adopción, utilizada tanto por consumidores como por comercios de todos los tamaños. Opera como institución de fondos de pago electrónico regulada por la CNBV.",
+    "hq": "Buenos Aires, Argentina",
+    "founded": "2003",
+    "ownership": "Subsidiaria (MercadoLibre)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Spin by OXXO": {
+    "tagline": "Billetera digital y servicios financieros accesibles desde las tiendas OXXO.",
+    "about": "Spin by OXXO es la plataforma de servicios financieros digitales de FEMSA Comercio, regulada por la CNBV como institución de fondos de pago electrónico. Permite a los clientes de OXXO crear una cuenta digital, transferir dinero, pagar servicios y recargar saldo desde cualquier tienda de la cadena. Aprovecha la red de más de 22,000 tiendas OXXO como canal de incorporación y operación.",
+    "hq": "Monterrey, Nuevo León, México",
+    "founded": "N/A",
+    "ownership": "Subsidiaria (FEMSA)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Jokr": {
+    "tagline": "Plataforma de entrega ultrarrápida de abarrotes con modelo de dark stores.",
+    "about": "Jokr fue fundada en 2021 y opera un modelo de entrega de abarrotes en 10-15 minutos desde bodegas oscuras (dark stores) en ciudades de América Latina y Europa. En México operó en la Ciudad de México y otras ciudades antes de reestructurar sus operaciones globalmente en 2022. Su modelo compite en el segmento de quick-commerce contra Rappi y otros operadores.",
+    "hq": "Nueva York, EUA",
+    "founded": "2021",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Perplexity AI": {
+    "tagline": "Motor de búsqueda conversacional basado en inteligencia artificial generativa.",
+    "about": "Perplexity AI es una startup fundada en 2022 en San Francisco que desarrolla un motor de búsqueda conversacional con inteligencia artificial generativa, capaz de responder preguntas con fuentes citadas en tiempo real. Se posiciona como alternativa a los motores de búsqueda tradicionales al combinar recuperación de información web con modelos de lenguaje avanzados. Ha crecido rápidamente en usuarios globales desde su lanzamiento.",
+    "hq": "San Francisco, California, EUA",
+    "founded": "2022",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Warner Bros": {
+    "tagline": "Conglomerado global de medios y entretenimiento propietario de HBO, CNN y DC Comics.",
+    "about": "Warner Bros. Discovery es uno de los mayores grupos de medios y entretenimiento del mundo, formado en 2022 tras la fusión de WarnerMedia (escindida de AT&T) con Discovery. Opera franquicias de entretenimiento global como DC Comics, HBO, CNN, Warner Bros. Pictures y el servicio de streaming Max. En México y América Latina, Max compite directamente con Netflix y Disney+ en el mercado de video por suscripción.",
+    "hq": "Nueva York, EUA",
+    "founded": "2022",
+    "ownership": "Pública / NASDAQ: WBD",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~35,000",
+    "last_round": "N/A"
+  },
+  "Farmacias del Ahorro": {
+    "tagline": "Una de las cadenas de farmacias más grandes de México con consultorios médicos adjuntos.",
+    "about": "Farmacias del Ahorro opera una de las redes de farmacias de mayor cobertura en México, con presencia en múltiples estados del país. Se distingue por ofrecer consultorios médicos de bajo costo anexos a sus sucursales, lo que amplía su propuesta de valor más allá de la venta de medicamentos. Comercializa medicamentos genéricos y de patente, productos de cuidado personal y parafarmacia.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Farmacias Guadalajara": {
+    "tagline": "Cadena de farmacias y supermercados de Grupo Fragua con base en Jalisco.",
+    "about": "Farmacias Guadalajara es la cadena comercial principal de Grupo Fragua, empresa familiar fundada en Guadalajara. Opera farmacias de gran formato que incluyen secciones de abarrotes, electrónica y artículos del hogar, diferenciándose de farmacias convencionales por su modelo híbrido. Tiene presencia en la zona occidente, norte y centro del país.",
+    "hq": "Guadalajara, Jalisco, México",
+    "founded": "N/A",
+    "ownership": "Privada (Grupo Fragua)",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Genomma Lab": {
+    "tagline": "Fabricante mexicano de medicamentos OTC y productos de cuidado personal con presencia en 18 países.",
+    "about": "Genomma Lab International es una empresa fundada en 2001 que desarrolla, vende y distribuye productos farmacéuticos de venta libre (OTC) y de cuidado personal en México y América Latina bajo marcas propias como NextBiotics, Tukol, Vick y otras. Cotiza en la BMV y el NASDAQ y opera con un modelo asset-light que externaliza la manufactura y se enfoca en marketing y distribución.",
+    "hq": "Ciudad de México, México",
+    "founded": "2001",
+    "ownership": "Pública / BMV: LABB",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Casa Ley": {
+    "tagline": "Cadena de supermercados del noroeste mexicano con más de 200 tiendas.",
+    "about": "Casa Ley es una cadena de supermercados familiar con operación concentrada en los estados del noroeste de México, incluyendo Sinaloa, Sonora y Baja California. Fundada en Sinaloa, opera bajo el formato de autoservicio con énfasis en productos frescos y precios competitivos para el segmento masivo. Es una de las cadenas regionales de mayor arraigo en el mercado noroccidental del país.",
+    "hq": "Sinaloa, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "BanBajío": {
+    "tagline": "Banco comercial mexicano especializado en financiamiento a empresas medianas y sector agropecuario.",
+    "about": "Banco del Bajío fue fundado en 1994 en León, Guanajuato, y cotiza en la BMV. Enfoca su cartera de crédito en empresas medianas y en el sector agropecuario de la región del Bajío y norte de México, segmentos históricamente subatendidos por la banca nacional. Ha expandido su red de sucursales a lo largo del corredor industrial del país.",
+    "hq": "León, Guanajuato, México",
+    "founded": "1994",
+    "ownership": "Pública / BMV: BBAJIO",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Cinépolis": {
+    "tagline": "La cadena de cines más grande de América Latina, con presencia en más de 15 países.",
+    "about": "Cinépolis fue fundada en 1971 por Enrique Ramírez Villalón en Morelia y es el operador de complejos cinematográficos más grande de América Latina y el cuarto más grande del mundo por número de pantallas. Opera en más de 15 países con formatos premium como Cinépolis VIP, 4DX, IMAX y Macro XE. Es una empresa 100% mexicana de capital familiar que ha logrado expansión internacional orgánica.",
+    "hq": "Morelia, Michoacán, México",
+    "founded": "1971",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "~40,000",
+    "last_round": "N/A"
+  },
+  "Grupo Sanborns": {
+    "tagline": "Operador de tiendas departamentales, restaurantes y retail especializado del Grupo Carso.",
+    "about": "Grupo Sanborns opera las cadenas Sanborns (tienda departamental y restaurante), Sears México, iShop y MixUp bajo el conglomerado de Carlos Slim. Cotiza en la BMV y combina el formato de tienda física con restaurante de comida mexicana en las sucursales Sanborns, siendo un formato comercial icónico del país. También administra Sears México desde que adquirió la operación local.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Pública / BMV: SANBORNS",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Grupo Posadas": {
+    "tagline": "El operador hotelero más grande de México con marcas para todos los segmentos.",
+    "about": "Grupo Posadas fue fundado en 1967 y es el mayor operador hotelero de México con marcas como Fiesta Americana, Fiesta Inn, Live Aqua, One Hotels y Curamoria Collection. Cotiza en la BMV y opera más de 180 hoteles en México y América Latina. Ha diversificado su portafolio hacia el segmento de lujo y boutique con Live Aqua y Opera Curamoria para competir en el turismo premium.",
+    "hq": "Ciudad de México, México",
+    "founded": "1967",
+    "ownership": "Pública / BMV: POSADAS",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~15,000",
+    "last_round": "N/A"
+  },
+  "Grupo Hérdez": {
+    "tagline": "Productor y distribuidor líder de alimentos procesados en México con marcas como Herdez y McCormick.",
+    "about": "Grupo Herdez es una empresa fundada en la Ciudad de México que produce y distribuye alimentos procesados bajo marcas reconocidas como Herdez, Del Fuerte, Embasa y McCormick México. Cotiza en la BMV y opera con un modelo que combina producción propia con alianzas estratégicas como su joint venture con Hormel Foods. Tiene presencia comercial en México y en el mercado hispano de los Estados Unidos.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Pública / BMV: HERDEZ",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Grupo Bafar": {
+    "tagline": "Empresa mexicana de procesamiento y distribución de cárnicos y alimentos empacados.",
+    "about": "Grupo Bafar fue fundado en 1990 en Chihuahua y es uno de los principales productores y distribuidores de cárnicos procesados, embutidos y alimentos empacados en México. Cotiza en la BMV y opera plantas de procesamiento en el norte del país con distribución nacional. Su portafolio incluye marcas de jamones, salchichas y carnes frías bajo su propia marca Bafar.",
+    "hq": "Chihuahua, Chihuahua, México",
+    "founded": "1990",
+    "ownership": "Pública / BMV: BAFAR",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "AHMSA": {
+    "tagline": "El productor de acero integrado más grande de México, con sede en Monclova, Coahuila.",
+    "about": "Altos Hornos de México fue fundada en 1942 en Monclova y es la siderúrgica integrada de mayor tamaño del país, produciendo lámina, perfiles y otros productos de acero para la industria automotriz, construcción y manufactura. La empresa ha atravesado dificultades financieras significativas, incluyendo un proceso de reestructura de deuda y procedimientos legales sobre su estructura de propiedad.",
+    "hq": "Monclova, Coahuila, México",
+    "founded": "1942",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "CFE TEIT": {
+    "tagline": "Subsidiaria de CFE que despliega conectividad de internet y telecomunicaciones en México.",
+    "about": "CFE Telecomunicaciones e Internet para Todos (CFE TEIT) es una empresa subsidiaria de la Comisión Federal de Electricidad creada para operar la red de fibra óptica de CFE y brindar servicios de conectividad a internet a precios accesibles en zonas urbanas y rurales de México. Aprovecha la infraestructura eléctrica de CFE como base para el despliegue de su red de telecomunicaciones.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Subsidiaria (CFE)",
+    "stage": "Paraestatal / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Actinver": {
+    "tagline": "Banco y casa de bolsa mexicana especializada en gestión de patrimonio e inversiones.",
+    "about": "Actinver es una institución financiera mexicana fundada en 1989 que opera como banco múltiple y casa de bolsa bajo el Grupo Empresarial Actinver. Ofrece servicios de gestión de patrimonio, intermediación bursátil, fondos de inversión y banca privada para clientes de alto patrimonio y empresas. Es una de las casas de bolsa independientes de mayor tamaño en México.",
+    "hq": "Ciudad de México, México",
+    "founded": "1989",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "CI Banco": {
+    "tagline": "Banco mexicano especializado en operaciones cambiarias, banca corporativa y finanzas verdes.",
+    "about": "CI Banco es una institución de banca múltiple con sede en la Ciudad de México que ofrece servicios de casa de cambio, corresponsalía bancaria internacional, crédito corporativo y banca de inversión. Ha desarrollado una propuesta diferenciada en el segmento de financiamiento para proyectos con criterios ambientales y sociales (ESG). Atiende principalmente a empresas medianas y grandes con necesidades cambiarias y de financiamiento estructurado.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Mexicana": {
+    "tagline": "Aerolínea estatal mexicana relanzada en 2023 bajo la operación de la Secretaría de la Defensa Nacional.",
+    "about": "Mexicana de Aviación fue reactivada en 2023 como aerolínea de pasajeros bajo el control operativo de la Secretaría de la Defensa Nacional (SEDENA), retomando la marca de la histórica aerolínea que cesó operaciones en 2010. Opera rutas domésticas desde el Aeropuerto Internacional Felipe Ángeles (AIFA) y forma parte de la estrategia del gobierno federal para dinamizar ese aeropuerto.",
+    "hq": "Ciudad de México, México",
+    "founded": "2023",
+    "ownership": "Estatal / SEDENA",
+    "stage": "Paraestatal",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "DILA Capital": {
+    "tagline": "Fondo de capital de riesgo enfocado en startups de tecnología de habla hispana en Latinoamérica.",
+    "about": "DILA Capital es una firma de capital de riesgo con sede en la Ciudad de México que invierte en startups tecnológicas en etapas tempranas (seed y Serie A) en mercados de habla hispana de América Latina, con énfasis en México, Colombia y Argentina. Fue uno de los fondos pioneros en el ecosistema de venture capital mexicano y ha apoyado a empresas en sectores como fintech, edtech, healthtech y SaaS B2B.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "IGNIA": {
+    "tagline": "Fondo de venture capital mexicano pionero en inversiones para la base de la pirámide latinoamericana.",
+    "about": "IGNIA es una firma de capital de riesgo fundada en Monterrey que invierte en empresas de tecnología orientadas a mejorar el acceso a servicios esenciales (vivienda, salud, educación, finanzas) para la clase media emergente y base de la pirámide en América Latina. Fue uno de los fondos institucionales de venture capital más tempranos de México y ha respaldado startups de impacto en la región.",
+    "hq": "Monterrey, Nuevo León, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "AWS": {
+    "tagline": "La plataforma de nube pública más grande del mundo, subsidiaria de Amazon.",
+    "about": "Amazon Web Services es la división de computación en la nube de Amazon, fundada en 2006, y líder global del mercado con más del 30% de participación en servicios de infraestructura en la nube (IaaS y PaaS). Ofrece más de 200 servicios administrados, incluyendo cómputo (EC2), almacenamiento (S3), bases de datos, machine learning e inteligencia artificial. Tiene regiones de disponibilidad en México y sirve a miles de empresas mexicanas.",
+    "hq": "Seattle, Washington, EUA",
+    "founded": "2006",
+    "ownership": "Subsidiaria (Amazon)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Sky": {
+    "tagline": "Servicio de televisión de paga por satélite en México, operado por TelevisaUnivisión.",
+    "about": "Sky es el servicio de televisión satelital de TelevisaUnivisión en México y Centroamérica, con cobertura nacional que llega a regiones donde el cable no está disponible. Ofrece paquetes de televisión de paga y servicios de banda ancha vía satélite para hogares y negocios. Compite con los servicios de TV de paga por cable de Izzi y Megacable, así como con plataformas de streaming.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Subsidiaria (TelevisaUnivisión)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Nokia": {
+    "tagline": "Proveedor global de infraestructura de redes de telecomunicaciones y soluciones 5G.",
+    "about": "Nokia Corporation es un conglomerado tecnológico finlandés fundado en 1865 que actualmente se enfoca en el suministro de infraestructura de redes para operadores de telecomunicaciones en más de 100 países. Sus divisiones principales son Nokia Networks (equipos 4G/5G), Nokia Technologies (licencias de patentes) y Nokia Bell Labs. Vendió su negocio de teléfonos móviles a Microsoft en 2014.",
+    "hq": "Espoo, Finlandia",
+    "founded": "1865",
+    "ownership": "Pública / Nasdaq Helsinki: NOKIA",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~90,000",
+    "last_round": "N/A"
+  },
+  "Puma": {
+    "tagline": "Fabricante alemán de calzado, ropa y accesorios deportivos con presencia global.",
+    "about": "Puma SE fue fundada en 1948 por Rudolf Dassler en Herzogenaurach, Alemania. Diseña y comercializa calzado, ropa y accesorios deportivos en los segmentos de running, fútbol, basketball y lifestyle. Cotiza en la Bolsa de Fráncfort y opera en más de 120 países. Compite directamente con Nike y Adidas en el mercado global de artículos deportivos.",
+    "hq": "Herzogenaurach, Alemania",
+    "founded": "1948",
+    "ownership": "Pública / Frankfurt: PUM",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Cisco": {
+    "tagline": "Líder global en hardware de redes, seguridad y colaboración empresarial.",
+    "about": "Cisco Systems fue fundada en 1984 por Leonard Bosack y Sandy Lerner en Stanford y es el mayor fabricante mundial de equipos de red (switches, routers) para empresas y proveedores de servicios. Ha expandido su portafolio hacia ciberseguridad (Cisco Talos), colaboración (Webex) y observabilidad de redes. Cotiza en el NASDAQ y atiende a empresas de todos los sectores incluyendo banca, gobierno y manufactura en México.",
+    "hq": "San José, California, EUA",
+    "founded": "1984",
+    "ownership": "Pública / NASDAQ: CSCO",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~80,000",
+    "last_round": "N/A"
+  },
+  "Adobe": {
+    "tagline": "Plataforma de software creativo y marketing digital líder en el mercado global.",
+    "about": "Adobe Inc. fue fundada en 1982 y desarrolla herramientas de software para creativos (Creative Cloud: Photoshop, Illustrator, Premiere Pro), gestión de documentos (Acrobat) y marketing digital (Experience Cloud). Cotiza en el NASDAQ y opera bajo un modelo de suscripción (SaaS) que le genera ingresos recurrentes. Sus productos son estándar de la industria en diseño gráfico, video y producción de contenidos digitales.",
+    "hq": "San José, California, EUA",
+    "founded": "1982",
+    "ownership": "Pública / NASDAQ: ADBE",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~29,000",
+    "last_round": "N/A"
   }
 }

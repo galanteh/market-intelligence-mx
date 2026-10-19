@@ -71,6 +71,19 @@ ALIAS_MAP: dict[str, str] = {
     "DIDI":                  "DiDi",
     # Cornershop
     "Cornershop by Uber":    "Cornershop",
+    # Retail / pharmacy
+    "H-E-B":                 "HEB",
+    # Steel
+    "Altos Hornos":          "AHMSA",
+    "Altos Hornos de México":"AHMSA",
+    # Media
+    "HBO":                   "Warner Bros",
+    # Banking
+    "HSBC México":           "HSBC",
+    # Press
+    "El New York Times":     "The New York Times",
+    # VC
+    "DILA":                  "DILA Capital",
 }
 
 
