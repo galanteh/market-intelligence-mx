@@ -205,7 +205,6 @@ h1, h2, h3, h4, h5, h6 {
         <div class="flex gap-1 items-center" id="main-tabs">
           <button id="tab-dir" class="tab-btn active" onclick="switchTab('directory')">Directorio</button>
           <button id="tab-inv" class="tab-btn"        onclick="switchTab('investment')">Proyectos &amp; Inversión</button>
-          <button id="tab-unv" class="tab-btn"        onclick="switchTab('unverified')">Por Verificar</button>
           <span class="flex-1"></span>
           <span class="text-xs text-[#737373] hidden sm:block" id="result-count"></span>
         </div>
@@ -412,8 +411,6 @@ function getFiltered(){
       (c.city||'').toLowerCase().includes(q)
     );
   }
-  if(S.tab === 'unverified')
-    list = list.filter(c=>{ const a=(c.about||'').trim(); return !a || a==='N/A'; });
   return list;
 }
 
@@ -583,7 +580,6 @@ function switchTab(tab){
   S.page = 0;
   $('tab-dir').classList.toggle('active', tab==='directory');
   $('tab-inv').classList.toggle('active', tab==='investment');
-  $('tab-unv').classList.toggle('active', tab==='unverified');
 
   if(tab==='investment'){
     hide('dir-content');
@@ -626,7 +622,6 @@ function goHome(){
   show('cta-section');
   $('tab-dir').classList.add('active');
   $('tab-inv').classList.remove('active');
-  $('tab-unv').classList.remove('active');
   // Restore correct sub-tab content
   show('dir-content');
   hide('inv-content');
