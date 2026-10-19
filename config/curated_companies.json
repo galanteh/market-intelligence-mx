@@ -728,5 +728,305 @@
     "ownership": "Subsidiaria de AB InBev",
     "stage": "Consolidada",
     "last_round": "Adquisición AB InBev 2013"
+  },
+  "Banamex": {
+    "tagline": "Uno de los bancos más antiguos y grandes de México, en transición de propiedad tras la desinversión de Citigroup.",
+    "about": "Banco Nacional de México fue fundado en 1884 y adquirido por Citigroup en 2001 por aproximadamente 12,500 millones de dólares, operando desde entonces bajo la marca Citibanamex. En enero de 2022, Citigroup anunció su intención de desinvertir del negocio de banca minorista en México como parte de una estrategia global de simplificación. Ofrece servicios de banca personal, empresarial, gestión de patrimonio y mercados de capitales a millones de clientes en el país.",
+    "hq": "Ciudad de México, México",
+    "founded": "1884",
+    "ownership": "En transición (Citigroup desinvirtiendo)",
+    "stage": "Banca establecida / Proceso de venta",
+    "team_size": "~40,000",
+    "last_round": "N/A"
+  },
+  "Intel": {
+    "tagline": "El mayor fabricante de semiconductores y microprocesadores de propósito general del mundo.",
+    "about": "Intel Corporation diseña y fabrica microprocesadores, chips de red y soluciones de plataforma para computadoras personales, servidores y dispositivos conectados. Fundada en 1968 por Gordon Moore y Robert Noyce, dominó el mercado de CPUs durante décadas y actualmente ejecuta su estrategia IDM 2.0 para recuperar liderazgo en procesos de manufactura avanzados y competir en el mercado de fabricación por contrato frente a TSMC y Samsung.",
+    "hq": "Santa Clara, California, EUA",
+    "founded": "1968",
+    "ownership": "Pública / NASDAQ: INTC",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~120,000",
+    "last_round": "N/A"
+  },
+  "Telcel": {
+    "tagline": "El operador de telefonía móvil más grande de México, con más de 75 millones de suscriptores.",
+    "about": "Telcel es la marca comercial de RadioMóvil Dipsa, subsidiaria de América Móvil y operador de red móvil líder en México. Ofrece servicios de voz, datos y contenidos digitales para consumidores y empresas, con cobertura 4G en más del 90% de la población y despliegue activo de red 5G en las principales ciudades. Su posición dominante en el mercado mexicano ha sido objeto de regulación por parte de la autoridad antimonopolio.",
+    "hq": "Ciudad de México, México",
+    "founded": "1989",
+    "ownership": "Subsidiaria (América Móvil)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Sony": {
+    "tagline": "Conglomerado japonés de electrónica, entretenimiento y servicios financieros con presencia global.",
+    "about": "Sony Group Corporation opera en segmentos de electrónica de consumo, videojuegos y servicios de red (PlayStation), música (Sony Music Entertainment), imágenes en movimiento (Sony Pictures Entertainment) y servicios financieros. Fundada en 1946 por Masaru Ibuka y Akio Morita en Tokio, su consola PlayStation es líder global en el mercado de videojuegos con más de 50 millones de unidades vendidas de PS5.",
+    "hq": "Minato, Tokio, Japón",
+    "founded": "1946",
+    "ownership": "Pública / TYO: 6758, NYSE: SONY",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~108,000",
+    "last_round": "N/A"
+  },
+  "The New York Times": {
+    "tagline": "El diario de referencia estadounidense y líder mundial en suscripciones de noticias digitales de pago.",
+    "about": "The New York Times Company publica el diario fundado en 1851 y ha liderado la transformación digital de la prensa con más de 10 millones de suscriptores de pago. Su modelo combina suscripciones digitales con publicidad en línea y ha expandido su portafolio con adquisiciones como The Athletic, Wirecutter y el juego Wordle. Es referencia editorial obligada en la cobertura de negocios, política y tecnología globales.",
+    "hq": "Nueva York, EUA",
+    "founded": "1851",
+    "ownership": "Pública / NYSE: NYT",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~5,000",
+    "last_round": "N/A"
+  },
+  "CFE": {
+    "tagline": "La empresa productiva del Estado mexicano responsable de generar, transmitir y distribuir energía eléctrica.",
+    "about": "La Comisión Federal de Electricidad es la empresa del Estado mexicano que opera la mayor infraestructura eléctrica del país, con una capacidad instalada superior a 50,000 MW. Fundada en 1937, atiende a más de 46 millones de usuarios en México. Bajo la administración federal actual ha recuperado participación en el mercado de generación en detrimento de centrales privadas, mediante reformas legales orientadas a fortalecer su posición dominante.",
+    "hq": "Ciudad de México, México",
+    "founded": "1937",
+    "ownership": "Estatal / Empresa Productiva del Estado",
+    "stage": "Paraestatal",
+    "team_size": "~70,000",
+    "last_round": "N/A"
+  },
+  "The CIU": {
+    "tagline": "Firma mexicana de inteligencia competitiva especializada en telecomunicaciones y economía digital.",
+    "about": "The Competitive Intelligence Unit es una consultora de investigación de mercado con sede en la Ciudad de México, especializada en los sectores de telecomunicaciones, medios digitales y tecnología para América Latina. Publica reportes periódicos sobre adopción de smartphones, mercado de TV de paga, banda ancha e internet móvil en México. Sus datos son referencia habitual en medios de negocios y en reportes regulatorios del sector.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Nintendo": {
+    "tagline": "Fabricante japonés de videojuegos y consolas, creador de franquicias icónicas como Mario, Zelda y Pokémon.",
+    "about": "Nintendo Co., Ltd. diseña y comercializa hardware de videojuegos, software y entretenimiento familiar en mercados globales. Fundada en 1889 como fabricante de naipes, evolucionó hacia los videojuegos en la década de 1970. Su consola Nintendo Switch superó los 140 millones de unidades vendidas desde su lanzamiento en 2017, y opera bajo un modelo de plataforma cerrada con alta integración entre hardware propietario y software exclusivo.",
+    "hq": "Kioto, Japón",
+    "founded": "1889",
+    "ownership": "Pública / TYO: 7974",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~7,000",
+    "last_round": "N/A"
+  },
+  "Izzi": {
+    "tagline": "El proveedor de televisión de paga e internet por cable más grande de México, subsidiaria de TelevisaUnivisión.",
+    "about": "Izzi Telecom es la subsidiaria de telecomunicaciones por cable de TelevisaUnivisión, resultado de la consolidación de Cablevisión y otras operadoras bajo una sola marca alrededor de 2015. Ofrece servicios de televisión de paga, internet de banda ancha y telefonía fija a millones de hogares en México, con presencia concentrada en la Ciudad de México y zonas metropolitanas de alta densidad poblacional.",
+    "hq": "Ciudad de México, México",
+    "founded": "2015",
+    "ownership": "Subsidiaria (TelevisaUnivisión)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Viva Aerobus": {
+    "tagline": "Aerolínea de ultra bajo costo con sede en Monterrey y enfoque en rutas domésticas e internacionales desde México.",
+    "about": "Viva Aerobus es la tercera aerolínea de México por pasajeros transportados y opera bajo el modelo ultra low-cost (ULCC), con tarifas base competitivas y cargos adicionales por servicios. Fundada en 2006 con base en el Aeropuerto Internacional de Monterrey, opera una flota de Airbus A320/A321 en rutas domésticas y hacia destinos en Estados Unidos. Es propiedad del Grupo Hank.",
+    "hq": "Monterrey, Nuevo León, México",
+    "founded": "2006",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Boeing": {
+    "tagline": "El mayor fabricante de aviones comerciales y sistemas de defensa del mundo.",
+    "about": "The Boeing Company diseña, fabrica y da servicio a aeronaves comerciales, militares y sistemas espaciales. Fundada en 1916, es el mayor exportador de los Estados Unidos y opera en dos divisiones principales: Boeing Commercial Airplanes (modelos 737, 787, 777) y Boeing Defense, Space & Security. Desde 2019 enfrenta desafíos de calidad y reputación vinculados a los accidentes del modelo 737 MAX y problemas en la línea de producción del 787.",
+    "hq": "Arlington, Virginia, EUA",
+    "founded": "1916",
+    "ownership": "Pública / NYSE: BA",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~170,000",
+    "last_round": "N/A"
+  },
+  "Forbes México": {
+    "tagline": "Edición local de la revista de negocios Forbes, enfocada en listas de riqueza y ejecutivos del mercado mexicano.",
+    "about": "Forbes México publica la edición local de la revista de negocios estadounidense Forbes bajo licencia, con contenido editorial sobre empresarios, listas de riqueza, finanzas personales y tendencias de negocios del mercado mexicano. Produce listas de referencia como Los Más Ricos de México y ranking de las 100 empresas más importantes del país. Es una de las publicaciones de negocios más reconocidas en el ecosistema empresarial mexicano.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Privada / Licencia editorial",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "IBM": {
+    "tagline": "Compañía tecnológica centenaria especializada en nube híbrida, inteligencia artificial empresarial y consultoría.",
+    "about": "International Business Machines Corporation ofrece software, servicios de nube híbrida, consultoría tecnológica e inteligencia artificial para empresas y gobiernos en más de 175 países. Fundada en 1911, transformó su modelo hacia soluciones de alto margen con IBM Cloud, la plataforma Red Hat OpenShift y la suite de IA watsonx. Su división IBM Consulting atiende a organizaciones Fortune 500 en proyectos de transformación digital e integración de sistemas.",
+    "hq": "Armonk, Nueva York, EUA",
+    "founded": "1911",
+    "ownership": "Pública / NYSE: IBM",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~280,000",
+    "last_round": "N/A"
+  },
+  "Dell": {
+    "tagline": "Fabricante global de hardware y soluciones de infraestructura de TI para consumidores y empresas.",
+    "about": "Dell Technologies diseña, vende y da soporte a computadoras personales, servidores, almacenamiento y soluciones de red para consumidores y empresas en todo el mundo. Fundada en 1984 por Michael Dell en Texas, fue pionera en el modelo de ventas directas al cliente en la industria de PCs y actualmente combina hardware con servicios de infraestructura, nube y seguridad bajo marcas como Dell y Dell EMC.",
+    "hq": "Round Rock, Texas, EUA",
+    "founded": "1984",
+    "ownership": "Pública / NYSE: DELL",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~120,000",
+    "last_round": "N/A"
+  },
+  "Cinemex": {
+    "tagline": "La segunda cadena de cines más grande de México, con salas en las principales ciudades del país.",
+    "about": "Cinemex fue fundada en 1993 y opera complejos cinematográficos en México bajo formatos estándar y premium (IMAX, XD). Es el segundo operador del país por número de pantallas, por detrás de Cinépolis. La empresa atravesó una reestructura financiera significativa durante la pandemia de COVID-19, que incluyó el cierre temporal de la totalidad de sus salas y negociaciones con acreedores para renegociar su deuda.",
+    "hq": "Ciudad de México, México",
+    "founded": "1993",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Fibra Uno": {
+    "tagline": "El fideicomiso de bienes raíces más grande de México, con portafolio diversificado de activos comerciales e industriales.",
+    "about": "FUNO (Fibra Uno) fue el primer FIBRA (Fideicomiso de Inversión en Bienes Raíces) listado en la Bolsa Mexicana de Valores, fundado en 2011. Administra y opera más de 600 propiedades de uso comercial, industrial, oficinas y hoteles en México, con una superficie total superior a los ocho millones de metros cuadrados rentables. Es el instrumento bursátil inmobiliario de mayor tamaño y liquidez en el mercado mexicano.",
+    "hq": "Ciudad de México, México",
+    "founded": "2011",
+    "ownership": "Pública / BMV: FUNO11",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Citigroup": {
+    "tagline": "Uno de los mayores conglomerados financieros del mundo, con presencia bancaria en más de 160 países.",
+    "about": "Citigroup es una institución financiera global que ofrece servicios bancarios de consumo, banca corporativa, gestión de patrimonio y mercados de capitales bajo la marca Citi. Formado en 1998 tras la fusión de Citicorp y Travelers Group, es uno de los bancos sistémicamente importantes designados por el Consejo de Estabilidad Financiera. Anunció en 2022 la venta de sus operaciones de banca minorista en México (Banamex) como parte de una estrategia de simplificación global.",
+    "hq": "Nueva York, EUA",
+    "founded": "1998",
+    "ownership": "Pública / NYSE: C",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~240,000",
+    "last_round": "N/A"
+  },
+  "Jüsto": {
+    "tagline": "Supermercado digital sin tiendas físicas, pionero del modelo directo al consumidor de abarrotes en México.",
+    "about": "Jüsto opera un modelo de supermercado 100% en línea fundado en 2019, que elimina intermediarios para ofrecer productos frescos y abarrotes con entrega el mismo día. Tiene presencia en México y ha expandido operaciones a Brasil. Se diferencia por su logística propia y tecnología de gestión de inventario, y es considerada una de las startups de consumo de mayor crecimiento en el mercado mexicano.",
+    "hq": "Ciudad de México, México",
+    "founded": "2019",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Delta": {
+    "tagline": "Una de las principales aerolíneas de red de Estados Unidos, con rutas internacionales clave hacia México.",
+    "about": "Delta Air Lines es una de las tres mayores aerolíneas de red de los Estados Unidos y opera en más de 300 destinos en 50 países. Fundada en 1924, opera bajo un modelo full-service con hub principal en Atlanta. Sus rutas internacionales hacia Ciudad de México, Cancún, Guadalajara y Monterrey la posicionan como uno de los principales operadores internacionales en el mercado de aviación mexicano.",
+    "hq": "Atlanta, Georgia, EUA",
+    "founded": "1924",
+    "ownership": "Pública / NYSE: DAL",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~100,000",
+    "last_round": "N/A"
+  },
+  "Nowports": {
+    "tagline": "Operador de carga digital latinoamericano que digitaliza el comercio exterior de las empresas de la región.",
+    "about": "Nowports es una startup de freight forwarding digital fundada en 2018 en Monterrey que ofrece coordinación de carga marítima, aérea y terrestre para importadores y exportadores en América Latina. Utiliza tecnología para dar visibilidad en tiempo real del estado de los embarques y automatizar procesos aduanales. Se convirtió en unicornio en 2022 con una valoración superior a 1,000 millones de dólares.",
+    "hq": "Monterrey, Nuevo León, México",
+    "founded": "2018",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Motorola": {
+    "tagline": "Marca icónica de telecomunicaciones y smartphones, subsidiaria de Lenovo con fuerte posición en mercados emergentes.",
+    "about": "Motorola Mobility, subsidiaria del grupo chino Lenovo desde 2014, diseña y comercializa smartphones bajo las marcas Motorola y Moto. La empresa original fue fundada en 1928 y fue pionera en la radio móvil y los teléfonos celulares. En México lidera el crecimiento de cuota de mercado en el segmento de smartphones de precio medio y entry-level, posicionándose como la marca de mayor alza en activaciones.",
+    "hq": "Chicago, Illinois, EUA",
+    "founded": "1928",
+    "ownership": "Subsidiaria (Lenovo Group)",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "Totalplay": {
+    "tagline": "Proveedor de servicios de internet por fibra óptica, TV y telefonía del Grupo Salinas.",
+    "about": "Totalplay es la operadora de telecomunicaciones por fibra óptica de Grupo Salinas, fundada en 2010. Ofrece servicios de internet de banda ancha, televisión de paga y telefonía fija para hogares y empresas en las principales ciudades mexicanas. Ha crecido con agresividad frente a competidores como Izzi y Megacable al apostar por infraestructura de fibra óptica propia y paquetes con precios competitivos.",
+    "hq": "Ciudad de México, México",
+    "founded": "2010",
+    "ownership": "Subsidiaria (Grupo Salinas)",
+    "stage": "Establecida / Subsidiaria",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "AMD": {
+    "tagline": "Fabricante de semiconductores competitivos en CPUs, GPUs y chips para centros de datos e inteligencia artificial.",
+    "about": "Advanced Micro Devices diseña microprocesadores (Ryzen, EPYC), procesadores gráficos (Radeon, Instinct) y chips personalizados para computadoras personales, consolas de videojuegos y centros de datos. Fundada en 1969, recuperó competitividad frente a Intel en el segmento de CPUs con su arquitectura Zen a partir de 2017 y ha ampliado su portafolio hacia chips de IA para competir con NVIDIA. Sus chips EPYC dominan en varios rankings de rendimiento para cargas de trabajo en nube.",
+    "hq": "Santa Clara, California, EUA",
+    "founded": "1969",
+    "ownership": "Pública / NASDAQ: AMD",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~25,000",
+    "last_round": "N/A"
+  },
+  "Cornershop": {
+    "tagline": "Plataforma de compras en supermercados a domicilio, adquirida por Uber y operada como Cornershop by Uber.",
+    "about": "Cornershop fue fundada en 2015 en Santiago de Chile y opera como marketplace de entregas de supermercado bajo demanda en México, Chile y otros mercados latinoamericanos. Uber completó su adquisición en 2021 por aproximadamente 3,000 millones de dólares y la plataforma opera actualmente bajo la marca Cornershop by Uber, integrada al ecosistema de Uber Eats. Conecta a compradores personales (shoppers) con clientes para surtir y entregar pedidos el mismo día.",
+    "hq": "Ciudad de México, México",
+    "founded": "2015",
+    "ownership": "Subsidiaria (Uber)",
+    "stage": "Adquirida",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "PEMEX": {
+    "tagline": "La empresa productiva del Estado mexicano responsable de la exploración y explotación de hidrocarburos.",
+    "about": "Petróleos Mexicanos es la empresa estatal encargada de la exploración, extracción, refinación y distribución de petróleo y gas natural en México. Fundada el 18 de marzo de 1938 tras la expropiación petrolera decretada por el presidente Lázaro Cárdenas, es una de las compañías petroleras más grandes de América Latina. Enfrenta una carga de deuda financiera y pasivos laborales superiores a 100,000 millones de dólares, lo que la convierte en uno de los mayores riesgos fiscales para el país.",
+    "hq": "Ciudad de México, México",
+    "founded": "1938",
+    "ownership": "Estatal / Empresa Productiva del Estado",
+    "stage": "Paraestatal",
+    "team_size": "~130,000",
+    "last_round": "N/A"
+  },
+  "Best Buy": {
+    "tagline": "La mayor cadena minorista especializada en electrónica de consumo de Estados Unidos, con presencia en México.",
+    "about": "Best Buy es el mayor minorista especializado en electrónica de consumo de los Estados Unidos, con tiendas en Canadá y México. Fundada en 1966, vende computadoras, teléfonos, electrodomésticos, videojuegos y servicios tecnológicos (Geek Squad). Sus tiendas en México operan en grandes ciudades bajo el mismo formato de piso de ventas asistido por especialistas de producto.",
+    "hq": "Richfield, Minnesota, EUA",
+    "founded": "1966",
+    "ownership": "Pública / NYSE: BBY",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~100,000",
+    "last_round": "N/A"
+  },
+  "Warner": {
+    "tagline": "Conglomerado global de medios y entretenimiento propietario de HBO, CNN, DC Comics y Warner Bros. Pictures.",
+    "about": "Warner Bros. Discovery es uno de los mayores grupos de medios y entretenimiento del mundo, formado en 2022 tras la fusión de WarnerMedia (escindida de AT&T) con Discovery. Opera franquicias de entretenimiento global como DC Comics, HBO, CNN, Warner Bros. Pictures y el servicio de streaming Max. En México y América Latina, la plataforma Max compite directamente con Netflix y Disney+ en el mercado de video por suscripción.",
+    "hq": "Nueva York, EUA",
+    "founded": "2022",
+    "ownership": "Pública / NASDAQ: WBD",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~35,000",
+    "last_round": "N/A"
+  },
+  "CEMEX": {
+    "tagline": "Una de las productoras de cemento y materiales de construcción más grandes del mundo, con sede en México.",
+    "about": "CEMEX es una empresa global de materiales para la construcción que produce y distribuye cemento, concreto premezclado y agregados en más de 50 países. Fundada en 1906 en Monterrey, creció mediante adquisiciones estratégicas de gran escala, incluyendo la compra de RMC (2005) y Rinker Group (2007). Cotiza en la BMV y en el NYSE bajo el ticker CX, y ha desarrollado plataformas digitales como Construrama y CEMEX Go para digitalizar su cadena de suministro.",
+    "hq": "San Pedro Garza García, Nuevo León, México",
+    "founded": "1906",
+    "ownership": "Pública / BMV: CEMEX, NYSE: CX",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~40,000",
+    "last_round": "N/A"
+  },
+  "Flink": {
+    "tagline": "Aplicación mexicana de inversión en acciones, ETFs y criptomonedas orientada al mercado masivo.",
+    "about": "Flink es una plataforma fintech de inversión con sede en la Ciudad de México que permite a usuarios comprar acciones, ETFs y criptomonedas desde el teléfono celular con comisiones reducidas. Forma parte de la nueva generación de aplicaciones de inversión orientadas a millennials y Generación Z que buscan democratizar el acceso a los mercados financieros en México, en un contexto de baja penetración de servicios de inversión formales.",
+    "hq": "Ciudad de México, México",
+    "founded": "N/A",
+    "ownership": "Privada",
+    "stage": "N/A",
+    "team_size": "N/A",
+    "last_round": "N/A"
+  },
+  "NVIDIA": {
+    "tagline": "Líder mundial en GPUs y plataformas de inteligencia artificial, el semiconductor más valioso del mundo.",
+    "about": "NVIDIA Corporation diseña y vende procesadores gráficos (GPU) para gaming, diseño profesional, centros de datos e inteligencia artificial. Fundada en 1993 en Santa Clara, su arquitectura CUDA y sus chips de la familia A100/H100 la convirtieron en el proveedor de referencia para el entrenamiento de modelos de inteligencia artificial generativa. En 2023 se convirtió en la primera empresa de semiconductores en superar una capitalización bursátil de un billón de dólares.",
+    "hq": "Santa Clara, California, EUA",
+    "founded": "1993",
+    "ownership": "Pública / NASDAQ: NVDA",
+    "stage": "Cotiza en Bolsa",
+    "team_size": "~35,000",
+    "last_round": "N/A"
   }
 }
