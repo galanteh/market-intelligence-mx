@@ -1778,5 +1778,65 @@
     "ownership": "Privada (PE)",
     "stage": "Consolidada",
     "last_round": "Fondo X $12,000 mdd (2023)"
+  },
+  "Mattel": {
+    "tagline": "Fabricante multinacional de juguetes y creador de Barbie y Hot Wheels.",
+    "about": "Mattel es una de las mayores empresas de juguetes del mundo. En México cuenta con una fuerte presencia comercial y de manufactura, incluyendo su mega-planta en Nuevo León, que recientemente consolidó operaciones para convertirse en su centro de manufactura más grande del mundo.",
+    "hq": "El Segundo, California, EUA",
+    "founded": "1945",
+    "ownership": "Pública / NASDAQ: MAT",
+    "stage": "Consolidada",
+    "team_size": "+33,000",
+    "last_round": "N/A"
+  },
+  "American Airlines": {
+    "tagline": "La aerolínea más grande del mundo por tamaño de flota e ingresos.",
+    "about": "American Airlines es una de las principales aerolíneas de Estados Unidos. México es su mercado internacional más importante, con operaciones en más de 20 destinos mexicanos y un puente crítico para el turismo y los viajes corporativos binacionales.",
+    "hq": "Fort Worth, Texas, EUA",
+    "founded": "1926",
+    "ownership": "Pública / NASDAQ: AAL",
+    "stage": "Consolidada",
+    "team_size": "+130,000",
+    "last_round": "N/A"
+  },
+  "Huawei": {
+    "tagline": "Gigante tecnológico chino de telecomunicaciones y electrónica de consumo.",
+    "about": "Huawei es uno de los principales proveedores mundiales de infraestructura de tecnologías de información y dispositivos inteligentes. A pesar de las restricciones comerciales impuestas por Estados Unidos, mantiene una sólida posición en el despliegue de redes y dispositivos en América Latina.",
+    "hq": "Shenzhen, China",
+    "founded": "1987",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "team_size": "+207,000",
+    "last_round": "N/A"
+  },
+  "The Guardian": {
+    "tagline": "Prestigioso diario británico de alcance global y modelo de financiamiento independiente.",
+    "about": "The Guardian es un medio de comunicación británico conocido por su independencia editorial. En la era digital, ha logrado construir un modelo exitoso basado en aportaciones voluntarias de sus lectores a nivel mundial en lugar de un muro de pago estricto.",
+    "hq": "Londres, Reino Unido",
+    "founded": "1821",
+    "ownership": "Privada (Scott Trust)",
+    "stage": "Consolidada",
+    "team_size": "+1,500",
+    "last_round": "N/A"
+  },
+  "Nordstrom": {
+    "tagline": "Cadena estadounidense de tiendas departamentales de lujo.",
+    "about": "Nordstrom es un minorista de moda de alta gama en Estados Unidos y Canadá. En el mercado mexicano tiene una relevancia indirecta pero significativa a través de su alianza histórica y participación accionaria parcial adquirida por Liverpool.",
+    "hq": "Seattle, Washington, EUA",
+    "founded": "1901",
+    "ownership": "Pública / NYSE: JWN",
+    "stage": "Consolidada",
+    "team_size": "+60,000",
+    "last_round": "N/A"
+  },
+  "The Athletic": {
+    "tagline": "Medio de comunicación digital especializado en cobertura deportiva profunda y sin anuncios.",
+    "about": "The Athletic revolucionó el periodismo deportivo con un modelo de suscripción digital centrado en análisis en profundidad y escritores estrella. En 2022 fue adquirido por The New York Times Company por 550 millones de dólares para potenciar su ecosistema de suscripciones.",
+    "hq": "San Francisco, California, EUA",
+    "founded": "2016",
+    "ownership": "Subsidiaria (The New York Times)",
+    "stage": "Consolidada",
+    "team_size": "+600",
+    "last_round": "Adquisición NYT $550 mdd"
   }
 }
