@@ -650,19 +650,19 @@ function renderCoHeader(c){
 
 /* ── Tagline + About (between header and KPIs) ── */
 function renderTaglineAbout(c){
-  const tagline = c.tagline || 'Empresa destacada en el ecosistema de negocios de México.';
-  const about   = c.about   || '';
-  // Skip synthetic extractor summaries in about
-  const aboutClean = (about && !about.includes('acumuló') && !about.includes('registros entre'))
-    ? about : '';
+  const tagline = (c.tagline || '').trim();
+  const about   = (c.about   || '').trim();
 
   $('tagline-about').innerHTML = `
-    <p class="text-lg text-[#737373] leading-relaxed mt-2 mb-8">${tagline}</p>
-    ${aboutClean ? `
+    ${tagline ? `<p class="text-lg text-[#737373] leading-relaxed mt-2 mb-8">${tagline}</p>` : ''}
+    ${about ? `
     <div class="mb-10">
       <h2 class="font-body font-bold text-lg mb-3 text-[#0A0A0A]">Acerca de</h2>
-      <p class="text-sm text-[#737373] leading-relaxed whitespace-pre-line">${aboutClean}</p>
-    </div>` : ''}`;
+      <p class="text-sm text-[#737373] leading-relaxed whitespace-pre-line">${about}</p>
+    </div>` : `
+    <div class="mb-8">
+      <p class="text-sm text-[#737373] italic">Perfil editorial en proceso de catalogación. Consulta los artículos relacionados abajo.</p>
+    </div>`}`;
 }
 
 /* ── KPIs ── */
@@ -676,28 +676,26 @@ function renderKPIs(c){
     </div>`;
   }
 
-  $('kpi-row').innerHTML = [
+  const cards = [
     card('map-pin',    'Headquarters', c.hq || c.city || null),
     card('users',      'Equipo',       c.team_size || null),
     card('calendar',   'Fundada',      c.founded ? String(c.founded) : null),
     card('building-2', 'Propiedad',    c.ownership || null),
     card('trending-up','Serie',        c.stage || c.funding_stage || null),
     card('coins',      'Última ronda', c.last_round || null),
-  ].filter(Boolean).join('');
+  ].filter(Boolean);
+
+  if(cards.length === 0){
+    $('kpi-row').className = 'mb-6';
+    $('kpi-row').innerHTML = `<div class="col-span-full">
+      <p class="text-xs text-[#737373] italic">Sin métricas públicas verificadas disponibles.</p>
+    </div>`;
+  } else {
+    $('kpi-row').className = 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mb-10';
+    $('kpi-row').innerHTML = cards.join('');
+  }
 }
 
-/* ── About ── */
-function renderAbout(c){
-  const raw = (c.about||'').trim();
-  if(!raw||raw.includes('acumuló')||raw.includes('registros entre')){
-    $('about-section').innerHTML=''; return;
-  }
-  $('about-section').innerHTML = `
-    <div class="pt-8 border-t border-[#E8E8E8]">
-      <h2 class="font-body font-bold text-lg mb-3 text-[#0A0A0A]">Acerca de</h2>
-      <p class="text-sm text-[#737373] leading-relaxed whitespace-pre-line">${raw}</p>
-    </div>`;
-}
 
 /* ── Event Filter Bar ── */
 const ALL_CATS = ['Anuncios','Resultados','Chismes de Mercado','Movimientos Directivos','Alertas/Caídas','Análisis'];

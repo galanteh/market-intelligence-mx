@@ -98,29 +98,6 @@ def should_remove(name: str, exact_bl: set[str], patterns: list[re.Pattern]) -> 
     return False
 
 
-# ─── Extractive about for long-tail companies ─────────────────────────────────
-
-def extractive_about(entries: list[dict]) -> str:
-    snippets, seen = [], set()
-    for e in entries[:8]:
-        text = (e.get("body") or e.get("summary") or "").strip()
-        if not text:
-            continue
-        snippet = text[:200].strip()
-        snippet = re.sub(r"https?://\S+", "", snippet).strip()
-        snippet = re.sub(r"\*\*|\*|__|##", "", snippet).strip()
-        snippet = re.sub(r"\s{2,}", " ", snippet)
-        key = snippet[:60].lower()
-        if key not in seen and len(snippet) > 40:
-            seen.add(key)
-            snippets.append(snippet)
-        if len(snippets) >= 3:
-            break
-    if not snippets:
-        return ""
-    combined = " ".join(snippets)
-    return combined[:497] + "…" if len(combined) > 500 else combined
-
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
@@ -192,13 +169,13 @@ def run() -> int:
                 co[field] = patch.get(field, "")
             enriched += 1
         else:
-            # 3. Nuke fabricated metrics, build extractive about
+            # 3. Non-curated: clear all editorial fields — no extractive or
+            #    generated text; only verified data from curated_companies.json
+            #    is shown. Articles (entries) are preserved for the timeline.
             for field in METRIC_FIELDS:
                 co[field] = ""
-            if not co.get("about") or "es una empresa del sector" in co.get("about", ""):
-                co["about"] = extractive_about(co.get("entries", []))
-            if not co.get("tagline") or "Empresa destacada" in co.get("tagline", ""):
-                co["tagline"] = ""
+            co["about"]   = ""
+            co["tagline"] = ""
             nulled += 1
 
         kept.append(co)
