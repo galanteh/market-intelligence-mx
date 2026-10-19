@@ -100,6 +100,8 @@ ALIAS_MAP: dict[str, str] = {
     "Chili’s Grill & Bar": "Chili’s",
     # Santos Laguna articles → Charly (the sportswear brand that sponsors the team)
     "Santos":                "Charly",
+    # EssilorLuxottica → consumer brand name
+    "EssilorLuxottica":      "Luxottica",
 }
 
 

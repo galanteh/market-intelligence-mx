@@ -1918,5 +1918,55 @@
     "stage": "Consolidada",
     "team_size": "+3,000",
     "last_round": "N/A"
+  },
+  "Luxottica": {
+    "tagline": "Líder global en diseño, fabricación y distribución de lentes y armazones de moda.",
+    "about": "Luxottica (hoy fusionada como EssilorLuxottica) controla marcas icónicas como Ray-Ban y Oakley, además de Sunglass Hut. En México, su dominio es absoluto tanto en la importación y venta de armazones de lujo como en el retail óptico.",
+    "hq": "Milán, Italia",
+    "founded": "1989",
+    "ownership": "Pública / EPA: EL",
+    "stage": "Consolidada",
+    "team_size": "+190,000",
+    "last_round": "N/A"
+  },
+  "McLaren": {
+    "tagline": "Fabricante británico de automóviles superdeportivos y escudería de Fórmula 1.",
+    "about": "McLaren es un referente global en ingeniería de alto rendimiento. En el ecosistema de negocios latinoamericano y mexicano, su relevancia suele estar ligada a su impacto como gran plataforma de marketing, alianzas tecnológicas y patrocinios en la Fórmula 1.",
+    "hq": "Woking, Reino Unido",
+    "founded": "1963",
+    "ownership": "Privada (Mumtalakat Holding)",
+    "stage": "Consolidada",
+    "team_size": "+4,000",
+    "last_round": "N/A"
+  },
+  "Off-White": {
+    "tagline": "Marca italiana pionera en la fusión del streetwear con la moda de lujo.",
+    "about": "Fundada por el diseñador Virgil Abloh, Off-White revolucionó la industria al conectar la cultura urbana con el lujo europeo. Actualmente LVMH posee una participación mayoritaria, consolidándola como una marca de gran influencia en el retail premium global.",
+    "hq": "Milán, Italia",
+    "founded": "2012",
+    "ownership": "Subsidiaria (LVMH)",
+    "stage": "Consolidada",
+    "team_size": "+300",
+    "last_round": "Adquisición LVMH 2021"
+  },
+  "Siemens": {
+    "tagline": "Conglomerado industrial alemán líder en automatización, electrificación y digitalización.",
+    "about": "Siemens es una de las mayores empresas tecnológicas e industriales del mundo. En México, juega un papel fundamental para el nearshoring, impulsando la automatización de fábricas, infraestructura de redes inteligentes y proyectos de eficiencia energética.",
+    "hq": "Múnich, Alemania",
+    "founded": "1847",
+    "ownership": "Pública / ETR: SIE",
+    "stage": "Consolidada",
+    "team_size": "+320,000",
+    "last_round": "N/A"
+  },
+  "Virgin": {
+    "tagline": "Conglomerado multinacional británico enfocado en viajes, entretenimiento y telecomunicaciones.",
+    "about": "Virgin Group, el holding fundado por Sir Richard Branson, opera decenas de marcas. En México, su mayor impacto comercial fue el lanzamiento de Virgin Mobile, pionero en el modelo de Operador Móvil Virtual (OMV), que introdujo esquemas ágiles y digitales en la telefonía.",
+    "hq": "Londres, Reino Unido",
+    "founded": "1970",
+    "ownership": "Privada",
+    "stage": "Consolidada",
+    "team_size": "+60,000",
+    "last_round": "N/A"
   }
 }
