@@ -386,6 +386,46 @@ function chipCls(cat){
 }
 function toSlug(name){ return (name||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
 
+/* ══ INFERENCE HELPERS ══════════════════════════════════════ */
+const FOREIGN_TERMS = [
+  'eua','ee.uu.','usa','reino unido','japón','china','francia','italia',
+  'españa','alemania','canadá','argentina','países bajos','finlandia',
+  'suecia','suiza','brasil','colombia','chile','australia','singapur',
+  'corea del sur','corea','india','holanda','bélgica','dinamarca','noruega',
+  'irlanda','nueva zelanda','austria','portugal','luxemburgo','texas',
+  'california','nueva york','new york','illinois','milán','milan','parís',
+  'paris','berlín','london','londres','tokio','tokyo','amsterdam','dubai',
+  'woking','múnich','munich',
+];
+function isInternational(hq){
+  if(!hq||hq.trim()===''||hq==='N/A') return false;
+  const h = hq.toLowerCase();
+  return FOREIGN_TERMS.some(t=>h.includes(t));
+}
+function isMexico(hq){
+  if(!hq||hq.trim()===''||hq==='N/A') return false;
+  return !isInternational(hq);
+}
+function sentimentClass(co){
+  const entries = co.entries||[];
+  if(!entries.length) return 'neutral';
+  const neg = entries.filter(e=>e.sentiment==='negative'||e.cat==='Alertas/Caídas').length;
+  const pos = entries.filter(e=>e.sentiment==='positive').length;
+  if(neg>pos&&neg>0) return 'alert';
+  if(pos>0) return 'positive';
+  return 'neutral';
+}
+const INV_WORDS = [
+  'inversión','invierte','invertirá','capex','millones','mdd','mdp',
+  'adquiere','adquirió','compra','compró','planta','ronda','inauguró',
+  'inaugurará','abre planta','joint venture','fusión','adquisición',
+  'expansión','expandirá','infraestructura',
+];
+function hasInvestmentContent(co){
+  const text = (co.entries||[]).map(e=>((e.headline||'')+' '+(e.snippet||''))).join(' ').toLowerCase();
+  return INV_WORDS.some(w=>text.includes(w));
+}
+
 /* ══ FILTER ═════════════════════════════════════════════════ */
 function getFiltered(){
   let list = COMPANIES;
@@ -397,10 +437,10 @@ function getFiltered(){
     case 'top25':
       const t25 = new Set([...COMPANIES].sort((a,b)=>(b.entries||[]).length-(a.entries||[]).length).slice(0,25).map(c=>c.id));
       list = list.filter(c=>t25.has(c.id)); break;
-    case 'mexico':        list = list.filter(c=>c.origin==='mexico'); break;
-    case 'international': list = list.filter(c=>c.origin!=='mexico'); break;
-    case 'positive':      list = list.filter(c=>(c.sentiment_score||0)>0); break;
-    case 'alerts':        list = list.filter(c=>c.has_alerts===true); break;
+    case 'mexico':        list = list.filter(c=>isMexico(c.hq)); break;
+    case 'international': list = list.filter(c=>isInternational(c.hq)); break;
+    case 'positive':      list = list.filter(c=>sentimentClass(c)==='positive'); break;
+    case 'alerts':        list = list.filter(c=>sentimentClass(c)==='alert'); break;
   }
   if(S.sector !== 'all') list = list.filter(c=>(c.sector||'').split('/')[0].trim()===S.sector);
   if(S.query){
@@ -411,6 +451,7 @@ function getFiltered(){
       (c.city||'').toLowerCase().includes(q)
     );
   }
+  if(S.tab==='investment') list = list.filter(c=>hasInvestmentContent(c));
   return list;
 }
 
@@ -580,16 +621,9 @@ function switchTab(tab){
   S.page = 0;
   $('tab-dir').classList.toggle('active', tab==='directory');
   $('tab-inv').classList.toggle('active', tab==='investment');
-
-  if(tab==='investment'){
-    hide('dir-content');
-    show('inv-content');
-    renderInvestment();
-  } else {
-    hide('inv-content');
-    show('dir-content');
-    renderGrid();
-  }
+  hide('inv-content');
+  show('dir-content');
+  renderGrid();
 }
 
 /* ══ DETAIL VIEW ════════════════════════════════════════════ */
