@@ -21,8 +21,10 @@ tailwind.config = {
         background:        '#F7F7F7',
         foreground:        '#0A0A0A',
         'muted-foreground':'#737373',
+        muted:             '#E8E8E8',
         border:            '#E8E8E8',
         accent:            '#FF3838',
+        primary:           '#0A0A0A',
       },
       borderRadius: {
         '2xl': '16px',
@@ -328,15 +330,16 @@ let COMPANIES = [], INVESTMENT = [];
 
 /* ══ STATE ══════════════════════════════════════════════════ */
 const S = {
-  tab:         'directory',
-  letter:      'all',
-  quick:       'all',
-  sector:      'all',
-  query:       '',
-  activeCo:    null,
-  eventFilter: 'all',
-  page:        0,
-  invYear:     'all',
+  tab:          'directory',
+  letter:       'all',
+  quick:        'all',
+  sector:       'all',
+  query:        '',
+  activeCo:     null,
+  eventFilter:  'all',
+  page:         0,
+  invYear:      'all',
+  verifiedOnly: false,
 };
 const PAGE = 24;
 
@@ -409,6 +412,9 @@ function getFiltered(){
       (c.city||'').toLowerCase().includes(q)
     );
   }
+  // DEV PALETTE FILTER — remove when palette is removed
+  if(S.verifiedOnly) list = list.filter(c=>(c.about||'').trim().length > 0);
+  // END DEV PALETTE FILTER
   return list;
 }
 
@@ -935,5 +941,28 @@ async function initApp(){
 }
 initApp();
 </script>
+
+<!-- DEV PALETTE START (EASY TO REMOVE LATER) -->
+<div id="dev-palette" class="fixed bottom-6 right-6 bg-background border border-border shadow-2xl rounded-full px-5 py-3 flex items-center gap-3 z-50">
+  <span class="text-xs font-medium text-muted-foreground uppercase tracking-wider">Modo Vista</span>
+  <label class="relative inline-flex items-center cursor-pointer">
+    <input type="checkbox" id="toggle-verified-only" class="sr-only peer">
+    <div class="w-9 h-5 bg-muted peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+    <span class="ml-3 text-sm font-semibold text-foreground">Solo verificadas</span>
+  </label>
+</div>
+<script>
+(function(){
+  const toggle = document.getElementById('toggle-verified-only');
+  if(!toggle) return;
+  toggle.addEventListener('change', function(e){
+    S.verifiedOnly = e.target.checked;
+    S.page = 0;
+    renderGrid();
+  });
+})();
+</script>
+<!-- DEV PALETTE END -->
+
 </body>
 </html>
