@@ -26,18 +26,23 @@ Un panel interactivo de **Inteligencia de Mercado (Market Intelligence)** impuls
 
 ```text
 .
-├── config/
+├── data/
 │   ├── blacklist.json          # Falsos positivos, nombres de autores y palabras ignoradas por el NLP.
-│   └── curated_companies.json  # Catálogo maestro de perfiles corporativos (tags, sedes, tamaño).
+│   ├── curated_companies.json  # Catálogo maestro de perfiles corporativos (tags, sedes, tamaño, Expansión 500).
+│   └── expansion_500.json      # Dataset fuente: Las 500 Empresas de Expansión.
 ├── pipeline/
 │   ├── 01_parse_mbox.py        # Lector del archivo .mbox e identificador de fuente (W vs EM).
 │   ├── 02_extract_entities.py  # Motor NER con spaCy y limpieza de strings.
 │   ├── 03_build_dataset.py     # Resolución de Alias y ensamble del JSON final.
+│   ├── enrich_from_expansion.py# Enrichment: mapea Expansión 500 → curated_companies.json.
+│   ├── extractor_v4.py         # Motor NLP principal (invocado por 02_extract_entities.py).
 │   └── run_pipeline.py         # Orquestador principal que ejecuta los pasos secuencialmente.
-├── market-intelligence-dashboard/
+├── web/
 │   ├── index.html              # Interfaz principal / Dashboard UI.
 │   ├── data.json               # Base de datos estática consumida por el frontend (salida del pipeline).
 │   └── images/                 # Assets estáticos (Logo, íconos).
+├── docs/
+│   └── estilo.md               # Guía de estilo editorial del proyecto.
 └── README.md                   # Documentación del proyecto.
 ```
 
@@ -73,7 +78,7 @@ python pipeline/run_pipeline.py --force
 ### 4. Ejecución del Dashboard (Frontend)
 Dado que el frontend no usa un servidor backend complejo, solo necesitas servir los archivos estáticos:
 ```bash
-cd market-intelligence-dashboard
+cd web
 python3 -m http.server 8000
 ```
 Abre tu navegador y entra a `http://localhost:8000`.

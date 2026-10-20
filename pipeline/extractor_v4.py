@@ -23,11 +23,11 @@ from collections import defaultdict, Counter
 
 import spacy
 
-BASE     = os.path.dirname(os.path.abspath(__file__))
+BASE     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MD_DIR   = os.path.join(BASE, "brief_year_md")
-HTML_OUT = os.path.join(BASE, "market-intelligence-dashboard", "index.html")
+HTML_OUT = os.path.join(BASE, "web", "index.html")
 JSON_OUT = os.path.join(BASE, "extracted_v4.json")
-DATA_OUT = os.path.join(BASE, "market-intelligence-dashboard", "data.json")
+DATA_OUT = os.path.join(BASE, "web", "data.json")
 
 # ── SPACY ──────────────────────────────────────────────────────────────────────
 print("Cargando spaCy…", flush=True)

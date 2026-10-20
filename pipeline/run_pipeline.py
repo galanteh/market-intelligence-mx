@@ -1,26 +1,27 @@
 #!/usr/bin/env python3
 """
-run_pipeline.py — Whitepaper Market Intelligence Pipeline
+pipeline/run_pipeline.py — Whitepaper Market Intelligence Pipeline
 
 Usage:
-  python3 run_pipeline.py           # smart mode: skip up-to-date steps
-  python3 run_pipeline.py --force   # re-run all steps from scratch
-  python3 run_pipeline.py --step 3  # run only step N (1, 2, or 3)
+  python3 pipeline/run_pipeline.py           # smart mode: skip up-to-date steps
+  python3 pipeline/run_pipeline.py --force   # re-run all steps from scratch
+  python3 pipeline/run_pipeline.py --step 3  # run only step N (1, 2, or 3)
 
 Steps:
   1  mbox → brief_year_md/*.md        (parse emails)
   2  markdown → extracted_v4.json     (NLP entity extraction, ~4 min)
-  3  extracted_v4.json → data.json    (filter + enrich + export)
+  3  extracted_v4.json → web/data.json (filter + enrich + export)
 """
 import sys, time, importlib.util
 from pathlib import Path
 
-BASE = Path(__file__).resolve().parent
+PIPELINE_DIR = Path(__file__).resolve().parent   # pipeline/
+ROOT         = PIPELINE_DIR.parent               # project root
 
 
 def load_step(n: int):
     names = {1: "01_parse_mbox", 2: "02_extract_entities", 3: "03_build_dataset"}
-    path  = BASE / "pipeline" / f"{names[n]}.py"
+    path  = PIPELINE_DIR / f"{names[n]}.py"
     spec  = importlib.util.spec_from_file_location(f"step{n}", path)
     mod   = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
@@ -65,7 +66,7 @@ def main():
         print(f"  Eventos extraídos  : {results[2]}")
     if results.get(3):
         print(f"  Empresas en dataset: {results[3]}")
-    data_path = BASE / "market-intelligence-dashboard" / "data.json"
+    data_path = ROOT / "web" / "data.json"
     if data_path.exists():
         mb = data_path.stat().st_size / 1_000_000
         print(f"  data.json          : {mb:.1f} MB  ✓")

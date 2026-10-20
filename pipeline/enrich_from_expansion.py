@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-scripts/enrich_from_expansion.py
-Enriches config/curated_companies.json with authoritative metrics from
-expansion/empresas_expansion_500.json (Las 500 Empresas de Expansión).
+pipeline/enrich_from_expansion.py
+Enriches data/curated_companies.json with authoritative metrics from
+data/expansion_500.json (Las 500 Empresas de Expansión).
 
 New fields written to curated entries:
   expansion_rank  "#N"
@@ -19,8 +19,8 @@ import json, re, unicodedata
 from pathlib import Path
 
 BASE      = Path(__file__).resolve().parents[1]
-EXP_PATH  = BASE / "expansion" / "empresas_expansion_500.json"
-CUR_PATH  = BASE / "config" / "curated_companies.json"
+EXP_PATH  = BASE / "data" / "expansion_500.json"
+CUR_PATH  = BASE / "data" / "curated_companies.json"
 
 # ─── Explicit name mappings ───────────────────────────────────────────────────
 # Maps Expansion nombre_empresa → curated catalog key.

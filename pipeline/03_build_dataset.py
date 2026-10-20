@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 """
 pipeline/03_build_dataset.py
-Transforms extracted_v4.json → market-intelligence-dashboard/data.json
+Transforms extracted_v4.json → web/data.json
 
 Steps:
   1. Load raw extraction + investment data from extracted_v4.json
-  2. Filter entities against config/blacklist.json
-  3. Apply curated editorial data from config/curated_companies.json
+  2. Filter entities against data/blacklist.json
+  3. Apply curated editorial data from data/curated_companies.json
   4. Nuke fabricated metrics on non-curated companies
   5. Build extractive 'about' summaries for long-tail companies
-  6. Write final data.json
+  6. Write final web/data.json
 """
 import json, re
 from pathlib import Path
 
 BASE       = Path(__file__).resolve().parents[1]
 SOURCE     = BASE / "extracted_v4.json"
-BLACKLIST  = BASE / "config" / "blacklist.json"
-CURATED    = BASE / "config" / "curated_companies.json"
-DATA_OUT   = BASE / "market-intelligence-dashboard" / "data.json"
+BLACKLIST  = BASE / "data" / "blacklist.json"
+CURATED    = BASE / "data" / "curated_companies.json"
+DATA_OUT   = BASE / "web" / "data.json"
 
 METRIC_FIELDS = ("hq", "team_size", "founded", "ownership", "stage", "last_round")
 
