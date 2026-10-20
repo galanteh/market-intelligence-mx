@@ -108,10 +108,14 @@ h1, h2, h3, h4, h5, h6 {
 .art-chevron { transition:transform .15s; }
 .art-body { display:none; margin-top:8px; }
 
-/* W badge */
+/* Source badges */
 .w-badge { width:24px; height:24px; border-radius:6px; background:#0A0A0A;
   display:flex; align-items:center; justify-content:center; flex-shrink:0;
   font-size:10px; font-weight:700; color:#fff; letter-spacing:-0.5px;
+  font-family:'Inter',sans-serif; }
+.em-badge { width:28px; height:24px; border-radius:6px; background:#1e3a5f;
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  font-size:9px; font-weight:700; color:#fff; letter-spacing:-0.3px;
   font-family:'Inter',sans-serif; }
 
 /* Gauge */
@@ -785,7 +789,7 @@ function renderTimeline(c){
   const sectionHead = `<div class="flex items-center justify-between mb-6">
     <div>
       <h2 class="font-body font-bold text-lg text-[#0A0A0A]">Artículos Whitepaper</h2>
-      <p class="text-xs text-[#737373] mt-0.5">${total} registro${total!==1?'s':''} · René Lankenau</p>
+      <p class="text-xs text-[#737373] mt-0.5">${total} registro${total!==1?'s':''}</p>
     </div>
   </div>`;
 
@@ -822,10 +826,10 @@ function renderTimeline(c){
           return `
             <div class="art-item" id="${aid}" onclick="toggleArt('${aid}')">
               <div class="flex items-start gap-3">
-                <div class="w-badge mt-0.5">W</div>
+                <div class="${(e.source||'Whitepaper')==='Espresso Matutino'?'em-badge':'w-badge'} mt-0.5">${(e.source||'Whitepaper')==='Espresso Matutino'?'EM':'W'}</div>
                 <div class="flex-1 min-w-0">
                   <div class="flex items-center gap-2 mb-1.5 flex-wrap">
-                    <span class="text-xs text-[#737373]">René Lankenau</span>
+                    <span class="text-xs text-[#737373]">${e.source||'Whitepaper'}</span>
                     <span class="text-[#E8E8E8] text-xs">·</span>
                     <span class="text-xs text-[#737373] tabular-nums">${fmtDate(e.date)}</span>
                     <span class="chip ${cc}">${e.cat}</span>

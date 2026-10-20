@@ -523,6 +523,7 @@ def extract_comment(text):
 
 # ── NEWSLETTER PARSER ──────────────────────────────────────────────────────────
 DATE_RE   = re.compile(r'\*\*Date:\*\*\s*(.+?)(?:\n|$)')
+FROM_RE   = re.compile(r'\*\*From:\*\*\s*(.+?)(?:\n|$)')
 MONTH_MAP = {
     "jan":1,"feb":2,"mar":3,"apr":4,"may":5,"jun":6,
     "jul":7,"aug":8,"sep":9,"oct":10,"nov":11,"dic":12,
@@ -539,6 +540,15 @@ def parse_date(block):
             mo = MONTH_MAP.get(mo_s.lower()[:3], 1)
             return f"{y}-{mo:02d}-{int(d):02d}", int(y)
     return None, None
+
+
+def parse_source(block) -> str:
+    m = FROM_RE.search(block)
+    if m:
+        val = m.group(1).strip()
+        if "espresso" in val.lower():
+            return "Espresso Matutino"
+    return "Whitepaper"
 
 
 def parse_sections(block):
@@ -860,13 +870,14 @@ def main():
         for block in blocks:
             date_str, year = parse_date(block)
             if not date_str: continue
+            source   = parse_source(block)
             sections = parse_sections(block)
             if sections:
-                all_newsletters.append((date_str, year, sections))
+                all_newsletters.append((date_str, year, source, sections))
                 count += 1
         print(f"  {fname}: {count} newsletters", flush=True)
 
-    total_sections = sum(len(s) for _,_,s in all_newsletters)
+    total_sections = sum(len(s) for _,_,_,s in all_newsletters)
     print(f"\n  Total newsletters : {len(all_newsletters)}")
     print(f"  Total secciones   : {total_sections}", flush=True)
 
@@ -878,7 +889,7 @@ def main():
     year_counts = defaultdict(lambda: defaultdict(int))
     stats = Counter()
 
-    for idx, (date_str, year, sections) in enumerate(all_newsletters):
+    for idx, (date_str, year, source, sections) in enumerate(all_newsletters):
         if idx % 200 == 0:
             print(f"  [{idx}/{len(all_newsletters)}] {time.time()-t0:.0f}s…", flush=True)
 
@@ -954,6 +965,7 @@ def main():
                     "snippet":  snippet[:200],
                     "body":     full_body,
                     "quote":    extract_comment(body),
+                    "source":   source,
                 })
                 year_counts[co][year] += 1
 

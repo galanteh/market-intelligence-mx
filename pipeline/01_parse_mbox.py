@@ -72,6 +72,14 @@ def is_fresh() -> bool:
     return all(f.stat().st_mtime >= mbox_mtime for f in md_files)
 
 
+def detect_source(from_header: str) -> str:
+    """Return the newsletter brand from the From header."""
+    f = from_header.lower()
+    if "espressomatutino" in f or "espresso matutino" in f:
+        return "Espresso Matutino"
+    return "Whitepaper"
+
+
 def run(force: bool = False) -> int:
     if not MBOX_PATH.exists():
         print(f"[01_parse_mbox] ⚠ Mbox not found at {MBOX_PATH} — skipping.")
@@ -84,6 +92,7 @@ def run(force: bool = False) -> int:
 
     MD_DIR.mkdir(parents=True, exist_ok=True)
     by_year: dict[int, list[str]] = {}
+    source_counts: dict[str, int] = {}
 
     mbox = mailbox.mbox(str(MBOX_PATH))
     total = 0
@@ -101,9 +110,11 @@ def run(force: bool = False) -> int:
             if not body.strip():
                 continue
 
+            source   = detect_source(decode_header(msg.get("From", "")))
             date_fmt = dt.strftime("%d %b %Y")
-            entry = f"**Date:** {date_fmt}\n**From:** whitepaper.mx\n\n# {subject}\n\n{body.strip()}\n\n---\n\n"
+            entry = f"**Date:** {date_fmt}\n**From:** {source}\n\n# {subject}\n\n{body.strip()}\n\n---\n\n"
             by_year.setdefault(year, []).append(entry)
+            source_counts[source] = source_counts.get(source, 0) + 1
             total += 1
         except Exception:
             continue
@@ -114,7 +125,8 @@ def run(force: bool = False) -> int:
             f.write("".join(entries))
         print(f"[01_parse_mbox]   {out_path.name}  ({len(entries)} emails)")
 
-    print(f"[01_parse_mbox] ✓ {total} emails → {len(by_year)} archivos Markdown")
+    src_summary = ", ".join(f"{s}: {n}" for s, n in sorted(source_counts.items()))
+    print(f"[01_parse_mbox] ✓ {total} emails → {len(by_year)} archivos Markdown  [{src_summary}]")
     return total
 
 
