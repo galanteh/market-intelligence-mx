@@ -1,77 +1,35 @@
-# Whitepaper Market Intelligence Dashboard
+# Market Intelligence Dashboard 🇲🇽📊
 
-Dashboard de inteligencia corporativa personal, construido sobre el acervo histórico
-de newsletters de [Whitepaper.mx](https://whitepaper.mx).
+Un panel interactivo de Inteligencia de Mercado (Market Intelligence) impulsado por Procesamiento de Lenguaje Natural (NLP). Este proyecto procesa boletines de noticias de negocios, extrae entidades corporativas y genera un directorio estructurado con métricas de inversión, alertas y movimientos estratégicos.
 
-> **Proyecto personal no oficial.** Los datos, artículos y marcas pertenecen a
-> Whitepaper.mx y sus respectivos autores.
+## 🚀 Características Principales
 
----
+*   **Ingesta Multi-Fuente:** Pipeline de datos capaz de parsear archivos `.mbox` y clasificar automáticamente las noticias provenientes de distintos emisores, integrando actualmente **Whitepaper** y **Expresso Matutino**.
+*   **Extracción de Entidades (NLP):** Uso de `spaCy` para identificar empresas, limpiar nombres comerciales (resolución de *Alias*) y descartar falsos positivos y contenido patrocinado.
+*   **Filtros de Inferencia Dinámica:** El frontend utiliza lógica de JavaScript para deducir propiedades en tiempo real:
+    *   *Geografía:* Clasifica empresas entre "Solo México" e "Internacionales" analizando las ubicaciones de sus sedes globales y locales.
+    *   *Sentimiento de Mercado:* Clasifica el contexto de las noticias en "🔥 Positivas" (inversiones, crecimiento, rondas) o "⚠️ Alertas" (deuda, cierres, despidos).
+*   **Catálogo Corporativo 100% Verificado:** Base de datos depurada manualmente con perfiles precisos de empresas multinacionales y mexicanas, indicando su estatus de filial corporativa cuando aplica.
+*   **Radar de Inversión y Capex:** Pestaña dedicada a la detección y seguimiento de proyectos de expansión, rondas de capital y construcción de nuevas plantas.
 
-## Estructura del repositorio
+## 🛠️ Arquitectura y Tecnologías
 
-```
-Whitepaper/
-├── config/
-│   ├── blacklist.json          # Entidades a excluir (orgs, productos, ruido NLP)
-│   └── curated_companies.json  # Datos verificados para ~73 empresas top
-├── pipeline/
-│   ├── 01_parse_mbox.py        # mbox → brief_year_md/*.md
-│   ├── 02_extract_entities.py  # Markdown → extracted_v4.json  (spaCy NLP)
-│   └── 03_build_dataset.py     # extracted_v4.json → data.json (filter + enrich)
-├── market-intelligence-dashboard/
-│   ├── data.json               # Dataset de producción (generado, ~10 MB)
-│   ├── index.html              # SPA (Tailwind + Vanilla JS)
-│   └── images/
-├── brief_year_md/              # Emails convertidos a Markdown por año
-├── extractor_v4.py             # Extractor NLP core (invocado por step 02)
-├── run_pipeline.py             # Orquestador principal
-└── mbox/                       # .mbox original (gitignored)
-```
+1.  **Pipeline de Datos (Backend / ETL):**
+    *   Python 3
+    *   `mailbox` (Parseo de correos electrónicos originales)
+    *   `spaCy` (NLP, NER y limpieza de texto)
+    *   `BeautifulSoup` (Limpieza de HTML)
+2.  **Dashboard (Frontend):**
+    *   Vanilla JavaScript (ES6+)
+    *   HTML5 & Tailwind CSS
+    *   Arquitectura "Serverless" (Consume un `data.json` estático generado por el pipeline)
 
----
+## ⚖️ Aviso Legal y de Uso
 
-## Correr el servidor local
+**Aviso de uso privado y demostración técnica:**
+Este panel es un proyecto técnico independiente de carácter exclusivamente personal y sin fines de lucro. Los textos y contenidos analizados son propiedad de sus respectivos emisores (Whitepaper y Expresso Matutino) y se procesan únicamente a partir de suscripciones legítimas. No constituye redistribución, afiliación ni respaldo oficial por parte de los autores.
 
-```bash
-cd market-intelligence-dashboard
-python3 -m http.server 5052
-# Abrir: http://localhost:5052
-```
+Con el fin de respetar y valorar el trabajo de curaduría periodística de Whitepaper (whitepaper.mx) y Expresso Matutino (espressomatutino.com), la información visible en este panel está deliberadamente incompleta, resumida o desactualizada, y nos reservamos el acceso a la base de datos íntegra. Esta versión se comparte públicamente de forma exclusiva como un caso de estudio técnico. Su objetivo es ilustrar cómo la Inteligencia Artificial puede transformar datos en inteligencia de mercado —por ejemplo, identificando empresas en planes de expansión para ofrecerles soluciones B2B— mejorando la toma de decisiones estratégicas.
 
 ---
-
-## Actualizar los datos
-
-### Sólo regenerar `data.json` (sin re-correr NLP):
-```bash
-python3 run_pipeline.py --step 3
-```
-
-### Pipeline completo (si el .mbox cambió):
-```bash
-python3 run_pipeline.py
-```
-
-### Forzar re-extracción NLP (~4 min):
-```bash
-python3 run_pipeline.py --force
-```
-
----
-
-## Modificar la lista negra o datos curados
-
-- **Agregar entidades a excluir**: editar `config/blacklist.json` → campo `"exact"` o `"patterns"`.
-- **Actualizar datos de una empresa**: editar `config/curated_companies.json` y correr `python3 run_pipeline.py --step 3`.
-
----
-
-## Requisitos
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install spacy
-python3 -m spacy download es_core_news_sm
-```
+*Desarrollado como proyecto de Ingeniería de Datos y Arquitectura Frontend.*
