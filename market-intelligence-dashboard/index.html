@@ -139,12 +139,12 @@ h1, h2, h3, h4, h5, h6 {
 <!-- ════════════════════════════════════════════
      NAVBAR
      ════════════════════════════════════════════ -->
-<nav class="bg-white border-b border-[#E8E8E8] fixed top-0 left-0 right-0 z-50 h-16">
+<nav class="bg-white border-b border-[#E8E8E8] fixed top-0 left-0 right-0 z-50 h-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between relative">
     <!-- Center logo (absolutely centered) -->
     <a class="absolute left-1/2 -translate-x-1/2 flex items-center cursor-pointer"
        onclick="goHome();return false;">
-      <img src="images/logo.png" alt="Market Intelligence" class="h-10 sm:h-12 w-auto object-contain">
+      <img src="images/logo.png" alt="Market Intelligence" class="h-28 sm:h-36 w-auto object-contain">
     </a>
     <!-- Right -->
     <a href="https://github.com/galanteh/market-intelligence-mx" target="_blank"
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   <div id="view-directory">
 
     <!-- HERO -->
-    <div class="pt-32 pb-12 px-4 max-w-3xl mx-auto text-center">
+    <div class="pt-36 pb-12 px-4 max-w-3xl mx-auto text-center">
       <div id="hero-counter"
            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/5 text-xs font-medium text-[#737373] mb-6">
         <span class="w-1.5 h-1.5 rounded-full bg-[#FF3838] animate-pulse"></span>
@@ -179,7 +179,9 @@ h1, h2, h3, h4, h5, h6 {
       <p class="text-base sm:text-lg text-[#737373] max-w-xl mx-auto mb-10 leading-relaxed">
         Inteligencia de mercado extraída de los newsletters de
         <a href="https://whitepaper.mx" target="_blank" rel="noopener"
-           class="text-[#FF3838] hover:underline font-medium">whitepaper.mx</a>.
+           class="text-[#FF3838] hover:underline font-medium">whitepaper.mx</a>
+        y <a href="https://espressomatutino.com" target="_blank" rel="noopener"
+           class="text-[#FF3838] hover:underline font-medium">espressomatutino.com</a>.
         Proyecto de ingeniería de datos. Dataset parcial (no actualizado).
       </p>
 
@@ -197,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
     </div>
 
     <!-- FILTER BAR (sticky) -->
-    <div class="sticky top-16 z-40 bg-[#F7F7F7]/90 backdrop-blur-sm border-b border-[#E8E8E8]">
+    <div class="sticky top-20 z-40 bg-[#F7F7F7]/90 backdrop-blur-sm border-b border-[#E8E8E8]">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 space-y-2.5">
         <!-- Main tabs -->
         <div class="flex gap-1 items-center" id="main-tabs">
@@ -254,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 
   <!-- ══ DETAIL VIEW ══ -->
   <div id="view-detail" class="hidden">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-24 pb-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-28 pb-16">
 
       <button onclick="goHome()"
         class="inline-flex items-center gap-1.5 text-sm text-[#737373] hover:text-[#0A0A0A] transition-colors mb-8">
@@ -275,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
       <div id="about-section"></div>
 
       <!-- Event filter (sticky in detail) -->
-      <div class="sticky top-16 z-40 bg-[#F7F7F7]/90 backdrop-blur-sm border-b border-[#E8E8E8]
+      <div class="sticky top-20 z-40 bg-[#F7F7F7]/90 backdrop-blur-sm border-b border-[#E8E8E8]
                   -mx-4 sm:-mx-6 px-4 sm:px-6 py-3 mb-6">
         <div id="event-filter-bar" class="flex gap-1.5 overflow-x-auto scrollbar-none"></div>
       </div>
@@ -299,10 +301,10 @@ h1, h2, h3, h4, h5, h6 {
     <h3 class="font-heading text-lg sm:text-xl tracking-tight mb-3 text-foreground">Aviso de uso privado y demostración técnica</h3>
     <div class="space-y-2 max-w-5xl mx-auto">
       <p class="text-xs leading-relaxed text-muted-foreground">
-        Este panel es un proyecto técnico independiente de carácter exclusivamente personal y sin fines de lucro. Los textos y contenidos analizados son propiedad de Whitepaper y se procesan únicamente a partir de una suscripción legítima. No constituye redistribución, afiliación ni respaldo oficial por parte del emisor.
+        Este panel es un proyecto técnico independiente de carácter exclusivamente personal y sin fines de lucro. Los textos y contenidos analizados son propiedad de sus respectivos emisores (Whitepaper y Expresso Matutino) y se procesan únicamente a partir de suscripciones legítimas. No constituye redistribución, afiliación ni respaldo oficial por parte de los autores.
       </p>
       <p class="text-xs leading-relaxed text-muted-foreground">
-        Con el fin de respetar y valorar el trabajo de curaduría periodística de Whitepaper, la información visible en este panel está deliberadamente incompleta, resumida o desactualizada, y nos reservamos el acceso a la base de datos íntegra. Esta versión se comparte públicamente de forma exclusiva como un caso de estudio técnico. Su objetivo es ilustrar cómo la Inteligencia Artificial puede transformar datos en inteligencia de mercado —por ejemplo, identificando empresas en planes de expansión para ofrecerles soluciones B2B— mejorando la toma de decisiones estratégicas.
+        Con el fin de respetar y valorar el trabajo de curaduría periodística de <a href="https://whitepaper.mx" target="_blank" rel="noopener" class="underline hover:text-foreground transition-colors">Whitepaper</a> y <a href="https://espressomatutino.com" target="_blank" rel="noopener" class="underline hover:text-foreground transition-colors">Expresso Matutino</a>, la información visible en este panel está deliberadamente incompleta, resumida o desactualizada, y nos reservamos el acceso a la base de datos íntegra. Esta versión se comparte públicamente de forma exclusiva como un caso de estudio técnico. Su objetivo es ilustrar cómo la Inteligencia Artificial puede transformar datos en inteligencia de mercado —por ejemplo, identificando empresas en planes de expansión para ofrecerles soluciones B2B— mejorando la toma de decisiones estratégicas.
       </p>
     </div>
   </div>
