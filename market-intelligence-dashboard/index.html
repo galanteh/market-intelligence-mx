@@ -756,10 +756,12 @@ function renderTaglineAbout(c){
 function renderKPIs(c){
   function card(icon, label, value){
     if(!value||value==='—'||value==='No disponible') return '';
-    return `<div class="glass-dark rounded-xl p-4">
-      <i data-lucide="${icon}" class="w-4 h-4 text-[#737373] mb-2"></i>
-      <p class="text-xs text-[#737373] mb-0.5">${label}</p>
-      <p class="font-medium text-sm text-[#0A0A0A]">${value}</p>
+    return `<div class="glass-dark rounded-xl p-3.5 sm:p-4 flex flex-col justify-between min-h-[88px]">
+      <i data-lucide="${icon}" class="w-4 h-4 text-[#737373] mb-2 flex-shrink-0"></i>
+      <div>
+        <p class="text-xs text-[#737373] mb-0.5 leading-tight">${label}</p>
+        <p class="font-medium text-sm text-[#0A0A0A] break-words leading-snug">${value}</p>
+      </div>
     </div>`;
   }
 
@@ -767,13 +769,13 @@ function renderKPIs(c){
   const hqLabel = isSubsidiary ? 'Sede Global (Filial MX)' : 'Headquarters';
 
   const cards = [
-    card('map-pin',    hqLabel,          c.hq || c.city || null),
-    card('users',      'Equipo',         c.team_size || null),
-    card('calendar',   'Fundada',        c.founded ? String(c.founded) : null),
-    card('building-2', 'Propiedad',      c.ownership || null),
-    card('trending-up','Serie',          c.stage || c.funding_stage || null),
-    card('coins',      'Última ronda',   c.last_round || null),
-    card('coins',      'Ventas Anuales', c.revenue_mdp || null),
+    card('map-pin',    hqLabel,            c.hq || c.city || null),
+    card('users',      'Equipo',           c.team_size || null),
+    card('calendar',   'Fundada',          c.founded ? String(c.founded) : null),
+    card('building-2', 'Propiedad',        c.ownership || null),
+    card('trending-up','Serie',            c.stage || c.funding_stage || null),
+    card('coins',      'Última ronda',     c.last_round || null),
+    card('coins',      'Ventas Anuales',   c.revenue_mdp || null),
     card('users',      'CEO / Presidente', c.ceo || null),
   ].filter(Boolean);
 
@@ -783,7 +785,7 @@ function renderKPIs(c){
       <p class="text-xs text-[#737373] italic">Sin métricas públicas verificadas disponibles.</p>
     </div>`;
   } else {
-    $('kpi-row').className = 'grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 mb-10';
+    $('kpi-row').className = 'grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mt-6 mb-10';
     $('kpi-row').innerHTML = cards.join('');
   }
 }
