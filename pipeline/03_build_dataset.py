@@ -210,7 +210,8 @@ def run() -> int:
             patch = curated[name]
             for field in ("tagline", "about", "hq",
                           "team_size", "founded", "ownership",
-                          "stage", "last_round"):
+                          "stage", "last_round",
+                          "expansion_rank", "ceo", "revenue_mdp"):
                 co[field] = patch.get(field, "")
             enriched += 1
         else:

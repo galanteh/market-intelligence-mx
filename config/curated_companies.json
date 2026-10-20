@@ -7,7 +7,10 @@
     "founded": "2011",
     "ownership": "Pública / BMV: AC",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $247,926 mdp"
+    "last_round": "2025: $247,926 mdp",
+    "expansion_rank": "#20",
+    "ceo": "Jorge H. Santos Reyna, presidente / Arturo Gutiérrez Hernández, CEO",
+    "revenue_mdp": "$247,926.0 MDP"
   },
   "Bimbo": {
     "tagline": "Es la mayor empresa de panificación del mundo y una de las cinco mayores de botanas, con más de 100 marcas en 90 países.",
@@ -17,7 +20,10 @@
     "founded": "1945",
     "ownership": "Pública / BMV: BIMBOA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $426,952 mdp"
+    "last_round": "2025: $426,952 mdp",
+    "expansion_rank": "#9",
+    "ceo": "Daniel Servitje, Presidente Ejecutivo de Grupo Bimbo / Alejandro Rodríguez Bas, CEO",
+    "revenue_mdp": "$426,951.7 MDP"
   },
   "Citibanamex": {
     "tagline": "La institución financiera más antigua de México, en proceso de independización de Citigroup.",
@@ -27,7 +33,10 @@
     "founded": "1884",
     "ownership": "Subsidiaria (en desinversión)",
     "stage": "En transición",
-    "last_round": "Proceso de separación Citi 2024"
+    "last_round": "Proceso de separación Citi 2024",
+    "expansion_rank": "#23",
+    "ceo": "Fernando Chico Pardo, presidente / Edgardo del Rincón, CEO",
+    "revenue_mdp": "$235,369.0 MDP"
   },
   "Coppel": {
     "tagline": "Combina una red de casi 1,900 tiendas con uno de los mayores negocios de crédito al consumo del país y la segunda afore por número de cuentas.",
@@ -37,7 +46,10 @@
     "founded": "1941",
     "ownership": "Privada",
     "stage": "Autofinanciada",
-    "last_round": "2025: $296,773 mdp (est.)"
+    "last_round": "2025: $296,773 mdp (est.)",
+    "expansion_rank": "#15",
+    "ceo": "Agustín Coppel Luken, presidente / Diego Coppel Sullivan, CEO",
+    "revenue_mdp": "$296,773.0 MDP"
   },
   "Walmart": {
     "tagline": "Superó el billón de pesos en ventas y opera más de 4,200 unidades, convirtiéndose en el negocio internacional más importante de Walmart.",
@@ -47,7 +59,10 @@
     "founded": "1958",
     "ownership": "Pública / BMV: WALMEX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $1,011,589 mdp"
+    "last_round": "2025: $1,011,589 mdp",
+    "expansion_rank": "#2",
+    "ceo": "Cristian Barrientos Pozo",
+    "revenue_mdp": "$1,011,597.9 MDP"
   },
   "Grupo Salinas": {
     "tagline": "Conglomerado de medios, retail, telecomunicaciones y finanzas de Ricardo Salinas Pliego.",
@@ -57,7 +72,10 @@
     "founded": "1906",
     "ownership": "Privada (Ricardo Salinas Pliego)",
     "stage": "Consolidada",
-    "last_round": "Sin ronda pública"
+    "last_round": "Sin ronda pública",
+    "expansion_rank": "#14",
+    "ceo": "Ricardo Salinas",
+    "revenue_mdp": "$303,458.8 MDP"
   },
   "Banorte": {
     "tagline": "Es el banco más grande de origen mexicano, con una cartera de crédito de $1.28 billones de pesos.",
@@ -67,7 +85,10 @@
     "founded": "1899",
     "ownership": "Pública / BMV: GFNORTEO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $405,038 mdp"
+    "last_round": "2025: $405,038 mdp",
+    "expansion_rank": "#8",
+    "ceo": "Carlos Hank González, presidente / José Marcos Ramírez Miguel, CEO",
+    "revenue_mdp": "$521,729.0 MDP"
   },
   "Clara": {
     "tagline": "La solución líder de gastos corporativos y tarjetas empresariales para startups y scaleups.",
@@ -107,7 +128,10 @@
     "founded": "1978",
     "ownership": "Subsidiaria de FEMSA",
     "stage": "Consolidada",
-    "last_round": "Expansión a Brasil 2023"
+    "last_round": "Expansión a Brasil 2023",
+    "expansion_rank": "#12",
+    "ceo": "José Antonio Fernández Carbajal, presidente ejecutivo / Carlos Arroyo Rico, CEO de Oxxo",
+    "revenue_mdp": "$328,839.0 MDP"
   },
   "FEMSA": {
     "tagline": "Opera más de 33,000 puntos de venta, la mayoría Oxxos, y a través de Coca-Cola Femsa es el mayor embotellador de Coca-Cola del mundo por volumen.",
@@ -117,7 +141,10 @@
     "founded": "1890",
     "ownership": "Pública / BMV + NYSE: FMX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $840,954 mdp"
+    "last_round": "2025: $840,954 mdp",
+    "expansion_rank": "#4",
+    "ceo": "José Antonio Fernández Carbajal, presidente ejecutivo / José Antonio Fernández Garza-Lagüera, CEO",
+    "revenue_mdp": "$840,953.7 MDP"
   },
   "BBVA": {
     "tagline": "El banco con mayor base de clientes y activos totales en México.",
@@ -127,7 +154,10 @@
     "founded": "1932 (MX)",
     "ownership": "Subsidiaria de BBVA España",
     "stage": "Consolidada",
-    "last_round": "Recapitalización 2024"
+    "last_round": "Recapitalización 2024",
+    "expansion_rank": "#7",
+    "ceo": "Jaime Serra Puche, presidente / Eduardo Osuna Osuna, director general",
+    "revenue_mdp": "$538,114.0 MDP"
   },
   "Alsea": {
     "tagline": "Opera más de 4,800 restaurantes de marcas como Starbucks, Domino's y Chili's en 12 países; casi 30% de sus ventas viene de Europa.",
@@ -137,7 +167,10 @@
     "founded": "1990",
     "ownership": "Pública / BMV: ALSEA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $84,000 mdp (est.)"
+    "last_round": "2025: $84,000 mdp (est.)",
+    "expansion_rank": "#68",
+    "ceo": "Armando Torrado Martínez, presidente / Christian Gurría Dubernard, CEO",
+    "revenue_mdp": "$84,110.0 MDP"
   },
   "Aeroméxico": {
     "tagline": "La aerolínea de bandera de México, con rutas a América, Europa y Asia.",
@@ -147,7 +180,10 @@
     "founded": "1934",
     "ownership": "Pública / BMV: AEROMEX",
     "stage": "Post-reestructura",
-    "last_round": "Salida Chapter 11 / IPO 2023"
+    "last_round": "Salida Chapter 11 / IPO 2023",
+    "expansion_rank": "#56",
+    "ceo": "Francisco Javier Arrigunaga, presidente / Andrés Conesa, CEO",
+    "revenue_mdp": "$102,921.6 MDP"
   },
   "Chedraui": {
     "tagline": "Es la segunda cadena de supermercados del país y, tras comprar Smart & Final, ya opera cerca de 400 tiendas en EUA, de donde viene más de la mitad de sus ventas.",
@@ -157,7 +193,10 @@
     "founded": "1920",
     "ownership": "Pública / BMV: CHEDRAUI",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $295,314 mdp"
+    "last_round": "2025: $295,314 mdp",
+    "expansion_rank": "#16",
+    "ceo": "Alfredo Chedraui Obeso",
+    "revenue_mdp": "$295,313.7 MDP"
   },
   "América Móvil": {
     "tagline": "Tiene cerca de 400 millones de usuarios en más de 20 países de América y Europa; es la segunda empresa más valiosa de México.",
@@ -167,7 +206,10 @@
     "founded": "2000",
     "ownership": "Pública / BMV + NYSE: AMX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $943,640 mdp"
+    "last_round": "2025: $943,640 mdp",
+    "expansion_rank": "#3",
+    "ceo": "Carlos Slim Domit",
+    "revenue_mdp": "$943,638.4 MDP"
   },
   "Konfío": {
     "tagline": "Plataforma de crédito y software financiero para PyMEs mexicanas.",
@@ -177,7 +219,10 @@
     "founded": "2013",
     "ownership": "Privada",
     "stage": "Serie E",
-    "last_round": "Serie E $110 mdd (2024)"
+    "last_round": "Serie E $110 mdd (2024)",
+    "expansion_rank": "#463",
+    "ceo": "David Arana Ley",
+    "revenue_mdp": "$4,738.0 MDP"
   },
   "Televisa": {
     "tagline": "El consorcio mediático más influyente de habla hispana, hoy parte de TelevisaUnivision.",
@@ -187,7 +232,10 @@
     "founded": "1950",
     "ownership": "Pública / BMV + NYSE: TELEVISACPO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Fusión TelevisaUnivision 2022"
+    "last_round": "Fusión TelevisaUnivision 2022",
+    "expansion_rank": "#93",
+    "ceo": "Alfonso de Angoitia Noriega y Bernardo Gómez Martínez, co presidentes ejecutivos",
+    "revenue_mdp": "$58,878.2 MDP"
   },
   "Costco": {
     "tagline": "Club de membresía con los precios más competitivos del retail mexicano.",
@@ -197,7 +245,10 @@
     "founded": "1983",
     "ownership": "Pública / NASDAQ: COST",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión 31 tiendas México 2025"
+    "last_round": "Expansión 31 tiendas México 2025",
+    "expansion_rank": "#55",
+    "ceo": "Ron Vachris, presidente / Moisés Sáenz, CEO",
+    "revenue_mdp": "$104,328.0 MDP"
   },
   "Volaris": {
     "tagline": "La aerolínea de ultra bajo costo más grande de México, con el mayor número de rutas domésticas.",
@@ -207,7 +258,10 @@
     "founded": "2005",
     "ownership": "Pública / NYSE: VLRS",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Bonos sostenibles $150 mdd 2024"
+    "last_round": "Bonos sostenibles $150 mdd 2024",
+    "expansion_rank": "#95",
+    "ceo": "Brian H. Franke, presidente / Enrique Javier Beltranena Mejicano, CEO",
+    "revenue_mdp": "$58,320.0 MDP"
   },
   "Mercado Libre": {
     "tagline": "El ecosistema de e-commerce y pagos digitales más grande de América Latina.",
@@ -217,7 +271,10 @@
     "founded": "1999",
     "ownership": "Pública / NASDAQ: MELI",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Crédito $2,500 mdd (2024)"
+    "last_round": "Crédito $2,500 mdd (2024)",
+    "expansion_rank": "#46",
+    "ceo": "David Geisen, CEO México",
+    "revenue_mdp": "$124,320.0 MDP"
   },
   "General Motors": {
     "tagline": "Fabricante estadounidense de automóviles con plantas de exportación clave en México.",
@@ -227,7 +284,10 @@
     "founded": "1935 (MX)",
     "ownership": "Pública / NYSE: GM",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Inversión EV $1,300 mdd 2024"
+    "last_round": "Inversión EV $1,300 mdd 2024",
+    "expansion_rank": "#6",
+    "ceo": "Francisco Garza Rodríguez",
+    "revenue_mdp": "$646,000.0 MDP"
   },
   "Gruma": {
     "tagline": "Es el líder global en harina de maíz; a finales de 2025 operaba 77 plantas alrededor del mundo y genera 72% de sus ingresos fuera de México.",
@@ -237,7 +297,10 @@
     "founded": "1949",
     "ownership": "Pública / BMV + NYSE: GRUMAB",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $114,757 mdp"
+    "last_round": "2025: $114,757 mdp",
+    "expansion_rank": "#47",
+    "ceo": "Juan A. González Moreno",
+    "revenue_mdp": "$122,393.0 MDP"
   },
   "Kavak": {
     "tagline": "Fue la primera startup mexicana en valer más de $1,000 mdd y hoy es el mayor marketplace de autos seminuevos de LatAm; en 2025 vendió más de 120,000 vehículos.",
@@ -257,7 +320,10 @@
     "founded": "1847",
     "ownership": "Pública / BMV: LIVEPOLC-1",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $229,136 mdp"
+    "last_round": "2025: $229,136 mdp",
+    "expansion_rank": "#24",
+    "ceo": "Graciano Guichard González, presidente / Enrique Guijosa Hidalgo, CEO",
+    "revenue_mdp": "$229,137.0 MDP"
   },
   "Soriana": {
     "tagline": "Una de las principales cadenas de supermercados del país, nacida en Torreón.",
@@ -267,7 +333,10 @@
     "founded": "1968",
     "ownership": "Pública / BMV: SORIANAB",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Refinanciamiento 2023"
+    "last_round": "Refinanciamiento 2023",
+    "expansion_rank": "#31",
+    "ceo": "Francisco Javier Martín Bringas, presidente / Ricardo Martín Bringas, CEO",
+    "revenue_mdp": "$177,515.2 MDP"
   },
   "Klar": {
     "tagline": "Banco digital mexicano con cashback real y cero comisiones.",
@@ -277,7 +346,10 @@
     "founded": "2019",
     "ownership": "Privada",
     "stage": "Serie C",
-    "last_round": "Serie C $90 mdd (2023)"
+    "last_round": "Serie C $90 mdd (2023)",
+    "expansion_rank": "#420",
+    "ceo": "Stefan Möller Alvarez del Castillo, presidente y CEO",
+    "revenue_mdp": "$5,987.0 MDP"
   },
   "GBM": {
     "tagline": "La plataforma de inversión número uno en México por número de usuarios activos.",
@@ -287,7 +359,10 @@
     "founded": "1981",
     "ownership": "Privada",
     "stage": "Scaleup",
-    "last_round": "Serie C $115 mdd (2021)"
+    "last_round": "Serie C $115 mdd (2021)",
+    "expansion_rank": "#375",
+    "ceo": "Diego Ramos González de Castilla, presidente / Pedro de Garay, co-CEO y José Antonio Salazar, co-CEO",
+    "revenue_mdp": "$8,265.5 MDP"
   },
   "Clip": {
     "tagline": "Pionera de los pagos con tarjeta para pequeños comercios en México, Clip se convirtió en 2021 en el tercer unicornio del país.",
@@ -307,7 +382,10 @@
     "founded": "1873",
     "ownership": "Pública / Euronext: HEIA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión México 2023"
+    "last_round": "Expansión México 2023",
+    "expansion_rank": "#37",
+    "ceo": "Oriol Bonaclocha",
+    "revenue_mdp": "$139,723.0 MDP"
   },
   "Nubank": {
     "tagline": "El banco digital más grande del mundo fuera de Asia, con millones de clientes en México.",
@@ -327,7 +405,10 @@
     "founded": "1979",
     "ownership": "Pública / BMV + NYSE: KOF",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión regional 2024"
+    "last_round": "Expansión regional 2024",
+    "expansion_rank": "#17",
+    "ceo": "José Antonio Fernández Carbajal, presidente ejecutivo / José Antonio Fernández Garza-Lagüera, CEO",
+    "revenue_mdp": "$291,745.7 MDP"
   },
   "Grupo México": {
     "tagline": "Es la única empresa mexicana con un valor de mercado superior a $100,000 mdd, impulsada por el precio del cobre.",
@@ -337,7 +418,10 @@
     "founded": "1978",
     "ownership": "Pública / BMV: GMEXICOB",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $327,189 mdp"
+    "last_round": "2025: $327,189 mdp",
+    "expansion_rank": "#11",
+    "ceo": "Germán Larrea Mota Velasco",
+    "revenue_mdp": "$349,379.1 MDP"
   },
   "American Express": {
     "tagline": "Red global de servicios financieros con el segmento premium del mercado mexicano.",
@@ -377,7 +461,10 @@
     "founded": "1950",
     "ownership": "Pública / BMV: ELEKTRA*",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $215,356 mdp"
+    "last_round": "2025: $215,356 mdp",
+    "expansion_rank": "#26",
+    "ceo": "Pedro Padilla Longoria, presidente / Gabriel Roqueñi Rello, CEO",
+    "revenue_mdp": "$215,355.9 MDP"
   },
   "Audi": {
     "tagline": "Marca premium alemana con su única planta en las Américas ubicada en San José Chiapa, Puebla.",
@@ -387,7 +474,10 @@
     "founded": "2013 (MX)",
     "ownership": "Subsidiaria de Grupo Volkswagen",
     "stage": "Consolidada",
-    "last_round": "Plan inversión $1,000 mdd 2025"
+    "last_round": "Plan inversión $1,000 mdd 2025",
+    "expansion_rank": "#51",
+    "ceo": "André Richter, presidente ejecutivo México",
+    "revenue_mdp": "$109,816.0 MDP"
   },
   "Megacable": {
     "tagline": "Proveedor líder de internet, TV y telefonía en el occidente y centro de México.",
@@ -397,7 +487,10 @@
     "founded": "1994",
     "ownership": "Pública / BMV: MEGACPO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión fibra óptica 2024"
+    "last_round": "Expansión fibra óptica 2024",
+    "expansion_rank": "#152",
+    "ceo": "Francisco Javier R. Bours Castelo, presidente / Enrique Yamuni Robles, CEO",
+    "revenue_mdp": "$35,429.7 MDP"
   },
   "Inbursa": {
     "tagline": "El grupo financiero de Carlos Slim, con operaciones en banca, seguros e inversiones.",
@@ -407,7 +500,10 @@
     "founded": "1965",
     "ownership": "Pública / BMV: GFINBURO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Subsidiaria Grupo Carso"
+    "last_round": "Subsidiaria Grupo Carso",
+    "expansion_rank": "#35",
+    "ceo": "Marco Antonio Slim Domit, presidente / Javier Foncerrada Izquierdo, CEO",
+    "revenue_mdp": "$145,514.2 MDP"
   },
   "Scotiabank": {
     "tagline": "Banco canadiense con décadas de presencia en el mercado financiero mexicano.",
@@ -417,7 +513,10 @@
     "founded": "1832 / 1997 (MX)",
     "ownership": "Subsidiaria de Scotiabank Canadá",
     "stage": "Consolidada",
-    "last_round": "Refinanciamiento 2024"
+    "last_round": "Refinanciamiento 2024",
+    "expansion_rank": "#64",
+    "ceo": "Guillermo Enrique Babatz Torres, presidente / Pablo Elek, CEO",
+    "revenue_mdp": "$88,689.0 MDP"
   },
   "Ternium": {
     "tagline": "Siderúrgica líder en la producción de acero plano para el sector industrial de México.",
@@ -427,7 +526,10 @@
     "founded": "2005",
     "ownership": "Pública / NYSE: TX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Planta galvanizado $650 mdd 2024"
+    "last_round": "Planta galvanizado $650 mdd 2024",
+    "expansion_rank": "#36",
+    "ceo": "Paolo Rocca, presidente / Máximo Vedoya, CEO",
+    "revenue_mdp": "$139,930.0 MDP"
   },
   "Bolsa Mexicana de Valores": {
     "tagline": "La bolsa de valores de México, eje del mercado de capitales nacional.",
@@ -437,7 +539,10 @@
     "founded": "1907",
     "ownership": "Pública / BMV: BOLSAA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Expansión plataforma digital 2024"
+    "last_round": "Expansión plataforma digital 2024",
+    "expansion_rank": "#472",
+    "ceo": "Marcos Martínez Gavica, presidente / Jorge Alegría Formoso, director general",
+    "revenue_mdp": "$4,470.0 MDP"
   },
   "Hyundai": {
     "tagline": "Marca coreana con crecimiento consistente en el mercado automotriz mexicano.",
@@ -447,7 +552,10 @@
     "founded": "1998 (MX)",
     "ownership": "Subsidiaria de Hyundai Motor",
     "stage": "Consolidada",
-    "last_round": "Planta Nuevo León 2024"
+    "last_round": "Planta Nuevo León 2024",
+    "expansion_rank": "#103",
+    "ceo": "Edgar Carranza, CEO México",
+    "revenue_mdp": "$55,235.8 MDP"
   },
   "Stori": {
     "tagline": "Tarjeta de crédito digital para el segmento no bancarizado de México.",
@@ -457,7 +565,10 @@
     "founded": "2018",
     "ownership": "Privada",
     "stage": "Serie C",
-    "last_round": "Serie C $50 mdd (2022)"
+    "last_round": "Serie C $50 mdd (2022)",
+    "expansion_rank": "#406",
+    "ceo": "Marlene Garayzar, Bin Chen, Sherman He, GY Liu, Nick Chen (cofundadores)",
+    "revenue_mdp": "$6,503.0 MDP"
   },
   "Ford": {
     "tagline": "Fabricante global de vehículos con una histórica planta de motores en Hermosillo, Sonora.",
@@ -467,7 +578,10 @@
     "founded": "1925 (MX)",
     "ownership": "Pública / NYSE: F",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Planta Hermosillo EV 2024"
+    "last_round": "Planta Hermosillo EV 2024",
+    "expansion_rank": "#108",
+    "ceo": "Lucien Pinto, presidente y CEO",
+    "revenue_mdp": "$54,083.8 MDP"
   },
   "TUKÁN": {
     "tagline": "Plataforma de gestión de beneficios y gastos para empresas mexicanas.",
@@ -487,7 +601,10 @@
     "founded": "1993",
     "ownership": "Subsidiaria de Grupo Sordo Madaleno",
     "stage": "Consolidada",
-    "last_round": "Apertura 2 formatos 2024"
+    "last_round": "Apertura 2 formatos 2024",
+    "expansion_rank": "#118",
+    "ceo": "Carlos González Zabalegui, presidente / Santiago García, CEO",
+    "revenue_mdp": "$47,625.0 MDP"
   },
   "TV Azteca": {
     "tagline": "La segunda cadena de televisión abierta de México, parte del Grupo Salinas.",
@@ -497,7 +614,10 @@
     "founded": "1993",
     "ownership": "Pública / BMV: AZTECACPO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Restructura deuda 2023"
+    "last_round": "Restructura deuda 2023",
+    "expansion_rank": "#319",
+    "ceo": "Rafael Rodríguez Sánchez",
+    "revenue_mdp": "$11,448.0 MDP"
   },
   "Samsung": {
     "tagline": "Gigante tecnológico coreano con manufactura, ventas e I+D relevante en México.",
@@ -517,7 +637,10 @@
     "founded": "1980",
     "ownership": "Pública / BMV: GCARSO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $191,626 mdp"
+    "last_round": "2025: $191,626 mdp",
+    "expansion_rank": "#29",
+    "ceo": "Carlos Slim Domit, presidente / Antonio Gómez García, CEO",
+    "revenue_mdp": "$191,621.0 MDP"
   },
   "Nemak": {
     "tagline": "Sus componentes están presentes en uno de cada cuatro autos vendidos en el mundo; opera 53 plantas en 15 países.",
@@ -527,7 +650,10 @@
     "founded": "1979",
     "ownership": "Pública / BMV: NEMAKA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $88,763 mdp"
+    "last_round": "2025: $88,763 mdp",
+    "expansion_rank": "#58",
+    "ceo": "Álvaro Fernández Garza, presidente / Hervé Boyer, CEO",
+    "revenue_mdp": "$94,675.2 MDP"
   },
   "Telmex": {
     "tagline": "La empresa de telecomunicaciones fija más grande de México, parte del grupo Carlos Slim.",
@@ -547,17 +673,23 @@
     "founded": "1952",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Bursátil / BMV"
+    "last_round": "Bursátil / BMV",
+    "expansion_rank": "#30",
+    "ceo": "Álvaro Fernández Garza, presidente / Rodrigo Fernández Martínez, CEO",
+    "revenue_mdp": "$177,854.0 MDP"
   },
   "AT &T": {
     "tagline": "",
     "about": "Axtel dijo que su guía de flujo para 2022 se revisó a la baja 11% a $158 millones de dólares , “ debido principalmente a los resultados del segmento de gobierno, la falta de semiconductores que causó El aumento de precios en los smartphones — consecuencia de la inflación — está ya teniendo un impacto negativo en las ventas de dispositivos. En el tercer trimestre, AT &T disminuyó 13.4% la venta de Super.mx , una insurtech mexicana que en su momento llegó a obtener más de $7 millones de dólares…",
-    "hq": "",
-    "team_size": "",
+    "hq": "Ciudad de México",
+    "team_size": "12,995 empleados",
     "founded": "",
     "ownership": "",
     "stage": "",
-    "last_round": ""
+    "last_round": "",
+    "expansion_rank": "#69",
+    "ceo": "Mónica Aspe Bernal",
+    "revenue_mdp": "$84,077.0 MDP"
   },
   "Axtel": {
     "tagline": "Empresa de telecomunicaciones y TI corporativa, subsidiaria de Alfa.",
@@ -567,7 +699,10 @@
     "founded": "1950",
     "ownership": "Privada",
     "stage": "Scaleup",
-    "last_round": "2022: $100 mdd"
+    "last_round": "2022: $100 mdd",
+    "expansion_rank": "#311",
+    "ceo": "Álvaro Fernández Garza y Tomás Milmo Santos, copresidentes / Armando de la Peña, director general",
+    "revenue_mdp": "$12,367.2 MDP"
   },
   "Paramount": {
     "tagline": "Estudio y plataforma de entretenimiento global con Paramount+ activa en México.",
@@ -587,7 +722,10 @@
     "founded": "1966",
     "ownership": "Privada",
     "stage": "Scaleup",
-    "last_round": "2022: $100 mdd"
+    "last_round": "2022: $100 mdd",
+    "expansion_rank": "#43",
+    "ceo": "José Antonio Meade Kuribreña, presidente / Jorge Arturo Arce Gama, CEO",
+    "revenue_mdp": "$127,569.0 MDP"
   },
   "Pemex": {
     "tagline": "La empresa petrolera estatal de México, una de las más endeudadas del mundo.",
@@ -617,7 +755,10 @@
     "founded": "1982",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Bursátil / BMV"
+    "last_round": "Bursátil / BMV",
+    "expansion_rank": "#265",
+    "ceo": "Nicolas Notebaert, presidente / Ricardo Dueñas Espriú, CEO",
+    "revenue_mdp": "$15,964.0 MDP"
   },
   "City Express": {
     "tagline": "Cadena pionera de hoteles para viajeros de negocios en México, adquirida por Marriott.",
@@ -637,7 +778,10 @@
     "founded": "1994",
     "ownership": "Privada",
     "stage": "Scaleup",
-    "last_round": "2022: $100 mdd"
+    "last_round": "2022: $100 mdd",
+    "expansion_rank": "#222",
+    "ceo": "Emilio Romano Mussali, presidente y CEO",
+    "revenue_mdp": "$20,407.0 MDP"
   },
   "Inditex": {
     "tagline": "El mayor grupo de moda del mundo, creador de Zara, con México como mercado clave.",
@@ -647,7 +791,10 @@
     "founded": "1965",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Bursátil / BMV"
+    "last_round": "Bursátil / BMV",
+    "expansion_rank": "#105",
+    "ceo": "Marta Ortega Pérez, presidenta /  Lino de Prado, CEO",
+    "revenue_mdp": "$54,687.5 MDP"
   },
   "Nvidia": {
     "tagline": "El fabricante de chips de IA más valioso del mundo, con inversiones en infraestructura en México.",
@@ -667,7 +814,10 @@
     "founded": "1952",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2024: $99,343 mdp"
+    "last_round": "2024: $99,343 mdp",
+    "expansion_rank": "#53",
+    "ceo": "Francisco Javier R. Bours, presidente / Ernesto Salmón Castelo, CEO",
+    "revenue_mdp": "$107,290.4 MDP"
   },
   "Banco Azteca": {
     "tagline": "El banco con mayor red de sucursales en México, enfocado en el segmento popular.",
@@ -677,7 +827,10 @@
     "founded": "1998",
     "ownership": "Privada",
     "stage": "Scaleup",
-    "last_round": "2022: $30 mdd"
+    "last_round": "2022: $30 mdd",
+    "expansion_rank": "#50",
+    "ceo": "Alejandro Valenzuela del Río, presidente / Francisco Tonatiuh Rodríguez Gómez, CEO",
+    "revenue_mdp": "$109,875.0 MDP"
   },
   "Grupo Axo": {
     "tagline": "Ha sido el socio detrás de la entrada y expansión de más de 60 marcas internacionales, desde Tommy Hilfiger y Nike hasta Ulta Beauty.",
@@ -687,7 +840,10 @@
     "founded": "1994",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2023: $24,708 mdp"
+    "last_round": "2023: $24,708 mdp",
+    "expansion_rank": "#177",
+    "ceo": "Andres Ignacio Gomez Martinez",
+    "revenue_mdp": "$29,897.9 MDP"
   },
   "Vitro": {
     "tagline": "Empresa líder en fabricación de vidrio en México, proveedora de la industria y el hogar.",
@@ -697,7 +853,10 @@
     "founded": "1909",
     "ownership": "Pública / BMV: VITROA",
     "stage": "Bursátil / Consolidada",
-    "last_round": "Capex planta Texas 2024"
+    "last_round": "Capex planta Texas 2024",
+    "expansion_rank": "#438",
+    "ceo": "Adrián Sada Cueva",
+    "revenue_mdp": "$5,415.0 MDP"
   },
   "Grupo Alfa": {
     "tagline": "",
@@ -717,7 +876,10 @@
     "founded": "1925",
     "ownership": "Subsidiaria de AB InBev",
     "stage": "Consolidada",
-    "last_round": "Adquisición AB InBev 2013"
+    "last_round": "Adquisición AB InBev 2013",
+    "expansion_rank": "#28",
+    "ceo": "Daniel Cocenzo",
+    "revenue_mdp": "$207,576.0 MDP"
   },
   "Banamex": {
     "tagline": "Es el cuarto banco más grande del país y, tras más de dos décadas bajo Citi, está regresando a control mexicano con Fernando Chico Pardo como principal accionista.",
@@ -777,7 +939,10 @@
     "ownership": "Estatal / Empresa Productiva del Estado",
     "stage": "Paraestatal",
     "team_size": "~70,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#5",
+    "ceo": "Emilia Esther Calleja Alor",
+    "revenue_mdp": "$679,463.3 MDP"
   },
   "The CIU": {
     "tagline": "Firma mexicana de inteligencia competitiva especializada en telecomunicaciones y economía digital.",
@@ -817,7 +982,10 @@
     "ownership": "Privada",
     "stage": "N/A",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#124",
+    "ceo": "Roberto Lázaro Alcántara Rojas, presidente / Juan Carlos Zuazua Cossío, director general",
+    "revenue_mdp": "$45,619.2 MDP"
   },
   "Boeing": {
     "tagline": "El mayor fabricante de aviones comerciales y sistemas de defensa del mundo.",
@@ -867,7 +1035,10 @@
     "ownership": "Privada",
     "stage": "N/A",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#206",
+    "ceo": "Germán Larrea Mota Velasco, presidente / Ricardo Larrea, CEO",
+    "revenue_mdp": "$23,970.0 MDP"
   },
   "Fibra Uno": {
     "tagline": "El fideicomiso de bienes raíces más grande de México, con portafolio diversificado de activos comerciales e industriales.",
@@ -877,7 +1048,10 @@
     "ownership": "Pública / BMV: FUNO11",
     "stage": "Cotiza en Bolsa",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#174",
+    "ceo": "Moisés El Mann Arazi, presidente / André El Mann Arazi, CEO",
+    "revenue_mdp": "$30,508.0 MDP"
   },
   "Citigroup": {
     "tagline": "Uno de los mayores conglomerados financieros del mundo, con presencia bancaria en más de 160 países.",
@@ -937,7 +1111,10 @@
     "ownership": "Subsidiaria (Grupo Salinas)",
     "stage": "Establecida / Subsidiaria",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#125",
+    "ceo": "Ricardo B. Salinas Pliego, presidente / Eduardo Kuri Romo, CEO",
+    "revenue_mdp": "$45,550.3 MDP"
   },
   "AMD": {
     "tagline": "Fabricante de semiconductores competitivos en CPUs, GPUs y chips para centros de datos e inteligencia artificial.",
@@ -967,7 +1144,10 @@
     "ownership": "Estatal / Empresa Productiva del Estado",
     "stage": "Paraestatal",
     "team_size": "~130,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#1",
+    "ceo": "Juan Carlos Carpio Fragoso",
+    "revenue_mdp": "$1,528,538.8 MDP"
   },
   "Best Buy": {
     "tagline": "La mayor cadena minorista especializada en electrónica de consumo de Estados Unidos, con presencia en México.",
@@ -997,7 +1177,10 @@
     "founded": "1906",
     "ownership": "Pública / BMV + NYSE: CX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $290,395 mdp"
+    "last_round": "2025: $290,395 mdp",
+    "expansion_rank": "#13",
+    "ceo": "Rogelio Zambrano Lozano",
+    "revenue_mdp": "$309,732.1 MDP"
   },
   "Flink": {
     "tagline": "Aplicación mexicana de inversión en acciones, ETFs y criptomonedas orientada al mercado masivo.",
@@ -1067,7 +1250,10 @@
     "founded": "2012",
     "ownership": "Privada",
     "stage": "Serie C+",
-    "last_round": "$202 mdd"
+    "last_round": "$202 mdd",
+    "expansion_rank": "#400",
+    "ceo": "Adalberto Flores Ochoa",
+    "revenue_mdp": "$6,811.0 MDP"
   },
   "Mercado Pago": {
     "tagline": "El ecosistema de pagos y servicios financieros digitales de MercadoLibre.",
@@ -1127,7 +1313,10 @@
     "ownership": "Privada",
     "stage": "N/A",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#84",
+    "ceo": "Antonio Leonardo Castañón, presidente / Rafael Selvas, CEO",
+    "revenue_mdp": "$67,691.8 MDP"
   },
   "Farmacias Guadalajara": {
     "tagline": "Cadena de farmacias y supermercados de Grupo Fragua con base en Jalisco.",
@@ -1147,7 +1336,10 @@
     "ownership": "Pública / BMV: LABB",
     "stage": "Cotiza en Bolsa",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#251",
+    "ceo": "Rodrigo Herrera Aspra",
+    "revenue_mdp": "$17,541.2 MDP"
   },
   "Casa Ley": {
     "tagline": "Cadena de supermercados del noroeste mexicano con más de 200 tiendas.",
@@ -1157,7 +1349,10 @@
     "ownership": "Privada",
     "stage": "N/A",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#81",
+    "ceo": "Juan Manuel Ley Bastidas, presidente y CEO",
+    "revenue_mdp": "$70,000.0 MDP"
   },
   "BanBajío": {
     "tagline": "Banco comercial mexicano especializado en financiamiento a empresas medianas y sector agropecuario.",
@@ -1167,7 +1362,10 @@
     "ownership": "Pública / BMV: BBAJIO",
     "stage": "Cotiza en Bolsa",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#121",
+    "ceo": "Salvador Oñate Barrón, presidente / Edgardo del Rincón Gutiérrez, CEO",
+    "revenue_mdp": "$45,926.0 MDP"
   },
   "Cinépolis": {
     "tagline": "Con más de 6,800 salas en 18 países, es la tercera cadena de cines más grande del mundo en número de salas.",
@@ -1177,7 +1375,10 @@
     "founded": "1971",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $115,000 mdp (est.)"
+    "last_round": "2025: $115,000 mdp (est.)",
+    "expansion_rank": "#48",
+    "ceo": "Alejandro Ramírez Magaña",
+    "revenue_mdp": "$115,000.0 MDP"
   },
   "Grupo Sanborns": {
     "tagline": "Operador de tiendas departamentales, restaurantes y retail especializado del Grupo Carso.",
@@ -1187,7 +1388,10 @@
     "ownership": "Pública / BMV: SANBORNS",
     "stage": "Cotiza en Bolsa",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#79",
+    "ceo": "Carlos Slim Domit, presidente / Patrick Slim Domit, CEO",
+    "revenue_mdp": "$74,296.0 MDP"
   },
   "Grupo Posadas": {
     "tagline": "El operador hotelero más grande de México con marcas para todos los segmentos.",
@@ -1197,7 +1401,10 @@
     "ownership": "Pública / BMV: POSADAS",
     "stage": "Cotiza en Bolsa",
     "team_size": "~15,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#320",
+    "ceo": "Pablo Azcárraga Andrade, presidente y CEO",
+    "revenue_mdp": "$11,436.7 MDP"
   },
   "Grupo Hérdez": {
     "tagline": "Productor y distribuidor líder de alimentos procesados en México con marcas como Herdez y McCormick.",
@@ -1217,7 +1424,10 @@
     "ownership": "Pública / BMV: BAFAR",
     "stage": "Cotiza en Bolsa",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#137",
+    "ceo": "Oscar Eugenio Baeza Fares",
+    "revenue_mdp": "$40,767.0 MDP"
   },
   "AHMSA": {
     "tagline": "El productor de acero integrado más grande de México, con sede en Monclova, Coahuila.",
@@ -1247,7 +1457,10 @@
     "ownership": "Privada",
     "stage": "N/A",
     "team_size": "N/A",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#232",
+    "ceo": "Héctor Madero Rivero, presidente / Luis Hernández Rangel, CEO",
+    "revenue_mdp": "$19,733.0 MDP"
   },
   "CI Banco": {
     "tagline": "Banco mexicano especializado en operaciones cambiarias, banca corporativa y finanzas verdes.",
@@ -1367,7 +1580,10 @@
     "founded": "1998",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $37,237 mdp"
+    "last_round": "2025: $37,237 mdp",
+    "expansion_rank": "#147",
+    "ceo": "Fernando Chico Pardo, presidente / Adolfo Castro, CEO",
+    "revenue_mdp": "$37,237.4 MDP"
   },
   "Bafar": {
     "tagline": "La empresa chihuahuense detrás de Parma, Sabori y CarneMart, que cotiza en la BMV desde 1996.",
@@ -1387,7 +1603,10 @@
     "founded": "1758",
     "ownership": "Pública / BMV: CUERVO",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $43,087 mdp"
+    "last_round": "2025: $43,087 mdp",
+    "expansion_rank": "#123",
+    "ceo": "Juan Domingo Beckmann Legorreta",
+    "revenue_mdp": "$45,626.3 MDP"
   },
   "Bepensa": {
     "tagline": "La tercera embotelladora de Coca-Cola del país y la quinta de LatAm, con operaciones en la Península de Yucatán y República Dominicana.",
@@ -1397,7 +1616,10 @@
     "founded": "1946",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $22,410 mdp"
+    "last_round": "2025: $22,410 mdp",
+    "expansion_rank": "#210",
+    "ceo": "Juan Manuel Ponce Díaz, presidente / Alonso Gasque Toraya, director general",
+    "revenue_mdp": "$22,411.0 MDP"
   },
   "Betterware": {
     "tagline": "Fue la primera empresa mexicana en cotizar en Nasdaq y hoy, junto con Jafra, genera más de $14,000 mdp en ventas anuales.",
@@ -1407,7 +1629,10 @@
     "founded": "1995",
     "ownership": "Pública / NYSE: BWMX",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $14,265 mdp"
+    "last_round": "2025: $14,265 mdp",
+    "expansion_rank": "#286",
+    "ceo": "Luis G. Campos, presidente / Andrés Campos Checallier, CEO",
+    "revenue_mdp": "$14,264.6 MDP"
   },
   "Bitso": {
     "tagline": "Además de su exchange de criptomonedas, construyó una plataforma de pagos con stablecoins que procesó más de $80,000 mdd en 2025.",
@@ -1417,7 +1642,10 @@
     "founded": "2014",
     "ownership": "Privada",
     "stage": "Serie C+",
-    "last_round": "2021: $250 mdd"
+    "last_round": "2021: $250 mdd",
+    "expansion_rank": "#498",
+    "ceo": "Daniel Vogel, fundador y CEO",
+    "revenue_mdp": "$3,200.0 MDP"
   },
   "CIE": {
     "tagline": "Construyó alrededor de OCESA el principal negocio de entretenimiento en vivo del país y vendió 75% a Live Nation por más de $1,000 mdd.",
@@ -1447,7 +1675,10 @@
     "founded": "1942",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $132,119 mdp"
+    "last_round": "2025: $132,119 mdp",
+    "expansion_rank": "#39",
+    "ceo": "Javier Arroyo Chávez",
+    "revenue_mdp": "$132,119.0 MDP"
   },
   "Gentera": {
     "tagline": "Convirtió una ONG de microcréditos en un grupo financiero que atiende a más de 6.5 millones de clientes en México y Perú.",
@@ -1457,7 +1688,10 @@
     "founded": "1990",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $48,393 mdp"
+    "last_round": "2025: $48,393 mdp",
+    "expansion_rank": "#116",
+    "ceo": "Carlos Danel Cendoya, Presidente del Consejo de Administración / Enrique Majós Ramírez, CEO",
+    "revenue_mdp": "$48,393.0 MDP"
   },
   "Grisi": {
     "tagline": "Dirigida por la quinta generación, construyó un portafolio de marcas de cuidado personal con adquisiciones a empresas como Henkel y Puig, y multiplicó entre cinco y seis veces sus ventas en una década.",
@@ -1477,7 +1711,10 @@
     "founded": "1941",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $25,358 mdp"
+    "last_round": "2025: $25,358 mdp",
+    "expansion_rank": "#193",
+    "ceo": "Federico Terrazas Becerra, presidente / Enrique Escalante, CEO",
+    "revenue_mdp": "$27,047.0 MDP"
   },
   "Grupo Herdez": {
     "tagline": "Multiplicó por siete sus ventas en 20 años y construyó un portafolio que combina marcas propias con asociaciones con algunas de las mayores compañías globales de alimentos.",
@@ -1487,7 +1724,10 @@
     "founded": "1914",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $38,600 mdp"
+    "last_round": "2025: $38,600 mdp",
+    "expansion_rank": "#145",
+    "ceo": "Héctor Hernández-Pons Torres",
+    "revenue_mdp": "$38,593.0 MDP"
   },
   "Grupo Lala": {
     "tagline": "Nació en 1949 como una cooperativa regional de productores y hoy es uno de los mayores grupos de lácteos de México y Brasil.",
@@ -1497,7 +1737,10 @@
     "founded": "1949",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $106,938 mdp"
+    "last_round": "2025: $106,938 mdp",
+    "expansion_rank": "#54",
+    "ceo": "Eduardo Tricio Haro, presidente / Francisco Camacho, CEO",
+    "revenue_mdp": "$106,938.0 MDP"
   },
   "INTERprotección": {
     "tagline": "Construyó el mayor bróker de seguros de LatAm; en 2024 vendió 95 millones de pólizas.",
@@ -1507,7 +1750,10 @@
     "founded": "1978",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $45,310 mdp"
+    "last_round": "2025: $45,310 mdp",
+    "expansion_rank": "#127",
+    "ceo": "Juan Ignacio Casanueva Pérez, presidente / Santiago Casanueva Pérez, CEO",
+    "revenue_mdp": "$45,310.0 MDP"
   },
   "KidZania": {
     "tagline": "Opera 26 parques en mercados que van de Tokio a Dubái y recibe alrededor de 9 millones de visitantes al año.",
@@ -1527,7 +1773,10 @@
     "founded": "1925",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $55,371 mdp"
+    "last_round": "2025: $55,371 mdp",
+    "expansion_rank": "#102",
+    "ceo": "Claudio X. González, presidente / Pablo González Guajardo, CEO",
+    "revenue_mdp": "$55,371.0 MDP"
   },
   "Mabe": {
     "tagline": "Es una de las pocas marcas nacionales de electrodomésticos con escala internacional; 52% de su capital está en manos de inversionistas mexicanos.",
@@ -1537,7 +1786,10 @@
     "founded": "1946",
     "ownership": "Privada (52% MX / 48% Haier)",
     "stage": "Consolidada",
-    "last_round": "2025: $73,200 mdp (est.)"
+    "last_round": "2025: $73,200 mdp (est.)",
+    "expansion_rank": "#66",
+    "ceo": "Eduardo Berrondo, presidente / Egil Larson, CEO",
+    "revenue_mdp": "$87,626.0 MDP"
   },
   "Más Vuelos": {
     "tagline": "Reúne a Volaris y Viva en un grupo con más de 250 aviones, cerca de 1,000 vuelos diarios y alrededor de 70% del mercado doméstico.",
@@ -1557,7 +1809,10 @@
     "founded": "1984",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $20,641 mdp (est.)"
+    "last_round": "2025: $20,641 mdp (est.)",
+    "expansion_rank": "#218",
+    "ceo": "José Eduvigildo Carranza, presidente / Victor Manuel Ledón, CEO",
+    "revenue_mdp": "$20,641.0 MDP"
   },
   "Sigma": {
     "tagline": "Construyó vía adquisiciones una operación de alimentos en 17 países, con más de 100 marcas y al menos 16 que superan individualmente los $100 mdd en ventas.",
@@ -1577,7 +1832,10 @@
     "founded": "1982",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2024: $72,000 mdp (est.)"
+    "last_round": "2024: $72,000 mdp (est.)",
+    "expansion_rank": "#78",
+    "ceo": "Blanca Treviño, presidenta ejecutiva y del consejo / David Jiménez, director general (a partir del 1 de octubre de 2026)",
+    "revenue_mdp": "$75,000.0 MDP"
   },
   "Tajín": {
     "tagline": "Convirtió una mezcla de chile, limón y sal en una marca presente en más de 40 países, con alrededor de 60% de su negocio en EUA.",
@@ -1597,7 +1855,10 @@
     "founded": "2005",
     "ownership": "Pública / BMV",
     "stage": "Bursátil / Consolidada",
-    "last_round": "2025: $78,153 mdp"
+    "last_round": "2025: $78,153 mdp",
+    "expansion_rank": "#73",
+    "ceo": "Anthony Hatoum",
+    "revenue_mdp": "$78,153.0 MDP"
   },
   "Xignux": {
     "tagline": "Combina negocios de cables eléctricos y alimentos en uno de los mayores grupos privados del país.",
@@ -1607,7 +1868,10 @@
     "founded": "1956",
     "ownership": "Privada",
     "stage": "Consolidada",
-    "last_round": "2025: $77,405 mdp (est.)"
+    "last_round": "2025: $77,405 mdp (est.)",
+    "expansion_rank": "#70",
+    "ceo": "Eugenio Rafael Garza Herrera, presidente / Juan Ignacio Garza Herrera, CEO",
+    "revenue_mdp": "$83,425.3 MDP"
   },
   "Zebrands": {
     "tagline": "Llevó a Luuna de vender solo por internet a una red de cerca de 200 tiendas; en 2024 consiguió un crédito de hasta $1,100 mdp para acercarse a un millón de colchones al año.",
@@ -1637,7 +1901,10 @@
     "founded": "1930 (MX)",
     "ownership": "Pública / NYSE: UL",
     "stage": "Bursátil / Consolidada",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#131",
+    "ceo": "Mildred Villegas",
+    "revenue_mdp": "$43,000.0 MDP"
   },
   "Tesla": {
     "tagline": "El mayor fabricante de vehículos eléctricos del mundo, con distribuidores en México y planes de manufactura en el país.",
@@ -1667,7 +1934,10 @@
     "founded": "1943 (MX)",
     "ownership": "Pública / NASDAQ: PEP",
     "stage": "Bursátil / Consolidada",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#45",
+    "ceo": "Isaías Martínez, presidente de PepsiCo Alimentos México",
+    "revenue_mdp": "$125,482.0 MDP"
   },
   "Mercedes-Benz": {
     "tagline": "Marca de automóviles de lujo alemana con planta de manufactura en Aguascalientes y fuerte presencia en el mercado premium mexicano.",
@@ -1787,7 +2057,10 @@
     "ownership": "Pública / NASDAQ: MAT",
     "stage": "Consolidada",
     "team_size": "+33,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#366",
+    "ceo": "Ynon Kreiz, presidente / Gabriel Galván, CEO Latinoamérica",
+    "revenue_mdp": "$8,739.8 MDP"
   },
   "American Airlines": {
     "tagline": "La aerolínea más grande del mundo por tamaño de flota e ingresos.",
@@ -1807,7 +2080,10 @@
     "ownership": "Privada",
     "stage": "Consolidada",
     "team_size": "+207,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#201",
+    "ceo": "Liu Jiude, CEO México",
+    "revenue_mdp": "$25,000.0 MDP"
   },
   "The Guardian": {
     "tagline": "Prestigioso diario británico de alcance global y modelo de financiamiento independiente.",
@@ -1867,7 +2143,10 @@
     "ownership": "Privada",
     "stage": "Consolidada",
     "team_size": "+145,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#74",
+    "ceo": "Fernando Martínez",
+    "revenue_mdp": "$77,228.0 MDP"
   },
   "OPPO": {
     "tagline": "Fabricante chino de smartphones con fuerte expansión en mercados emergentes de América Latina.",
@@ -1957,7 +2236,10 @@
     "ownership": "Pública / ETR: SIE",
     "stage": "Consolidada",
     "team_size": "+320,000",
-    "last_round": "N/A"
+    "last_round": "N/A",
+    "expansion_rank": "#214",
+    "ceo": "Alejandro Preinfalk",
+    "revenue_mdp": "$21,000.0 MDP"
   },
   "Virgin": {
     "tagline": "Conglomerado multinacional británico enfocado en viajes, entretenimiento y telecomunicaciones.",
