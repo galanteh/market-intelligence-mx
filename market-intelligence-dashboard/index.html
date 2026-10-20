@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Directorio de Empresas — Whitepaper</title>
+<title>Market Intelligence | Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -142,10 +142,9 @@ h1, h2, h3, h4, h5, h6 {
 <nav class="bg-white border-b border-[#E8E8E8] fixed top-0 left-0 right-0 z-50 h-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between relative">
     <!-- Center logo (absolutely centered) -->
-    <a class="absolute left-1/2 -translate-x-1/2 flex items-center h-8 overflow-hidden cursor-pointer"
+    <a class="absolute left-1/2 -translate-x-1/2 flex items-center cursor-pointer"
        onclick="goHome();return false;">
-      <img src="images/8296335b3_Whitepaper-Logo-012.png"
-           alt="Whitepaper" class="h-20 max-w-none mix-blend-multiply">
+      <img src="images/logo.png" alt="Market Intelligence" class="h-10 sm:h-12 w-auto object-contain">
     </a>
     <!-- Right -->
     <a href="https://github.com/galanteh/market-intelligence-mx" target="_blank"
@@ -235,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
     <div id="inv-content" class="hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div class="mb-6">
-          <p class="text-xs font-medium tracking-widest uppercase text-[#737373] mb-1">Whitepaper Intelligence</p>
+          <p class="text-xs font-medium tracking-widest uppercase text-[#737373] mb-1">Market Intelligence</p>
           <h2 class="font-heading text-4xl tracking-tight mb-2">Índice de Inversión &amp; Capex</h2>
           <p class="text-sm text-[#737373] max-w-xl">
             Anuncios de inversión, aperturas, adquisiciones y proyectos de capital
@@ -315,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 <footer class="border-t border-black/5 py-8">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <p class="text-xs text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-      Proyecto personal no oficial de uso privado. Las marcas comerciales y nombres corporativos pertenecen a sus respectivos dueños. La información, curaduría de datos, artículos, análisis y opiniones editoriales sobre las empresas pertenecen a <a href="https://whitepaper.mx" target="_blank" rel="noopener" class="hover:text-[#0A0A0A] transition-colors underline">Whitepaper.mx</a>.
+      Plataforma independiente de Inteligencia de Mercado. La información, métricas y artículos mostrados son extraídos y curados de fuentes informativas de terceros, incluyendo <a href="https://whitepaper.mx" target="_blank" rel="noopener" class="hover:text-[#0A0A0A] transition-colors underline">Whitepaper</a> y <a href="https://espressomatutino.com" target="_blank" rel="noopener" class="hover:text-[#0A0A0A] transition-colors underline">Espresso Matutino</a>. Las marcas comerciales y nombres corporativos pertenecen a sus respectivos dueños.
     </p>
     <span class="text-xs text-muted-foreground block mt-2" id="footer-stats"></span>
   </div>
@@ -788,7 +787,7 @@ function renderTimeline(c){
   const total       = list.length;
   const sectionHead = `<div class="flex items-center justify-between mb-6">
     <div>
-      <h2 class="font-body font-bold text-lg text-[#0A0A0A]">Artículos Whitepaper</h2>
+      <h2 class="font-body font-bold text-lg text-[#0A0A0A]">Noticias y Menciones</h2>
       <p class="text-xs text-[#737373] mt-0.5">${total} registro${total!==1?'s':''}</p>
     </div>
   </div>`;
@@ -838,7 +837,7 @@ function renderTimeline(c){
                   <div class="flex items-start gap-2">
                     <p class="text-sm text-[#0A0A0A] leading-snug flex-1
                                hover:text-[#FF3838] transition-colors cursor-pointer">
-                      ${e.headline||'Artículo Whitepaper'}
+                      ${e.headline||'Artículo'}
                     </p>
                     ${hasBody ? `
                     <svg class="art-chevron w-3.5 h-3.5 text-[#737373] mt-0.5 flex-shrink-0"
@@ -957,10 +956,10 @@ function showLoginGate(){
     gate.id = 'login-gate';
     gate.className = 'fixed inset-0 z-[100] bg-[#F7F7F7] flex flex-col items-center justify-center px-4';
     gate.innerHTML = `
-      <img src="images/8296335b3_Whitepaper-Logo-012.png" alt="Whitepaper" class="h-6 w-auto object-contain mb-12">
+      <img src="images/logo.png" alt="Market Intelligence" class="h-10 w-auto object-contain mb-12">
       <div class="w-full max-w-sm">
         <h2 class="font-heading text-3xl tracking-tight text-center mb-2">Accede al directorio</h2>
-        <p class="text-sm text-[#737373] text-center mb-8">Exclusivo para suscriptores de Whitepaper.</p>
+        <p class="text-sm text-[#737373] text-center mb-8">Inteligencia de mercado extraída de newsletters de negocios.</p>
         <a href="https://whitepaper.mx" target="_blank" rel="noopener"
            class="block w-full text-center py-3 bg-[#0A0A0A] text-white text-sm font-medium rounded-full
                   hover:bg-[#1a1a1a] transition-colors">
