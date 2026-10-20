@@ -39,9 +39,8 @@ def run(force: bool = False) -> int:
         print(f"[02_extract_entities] {JSON_OUT.name} is up-to-date ({len(companies)} companies, {n} events) — skipping.")
         return n
 
-    # Import the original extractor logic (moved here from extractor_v4.py)
-    # We exec the extractor as a module by importing it directly.
-    # extractor_v4 writes its own output; we just trigger it and report.
+    # Delegate to extractor_v4.py — the full 1099-line spaCy NLP engine.
+    # It writes extracted_v4.json itself; we trigger it and report.
     extractor_path = Path(__file__).resolve().parent / "extractor_v4.py"
     if not extractor_path.exists():
         print(f"[02_extract_entities] ⚠ extractor_v4.py not found — skipping NLP step.")
