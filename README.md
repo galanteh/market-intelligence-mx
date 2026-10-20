@@ -66,19 +66,19 @@ Crea y activa un entorno virtual aislado para instalar las dependencias de extra
 
 ```bash
 # Crear entorno virtual
-python3 -m venv venv
+python3 -m venv .venv
 
 # Activar entorno virtual
 # En macOS/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 # En Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 
 # Instalar dependencias
 pip install -r requirements.txt
 
 # Descargar modelo en español para spaCy
-python -m spacy download es_core_news_md
+python -m spacy download es_core_news_sm
 ```
 
 ---
@@ -120,11 +120,10 @@ El pipeline ejecutará automáticamente:
 El frontend es estático y no requiere servidores pesados ni bases de datos activas:
 
 ```bash
-cd web
-python3 -m http.server 8000
+python3 -m http.server 5052 --directory web
 ```
 
-Abre tu navegador en `http://localhost:8000`.
+Abre tu navegador en `http://localhost:5052`.
 
 ---
 
