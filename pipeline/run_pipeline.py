@@ -16,7 +16,7 @@ import sys, time, importlib.util
 from pathlib import Path
 
 PIPELINE_DIR = Path(__file__).resolve().parent   # pipeline/
-ROOT         = PIPELINE_DIR.parent               # project root
+ROOT_DIR     = PIPELINE_DIR.parent               # project root
 
 
 def load_step(n: int):
@@ -66,7 +66,7 @@ def main():
         print(f"  Eventos extraídos  : {results[2]}")
     if results.get(3):
         print(f"  Empresas en dataset: {results[3]}")
-    data_path = ROOT / "web" / "data.json"
+    data_path = ROOT_DIR / "web" / "data.json"
     if data_path.exists():
         mb = data_path.stat().st_size / 1_000_000
         print(f"  data.json          : {mb:.1f} MB  ✓")

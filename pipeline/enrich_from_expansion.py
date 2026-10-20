@@ -18,9 +18,10 @@ Fields never overwritten: tagline, about, founded, ownership, stage, last_round,
 import json, re, unicodedata
 from pathlib import Path
 
-BASE      = Path(__file__).resolve().parents[1]
-EXP_PATH  = BASE / "data" / "expansion_500.json"
-CUR_PATH  = BASE / "data" / "curated_companies.json"
+ROOT_DIR  = Path(__file__).resolve().parents[1]
+DATA_DIR  = ROOT_DIR / "data"
+EXP_PATH  = DATA_DIR / "expansion_500.json"
+CUR_PATH  = DATA_DIR / "curated_companies.json"
 
 # ─── Explicit name mappings ───────────────────────────────────────────────────
 # Maps Expansion nombre_empresa → curated catalog key.

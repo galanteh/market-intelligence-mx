@@ -3,7 +3,7 @@
 pipeline/02_extract_entities.py
 Reads brief_year_md/*.md, runs spaCy NER, and outputs extracted_v4.json.
 
-Blacklist is loaded from config/blacklist.json so it can be updated without
+Blacklist is loaded from data/blacklist.json so it can be updated without
 touching the NLP code.
 
 Skips extraction if extracted_v4.json is newer than all markdown files.
@@ -13,9 +13,9 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parents[1]
 
 from pathlib import Path
 
-BASE     = Path(__file__).resolve().parents[1]
-JSON_OUT = BASE / "extracted_v4.json"
-MD_DIR   = BASE / "brief_year_md"
+ROOT_DIR = Path(__file__).resolve().parents[1]
+JSON_OUT = ROOT_DIR / "extracted_v4.json"
+MD_DIR   = ROOT_DIR / "brief_year_md"
 
 
 def is_fresh() -> bool:

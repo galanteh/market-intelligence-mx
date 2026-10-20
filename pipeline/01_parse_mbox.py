@@ -11,9 +11,9 @@ from pathlib import Path
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 
-BASE     = Path(__file__).resolve().parents[1]
-MBOX_PATH = BASE / "mbox" / "Whitepaper.mbox"
-MD_DIR    = BASE / "brief_year_md"
+ROOT_DIR  = Path(__file__).resolve().parents[1]
+MBOX_PATH = ROOT_DIR / "mbox" / "Whitepaper.mbox"
+MD_DIR    = ROOT_DIR / "brief_year_md"
 
 
 def decode_header(value: str) -> str:

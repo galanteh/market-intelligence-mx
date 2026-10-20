@@ -14,11 +14,13 @@ Steps:
 import json, re
 from pathlib import Path
 
-BASE       = Path(__file__).resolve().parents[1]
-SOURCE     = BASE / "extracted_v4.json"
-BLACKLIST  = BASE / "data" / "blacklist.json"
-CURATED    = BASE / "data" / "curated_companies.json"
-DATA_OUT   = BASE / "web" / "data.json"
+ROOT_DIR   = Path(__file__).resolve().parents[1]
+DATA_DIR   = ROOT_DIR / "data"
+WEB_DIR    = ROOT_DIR / "web"
+SOURCE     = ROOT_DIR / "extracted_v4.json"
+BLACKLIST  = DATA_DIR / "blacklist.json"
+CURATED    = DATA_DIR / "curated_companies.json"
+DATA_OUT   = WEB_DIR  / "data.json"
 
 METRIC_FIELDS = ("hq", "team_size", "founded", "ownership", "stage", "last_round")
 
