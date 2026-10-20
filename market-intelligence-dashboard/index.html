@@ -451,7 +451,6 @@ function getFiltered(){
       (c.city||'').toLowerCase().includes(q)
     );
   }
-  if(S.tab==='investment') list = list.filter(c=>hasInvestmentContent(c));
   return list;
 }
 
@@ -621,9 +620,15 @@ function switchTab(tab){
   S.page = 0;
   $('tab-dir').classList.toggle('active', tab==='directory');
   $('tab-inv').classList.toggle('active', tab==='investment');
-  hide('inv-content');
-  show('dir-content');
-  renderGrid();
+  if(tab==='investment'){
+    hide('dir-content');
+    show('inv-content');
+    renderInvestment();
+  } else {
+    hide('inv-content');
+    show('dir-content');
+    renderGrid();
+  }
 }
 
 /* ══ DETAIL VIEW ════════════════════════════════════════════ */
@@ -861,20 +866,52 @@ function toggleArt(id){
 }
 
 /* ══ INVESTMENT INDEX ═══════════════════════════════════════ */
+// Matches monetary amounts in Spanish business text
+const AMOUNT_RE = /(?:\$[\d,\.]+\s*(?:mil\s+)?millones?\s*(?:de\s+)?(?:dólares?|pesos?|usd|mxn)?|[\d,\.]+\s*(?:mdd|mdp|mil\s+millones?\s*(?:de\s+(?:dólares?|pesos?))?|\bmmn\b))/i;
+
+function buildInvestmentEvents(){
+  const events = [];
+  for(const co of COMPANIES){
+    for(const e of (co.entries||[])){
+      const text = ((e.headline||'') + ' ' + (e.snippet||'')).toLowerCase();
+      if(!INV_WORDS.some(w=>text.includes(w))) continue;
+      // Skip pure management/gossip categories that sneak in via shared keywords
+      if(e.cat==='Movimientos Directivos'||e.cat==='Chismes de Mercado') continue;
+      const fullText = (e.headline||'') + ' ' + (e.snippet||'');
+      const amtMatch = AMOUNT_RE.exec(fullText);
+      events.push({
+        company: co.name,
+        coId:    co.id,
+        sector:  co.sector||'',
+        date:    e.date||'',
+        headline:e.headline||'',
+        snippet: e.snippet||'',
+        amount:  amtMatch ? amtMatch[0] : '',
+        cat:     e.cat||'',
+      });
+    }
+  }
+  events.sort((a,b)=>b.date.localeCompare(a.date));
+  return events;
+}
+
 function renderInvestment(){
-  const years = ['all',...new Set(INVESTMENT.map(e=>getYear(e.date)))].sort();
+  const allEvents = buildInvestmentEvents();
+
+  // Year filter controls
+  const years = ['all',...new Set(allEvents.map(e=>e.date.slice(0,4))).keys()].sort((a,b)=>b>a?1:b<a?-1:0);
   $('inv-year-filter').innerHTML = years.map(y=>`
     <button class="az-btn ${S.invYear===y?'active':''}" onclick="setInvYear('${y}')">
       ${y==='all'?'Todos':y}
     </button>`).join('');
 
-  const list = S.invYear==='all' ? INVESTMENT :
-    INVESTMENT.filter(e=>getYear(e.date)===S.invYear);
+  const list = S.invYear==='all' ? allEvents :
+    allEvents.filter(e=>e.date.startsWith(S.invYear));
 
-  $('inv-count-label').textContent = `${list.length} proyectos identificados`;
+  $('inv-count-label').textContent = `${list.length} eventos identificados`;
 
   if(!list.length){
-    $('investment-table').innerHTML = `<div class="text-center py-16 text-[#737373] text-sm">Sin resultados</div>`;
+    $('investment-table').innerHTML = `<div class="text-center py-16 text-[#737373] text-sm">Sin resultados para este período</div>`;
     return;
   }
 
@@ -887,20 +924,20 @@ function renderInvestment(){
             <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider hidden sm:table-cell">Sector</th>
             <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider">Monto</th>
             <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider">Fecha</th>
-            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider hidden lg:table-cell">Proyecto</th>
+            <th class="text-left px-5 py-3.5 text-[11px] font-medium text-[#737373] uppercase tracking-wider hidden lg:table-cell">Proyecto / Titular</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-[#E8E8E8]/60">
           ${list.map(e=>`
-            <tr class="inv-row cursor-pointer transition-colors" onclick="showCo('${toSlug(e.company)}')">
+            <tr class="inv-row cursor-pointer transition-colors" onclick="showCo('${e.coId}')">
               <td class="px-5 py-3 font-medium text-sm text-[#0A0A0A]">${e.company}</td>
-              <td class="px-5 py-3 text-xs text-[#737373] hidden sm:table-cell">${(e.sector||'').split('/')[0].trim()}</td>
+              <td class="px-5 py-3 text-xs text-[#737373] hidden sm:table-cell">${e.sector.split('/')[0].trim()}</td>
               <td class="px-5 py-3 text-xs font-medium text-green-700">
                 ${e.amount||'<span class="text-[#737373]">—</span>'}
               </td>
               <td class="px-5 py-3 text-xs text-[#737373] tabular-nums">${fmtDate(e.date)}</td>
               <td class="px-5 py-3 text-xs text-[#737373] hidden lg:table-cell max-w-xs">
-                <span class="line-clamp-2">${e.headline||''}</span>
+                <span class="line-clamp-2">${e.headline||e.snippet||''}</span>
               </td>
             </tr>`).join('')}
         </tbody>
